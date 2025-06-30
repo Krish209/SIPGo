@@ -1,26 +1,67 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* body {
+  font-family: var(--font-inter), sans-serif;
+} */
+
+@layer {
+  /* ========== Custom Color Definitions ========== */
+  /* Background Colors */
+  .bg-night { background-color: rgb(21, 20, 20); }
+  .bg-primary { background-color: rgb(43, 41, 41); }
+  .bg-crayola { background-color: rgb(255, 128, 66); }
+  .bg-mint { background-color: rgb(0, 196, 159); }
+  .bg-tomato { background-color: rgb(246, 28, 28); }
+  .bg-crimson { background-color: rgb(220, 20, 60); }
+  .bg-fireengine { background-color: rgb(206, 32, 41); }
+  .bg-cherryred { background-color: rgb(255, 76, 76); }
+  .bg-peach { background-color: rgb(255, 218, 185); }
+  .bg-skyline { background-color: rgb(126, 200, 227); }
+  .bg-lavender { background-color: rgb(230, 230, 250); }
+  .bg-teal { background-color: rgb(0, 128, 128); }
+
+  /* Text Colors */
+  .text-night { color: rgb(21, 20, 20); }
+  .text-primary { color: rgb(43, 41, 41); }
+  .text-crayola { color: rgb(255, 128, 66); }
+  .text-mint { color: rgb(0, 196, 159); }
+  .text-tomato { color: rgb(246, 28, 28); }
+  .text-crimson { color: rgb(220, 20, 60); }
+  .text-fireengine { color: rgb(206, 32, 41); }
+  .text-cherryred { color: rgb(255, 76, 76); }
+  .text-peach { color: rgb(255, 218, 185); }
+  .text-skyline { color: rgb(126, 200, 227); }
+  .text-lavender { color: rgb(230, 230, 250); }
+  .text-teal { color: rgb(0, 128, 128); }
+
+  /* Border Colors */
+  .border-night { border-color: rgb(21, 20, 20); }
+  .border-primary { border-color: rgb(43, 41, 41); }
+  .border-crayola { border-color: rgb(255, 128, 66); }
+  .border-mint { border-color: rgb(0, 196, 159); }
+  .border-tomato { border-color: rgb(246, 28, 28); }
+  .border-crimson { border-color: rgb(220, 20, 60); }
+  .border-fireengine { border-color: rgb(206, 32, 41); }
+  .border-cherryred { border-color: rgb(255, 76, 76); }
+  .border-peach { border-color: rgb(255, 218, 185); }
+  .border-skyline { border-color: rgb(126, 200, 227); }
+  .border-lavender { border-color: rgb(230, 230, 250); }
+  .border-teal { border-color: rgb(0, 128, 128); }
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Remove number input arrows globally */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Prevent zoom behavior on inputs */
+input, textarea {
+  touch-action: manipulation;
 }
