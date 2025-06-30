@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import { FaLocationDot } from "react-icons/fa6";
+import Head from "next/head";
 
 const Contact = () => {
   const [formData, setFormData] = useState({

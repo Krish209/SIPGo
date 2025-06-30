@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
-import group from "../assets/icons/group.svg";
-import { CurrencyRupeeIcon } from "@heroicons/react/24/outline";
+// import { motion } from "framer-motion";
 import Head from "next/head";
+import { CurrencyRupeeIcon } from "@heroicons/react/24/outline";
 
 export default function AboutPage() {
   // SEO variables (must match visible content)
@@ -75,19 +74,16 @@ export default function AboutPage() {
       </Head>
 
       {/* Hero Section */}
-      <motion.section
+      <section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="bg-gradient-to-br from-indigo-600 to-blue-500 text-white py-24 px-4"
       >
         <div className="max-w-6xl mx-auto text-center">
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="inline-block mb-8"
-          >
+          <div className="inline-block mb-8">
             <CurrencyRupeeIcon className="h-24 w-24 text-yellow-400" />
-          </motion.div>
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Revolutionizing Financial Planning Through
             <br />
@@ -96,7 +92,7 @@ export default function AboutPage() {
             </span>
           </h1>
         </div>
-      </motion.section>
+      </section>
 
       {/* Mission Section */}
       <section className="py-16 px-4">
@@ -110,7 +106,7 @@ export default function AboutPage() {
             </p>
           </div>
           <img
-            src={group}
+            src="/images/group.svg"
             alt="SIPGo team discussing financial strategies"
             className="rounded-lg shadow-xl"
             loading="lazy"
