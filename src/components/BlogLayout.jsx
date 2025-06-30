@@ -252,13 +252,13 @@ const BlogLayout = ({
       <main className="max-w-4xl mx-auto px-2 sm:px-4 py-6 sm:py-12">
         {/* Breadcrumb */}
         <div className="flex items-center text-sm text-gray-600 mb-4 sm:mb-8">
-          <a href="/" className="hover:text-indigo-600">
+          <Link href="/" className="hover:text-indigo-600">
             Home
-          </a>
+          </Link>
           <FiChevronRight className="mx-2 w-4 h-4" />
-          <a href="/blog" className="hover:text-indigo-600">
+          <Link href="/blog" className="hover:text-indigo-600">
             Articles
-          </a>
+          </Link>
           <FiChevronRight className="mx-2 w-4 h-4" />
           <span className="text-gray-500 truncate">{title}</span>
         </div>

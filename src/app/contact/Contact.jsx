@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import { FaLocationDot } from "react-icons/fa6";
 import Head from "next/head";
+import Link from "next/link";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -265,16 +266,16 @@ const Contact = () => {
           <div className="pt-4 border-t border-gray-100">
             <p className="text-sm text-gray-500">
               By submitting this form, you agree to our{" "}
-              <a
+              <Link
                 href="/privacy-policy"
                 className="text-indigo-600 hover:underline"
               >
                 Privacy Policy
-              </a>{" "}
+              </Link>{" "}
               and{" "}
-              <a href="/terms" className="text-indigo-600 hover:underline">
+              <Link href="/terms" className="text-indigo-600 hover:underline">
                 Terms and Condition
-              </a>
+              </Link>
               .
             </p>
           </div>

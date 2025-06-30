@@ -1,5 +1,7 @@
 // app/not-found.js
 
+import Link from "next/link";
+
 export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
@@ -7,9 +9,9 @@ export default function NotFound() {
       <p className="mt-4 text-lg">
         The page you're looking for doesn't exist or has been moved.
       </p>
-      <a href="/" className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+      <Link href="/" className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
         Return Home
-      </a>
+      </Link>
     </div>
   );
 }

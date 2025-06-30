@@ -220,9 +220,9 @@ const PremiumBlogPost = () => {
 
         {/* Premium Breadcrumbs */}
         <div className="flex items-center text-sm text-gray-500 mb-8">
-          <a href="/" className="hover:text-indigo-600 transition-colors duration-200">Home</a>
+          <Link href="/" className="hover:text-indigo-600 transition-colors duration-200">Home</Link>
           <FiChevronRight className="mx-2 w-4 h-4" />
-          <a href="/blog" className="hover:text-indigo-600 transition-colors duration-200">blog</a>
+          <Link href="/blog" className="hover:text-indigo-600 transition-colors duration-200">blog</Link>
           <FiChevronRight className="mx-2 w-4 h-4" />
           <span className="text-gray-400">Risk Analysis</span>
         </div>
@@ -532,13 +532,13 @@ const PremiumBlogPost = () => {
               'Blockchain Technology',
               '2024 Market Trends'
             ].map(tag => (
-              <a 
+              <Link
                 key={tag} 
                 href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}
                 className="bg-gray-100 text-gray-800 text-sm px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-200 transition-colors duration-200"
               >
                 {tag}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -557,15 +557,15 @@ const PremiumBlogPost = () => {
                 Michael Johnson is a Senior Crypto Analyst at InvestWise Pro with over 8 years of experience in digital asset research. He leads our cryptocurrency investment strategy and has been featured in CoinDesk, Bloomberg, and The Wall Street Journal. Michael holds a CFA charter and specializes in volatility analysis.
               </p>
               <div className="flex items-center space-x-4">
-                <a 
+                <Link 
                   href="/authors/michael-johnson" 
                   className="text-indigo-600 hover:text-indigo-800 font-medium flex items-center space-x-1 transition-colors duration-200"
                   itemProp="url"
                 >
                   <span>View all articles</span>
                   <RiArrowRightUpLine className="w-4 h-4" />
-                </a>
-                <a 
+                </Link>
+                <Link 
                   href="https://twitter.com/michaeljohnson" 
                   className="text-gray-500 hover:text-indigo-600 transition-colors duration-200"
                   aria-label="Michael Johnson on Twitter"
@@ -573,7 +573,7 @@ const PremiumBlogPost = () => {
                   <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
                     <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -615,7 +615,7 @@ const PremiumBlogPost = () => {
                     {article.category}
                   </span>
                   <h4 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors duration-200">
-                    <a href="#">{article.title}</a>
+                    <Link href="#">{article.title}</Link>
                   </h4>
                   <p className="text-gray-600 mb-4">{article.excerpt}</p>
                   <div className="flex items-center text-sm text-gray-500">

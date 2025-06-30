@@ -1,6 +1,7 @@
 import React from "react";
 import Table from "../../utils/Table";
 import BlogLayout from "@/components/BlogLayout";
+import Link from "next/link";
 // import img from ".../../../public/images/blogs/saving-investing.jpeg";
 
 export const meta = {
@@ -289,25 +290,25 @@ const SavingvsInvesting = () => {
           </p>
           <p className="mb-2">
             If you’re still unsure where to begin, with over{" "}
-            <a href="/calc" className="text-blue-600 hover:text-blue-700">
+            <Link href="/calc" className="text-blue-600 hover:text-blue-700">
               20+ calculators
-            </a>{" "}
+            </Link>{" "}
             for different investment options, our platform is designed to help
             Indians make smarter financial decisions. You might also want to
             explore our{" "}
-            <a
+            <Link
               href="/sip-calculator"
               className="text-blue-600 hover:text-blue-700"
             >
               SIP Calculator
-            </a>{" "}
+            </Link>{" "}
             and{" "}
-            <a
+            <Link
               href="/mutual-fund-calculator"
               className="text-blue-600 hover:text-blue-700"
             >
               Mutual Fund Calculator
-            </a>{" "}
+            </Link>{" "}
             to get tailored insights on systematic investing and mutual funds.
           </p>
         </section>
