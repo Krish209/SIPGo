@@ -38,6 +38,18 @@ const loanConfigs = {
     FAQ: EMIFAQ,
     Info: EMIInfo,
   },
+  "education-loan-calculator": {
+    loanType: "education",
+    defaultValues: { loan: 1000000, rate: 8.5, tenure: 10 },
+    title: "Education Loan Calculator",
+    meta: {
+      title: "Education Loan EMI Calculator - Study Loan Estimator",
+      description: "Easily calculate your EMI for education loans, including interest and repayment.",
+      keywords: "education loan, student loan, emi calculator, study loan",
+    },
+    FAQ: EMIFAQ,
+    Info: EMIInfo,
+  },
 };
 
 export default loanConfigs;
