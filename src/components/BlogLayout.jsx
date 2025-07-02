@@ -318,6 +318,8 @@ const BlogLayout = ({
               src={image}
               alt={`Illustration image for ${title}`} // More descriptive alt text
               className="w-full rounded-xl shadow-md"
+              width={800} // Replace with your image's actual width
+              height={600} // Replace with your image's actual height
               loading="lazy"
             />
           </figure>
@@ -393,6 +395,8 @@ const BlogLayout = ({
                         src={post.image}
                         alt={`Illustration image for ${post.title}`}
                         className="w-full h-46 object-cover transition-transform duration-300 group-hover:scale-105"
+                        width={800} // Replace with your image's actual width
+                        height={600} // Replace with your image's actual height
                       />
                     </div>
                     <div className="px-4 py-4">

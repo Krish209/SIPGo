@@ -51,6 +51,8 @@ const HomeLanding = () => {
               src="/images/invest.svg"
               alt="Financial investment calculators and planning tools illustration"
               className="max-w-[200px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] h-auto object-contain"
+              width={800} // Replace with your image's actual width
+              height={600} // Replace with your image's actual height
               // loading="lazy"
             />
           </div>
@@ -269,7 +271,11 @@ const HomeLanding = () => {
 
       {/* Calculator Categories */}
       <div>
-        <AllCalculator headingLevel="h2" headingLevel2="h3" isStandalonePage={false} />
+        <AllCalculator
+          headingLevel="h2"
+          headingLevel2="h3"
+          isStandalonePage={false}
+        />
       </div>
     </div>
   );

@@ -30,6 +30,8 @@ function BlogHome() {
                     src={post.image}
                     alt={`Illustration image for ${post.title}`}
                     className="w-full h-46 object-cover transition-transform duration-300 group-hover:scale-105"
+                    width={800} // Replace with your image's actual width
+                    height={600} // Replace with your image's actual height
                     loading="lazy"
                   />
                 </div>
