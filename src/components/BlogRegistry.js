@@ -1,7 +1,6 @@
 // components/BlogRegistry.js
 
 export const blogModules = {
-  "disc": () => import("../content/blog/Disclaimer.jsx"),
   "how-does-compounding-work": () => import("../content/blog/how-does-compounding-work.jsx"),
   "sip-vs-lumpsum": () => import("../content/blog/sip-vs-lumpsum.jsx"),
   "why-risk-is-part-of-investing": () => import("../content/blog/why-risk-is-part-of-investing.jsx"),
