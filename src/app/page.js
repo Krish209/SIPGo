@@ -38,7 +38,7 @@ const HomeLanding = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
               <Link href="/calc">
-                <button className="px-8 py-3 bg-white text-indigo-700 rounded-lg font-medium hover:bg-gray-100 transition shadow-lg hover:shadow-xl">
+                <button className="px-8 py-3 cursor-pointer bg-white text-indigo-700 rounded-lg font-medium hover:bg-gray-100 transition shadow-lg hover:shadow-xl">
                   Explore All Calculators
                 </button>
               </Link>

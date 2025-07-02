@@ -20,10 +20,43 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Zippler",
-  description: "Zippler is a versatile tool for creating and sharing zip files online. Easily compress, encrypt, and manage your files with our user-friendly interface.",
+  title: "SIPGo - Smart Financial Calculators for Investment Planning",
+  description:
+    "Free online financial calculators for SIP, mutual funds, PPF, FD & more. Calculate returns, compare investments & plan your financial future with SIPGo's accurate tools.",
+  keywords:
+    "SIP calculator, investment calculator, mutual fund calculator, financial planning tools, PPF calculator, FD calculator, retirement planning, wealth management",
+  alternates: {
+    canonical: "https://www.sipgo.in/",
+    languages: {
+      "en": "https://www.sipgo.in/",
+      "x-default": "https://www.sipgo.in/",
+    },
+  },
   other: {
-    "google-site-verification": "Code",
+    "google-site-verification": "x79cEmQ7U8SWq_WOKaSFuCUyoyOQFKxLCtFmrHDyNBo",
+  },
+
+  openGraph: {
+    title: "SIPGo - Smart Financial Calculators for Investment Planning",
+    description:
+      "Free online financial calculators for SIP, mutual funds, PPF, FD & more. Calculate returns, compare investments & plan your financial future with SIPGo's accurate tools.",
+    url: "https://www.sipgo.in/",
+    type: "website",
+    images: [
+      {
+        url: "https://www.sipgo.in/images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "SIPGo Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SIPGo - Smart Financial Calculators for Investment Planning",
+    description:
+      "Free online financial calculators for SIP, mutual funds, PPF, FD & more. Calculate returns, compare investments & plan your financial future with SIPGo's accurate tools.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 };
 

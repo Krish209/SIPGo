@@ -1,5 +1,5 @@
 // components/BlogLayout.jsx
-"use client"
+"use client";
 
 import {
   FiChevronRight,
@@ -56,7 +56,6 @@ const BlogLayout = ({
   // }, [currentPost.path]);
 
   const randomPosts = otherPosts.slice(0, 2);
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -314,7 +313,7 @@ const BlogLayout = ({
         {/* Image */}
         {image && (
           <figure className="mb-4 sm:mb-6">
-            <img
+            <Image
               src={image}
               alt={`Illustration image for ${title}`} // More descriptive alt text
               className="w-full rounded-xl shadow-md"
@@ -389,7 +388,7 @@ const BlogLayout = ({
                 <Link key={post.path} href={post.path}>
                   <article className="flex flex-col h-full bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-200 group">
                     <div className="aspect-w-16 aspect-h-9 overflow-hidden">
-                      <img
+                      <Image
                         src={post.image}
                         alt={`Illustration image for ${post.title}`}
                         className="w-full h-46 object-cover transition-transform duration-300 group-hover:scale-105"
