@@ -21,6 +21,7 @@ import Head from "next/head"; // for SEO, Schema Markup, etc.
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { blogPosts } from "./BlogPost";
+import Image from "next/image";
 
 const BlogLayout = ({
   slug,
