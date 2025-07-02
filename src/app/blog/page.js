@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { blogPosts } from "@/components/BlogPost";
+import Image from "next/image";
 
 function BlogHome() {
   // SEO Meta Variables
@@ -25,7 +26,7 @@ function BlogHome() {
             >
               <Link href={post.path} className="flex flex-col h-full">
                 <div className="aspect-w-16 aspect-h-9 overflow-hidden">
-                  <img
+                  <Image
                     src={post.image}
                     alt={`Illustration image for ${post.title}`}
                     className="w-full h-46 object-cover transition-transform duration-300 group-hover:scale-105"

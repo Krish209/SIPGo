@@ -3,6 +3,7 @@
 import React from "react";
 import AllCalculator from "./calc/Allcalculator";
 import Link from "next/link";
+import Image from "next/image";
 
 const HomeLanding = () => {
   // For Schema
@@ -46,7 +47,7 @@ const HomeLanding = () => {
 
           {/* Image Section */}
           <div className="w-full lg:w-1/2 flex justify-center z-1">
-            <img
+            <Image
               src="/images/invest.svg"
               alt="Financial investment calculators and planning tools illustration"
               className="max-w-[200px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px] h-auto object-contain"
