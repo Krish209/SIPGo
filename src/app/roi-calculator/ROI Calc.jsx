@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import ROIInfo from "./ROI Info";
 import ROIFAQ from "./ROI Faq";
 
-function ROICalculator() {
+function ROICalc() {
   const [investedAmount, setInvestedAmount] = useState(50000); // Default ₹50,000
   const [returnedAmount, setReturnedAmount] = useState(75000); // Default ₹75,000
   const [yearsInvested, setYearsInvested] = useState(5); // Default 5 years
@@ -126,7 +126,7 @@ function ROICalculator() {
   const canonicalUrl = "https://www.sipgo.in/roi-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -360,14 +360,9 @@ function ROICalculator() {
             </div>
           ) : null}
         </div> */}
-
-        <div className="py-4">
-          <ROIInfo />
-          <ROIFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default ROICalculator;
+export default ROICalc;

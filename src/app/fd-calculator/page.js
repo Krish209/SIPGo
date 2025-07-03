@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import FDCalculator from "./FD Calc";
+import FDCalc from "./FD Calc";
+import FDFaq from "./FD Faq";
+import FdInfo from "./FD Info";
 
 export const metadata = {
   title: "FD Calculator - Calculate Fixed Deposit Interest Online",
@@ -36,5 +38,11 @@ export const metadata = {
 };
 
 export default function FDCalculatorPage() {
-  return <FDCalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <FDCalc />
+      <FdInfo />
+      <FDFaq />
+    </div>
+  );
 }

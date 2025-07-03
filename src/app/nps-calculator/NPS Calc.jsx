@@ -7,7 +7,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import NPSInfo from "./NPS Info";
 import NPSFAQ from "./NPS Faq";
 
-function NPSCalculator() {
+function NPSCalc() {
   const [monthlyInvestment, setMonthlyInvestment] = useState(1000);
   const [currentAge, setCurrentAge] = useState(20);
   const [retirementAge, setRetirementAge] = useState(60);
@@ -167,7 +167,7 @@ function NPSCalculator() {
   const canonicalUrl = "https://www.sipgo.in/nps-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -549,14 +549,9 @@ function NPSCalculator() {
             </div>
           </div>
         </div>
-
-        <div className="py-4">
-          <NPSInfo />
-          <NPSFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default NPSCalculator;
+export default NPSCalc;

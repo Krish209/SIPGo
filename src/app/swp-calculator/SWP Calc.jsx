@@ -8,7 +8,7 @@ import { DoughnutChart } from "../../utils/Donut";
 import SWPInfo from "./SWP Info";
 import SWPFAQ from "./SWP Faq";
 
-function SWPCalculator() {
+function SWPCalc() {
   const [totalInvestment, setTotalInvestment] = useState(100000);
   const [monthlyWithdrawal, setMonthlyWithdrawal] = useState(1000);
   const [estimatedReturns, setEstimatedReturns] = useState(8); // Default 8% p.a.
@@ -172,7 +172,7 @@ function SWPCalculator() {
   const canonicalUrl = "https://www.sipgo.in/swp-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -475,13 +475,9 @@ function SWPCalculator() {
             </div>
           ) : null}
         </div>
-        <div className="py-4">
-          <SWPInfo />
-          <SWPFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default SWPCalculator;
+export default SWPCalc;

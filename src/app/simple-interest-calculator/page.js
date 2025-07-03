@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import SimpleInterest from "./SimpleInterest Calc";
+import SimpleInterestCalc from "./SimpleInterest Calc";
+import SimpleInterestInfo from "./SimpleInterest Info";
+import SimpleInterestFAQ from "./SimpleInterest Faq";
 
 export const metadata = {
   title: "Simple Interest Calculator - Calculate Interest Easily",
@@ -35,5 +37,11 @@ export const metadata = {
 };
 
 export default function SimpleInterestCalculatorPage() {
-  return <SimpleInterest />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <SimpleInterestCalc />
+      <SimpleInterestInfo />
+      <SimpleInterestFAQ />
+    </div>
+  );
 }

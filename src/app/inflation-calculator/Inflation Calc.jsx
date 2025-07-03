@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import InflationInfo from "./Inflation Info";
 import InflationFAQ from "./Inflation Faq";
 
-function InflationCalculator() {
+function InflationCalc() {
   const [initialAmount, setInitialAmount] = useState(10000); // Default ₹10000
   const [annualInflationRate, setAnnualInflationRate] = useState(5); // Default 5% p.a.
   const [years, setYears] = useState(10); // Default 10 years
@@ -122,7 +122,7 @@ function InflationCalculator() {
   const canonicalUrl = "https://www.sipgo.in/inflation-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -373,14 +373,9 @@ function InflationCalculator() {
             </div>
           ) : null}
         </div>
-
-        <div className="py-4">
-          <InflationInfo />
-          <InflationFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default InflationCalculator;
+export default InflationCalc;

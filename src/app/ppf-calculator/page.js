@@ -1,7 +1,7 @@
 // This is a server component (no 'use client')
 
-import KVPFAQ from "../kvp-calculator/KVP Faq";
-import PPF from "./PPF Calc";
+import PPFCalc from "./PPF Calc";
+import PPFFAQ from "./PPF Faq";
 import PPFInfo from "./PPF Info";
 
 export const metadata = {
@@ -41,10 +41,10 @@ export const metadata = {
 
 export default function PPFCalculatorPage() {
   return (
-    <div className="py-4">
-      <PPF />
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <PPFCalc />
       <PPFInfo />
-      <KVPFAQ />
+      <PPFFAQ />
     </div>
   );
 }

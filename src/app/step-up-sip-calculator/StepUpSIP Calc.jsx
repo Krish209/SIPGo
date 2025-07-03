@@ -8,7 +8,7 @@ import { DoughnutChart } from "../../utils/Donut";
 import StepUpSIPInfo from "./StepUpSIP Info";
 import StepUpSIPFAQ from "./StepUpSIP Faq";
 
-function StepUpSIPCalculator() {
+function StepUpSIPCalc() {
   const [monthlyInvestment, setMonthlyInvestment] = useState(1000); // Default ₹1000 for SIP
   const [rateOfInterest, setRateOfInterest] = useState(12); // Default 12% p.a.
   const [investmentPeriod, setInvestmentPeriod] = useState(5); // Default 5 years
@@ -168,7 +168,7 @@ function StepUpSIPCalculator() {
   const canonicalUrl = "https://www.sipgo.in/step-up-sip-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -473,13 +473,9 @@ function StepUpSIPCalculator() {
             </div>
           ) : null}
         </div>
-        <div className="py-4">
-          <StepUpSIPInfo />
-          <StepUpSIPFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default StepUpSIPCalculator;
+export default StepUpSIPCalc;

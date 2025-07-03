@@ -2,7 +2,7 @@ import React from "react";
 
 export default function EducationLoanInfo(){
   return (
-    <div className="max-w-5xl mx-auto p-6 bg-white shadow-md rounded-lg my-10">
+    <div className="bg-white my-10">
       <h1 className="text-4xl font-bold mb-6 text-center text-indigo-700">
         Complete Guide to Education Loans: Everything You Need to Know
       </h1>

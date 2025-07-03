@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
 import LumpsumCalc from "./Lumpsum Calc";
+import LumpsumInfo from "./Lumpsum Info";
+import LumpsumFAQ from "./Lumpsum Faq";
 
 export const metadata = {
   title: "Lumpsum Calculator - Calculate Returns on One-Time Investment",
@@ -36,5 +38,11 @@ export const metadata = {
 };
 
 export default function LumpsumCalculatorPage() {
-  return <LumpsumCalc />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <LumpsumCalc />
+      <LumpsumInfo />
+      <LumpsumFAQ />
+    </div>
+  );
 }

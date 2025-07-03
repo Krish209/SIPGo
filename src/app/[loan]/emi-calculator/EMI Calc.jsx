@@ -126,7 +126,7 @@ function EMICalculator({ defaultValues, title, canonical, meta }) {
     setLoanTenure(Math.max(0, Math.min(Number(e.target.value), maxLoanTenure)));
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 

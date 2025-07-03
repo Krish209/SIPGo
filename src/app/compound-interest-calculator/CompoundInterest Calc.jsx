@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import CompoundInterestFAQ from "./CompoundInterest Faq";
 import CompoundingInterestInfo from "./CompoundInterest Info";
 
-function CompoundInterest() {
+function CompoundInterestCalc() {
   const [principalAmount, setPrincipalAmount] = useState(10000); // Default ₹10000 for FD
   const [rateOfInterest, setRateOfInterest] = useState(6); // Default 6% p.a.
   const [investmentPeriod, setInvestmentPeriod] = useState(5); // Default 5 years
@@ -145,10 +145,8 @@ function CompoundInterest() {
   const canonicalUrl = "https://www.sipgo.in/compound-interest-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
-        
-
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
         <script type="application/ld+json">
@@ -416,13 +414,9 @@ function CompoundInterest() {
           ) : null}
         </div>
 
-        <div className="py-4">
-          <CompoundingInterestInfo />
-          <CompoundInterestFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default CompoundInterest;
+export default CompoundInterestCalc;

@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import RDFAQ from "./RD Faq";
 import RDINFO from "./RD Info";
 
-function RD() {
+function RDCalc() {
   const [monthlyDeposit, setMonthlyDeposit] = useState(50000); // Default ₹1000 for monthly RD contribution
   const [rateOfInterest, setRateOfInterest] = useState(7.0); // Default 6% p.a. for RD
   const [investmentPeriod, setInvestmentPeriod] = useState(5); // Default 5 years
@@ -147,7 +147,7 @@ function RD() {
   const canonicalUrl = "https://www.sipgo.in/rd-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -392,14 +392,9 @@ function RD() {
             </div>
           ) : null}
         </div>
-
-        <div className="py-4">
-          <RDINFO />
-          <RDFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default RD;
+export default RDCalc;

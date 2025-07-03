@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import StepUpSIPCalculator from "./StepUpSIP Calc";
+import StepUpSIPCalc from "./StepUpSIP Calc";
+import StepUpSIPInfo from "./StepUpSIP Info";
+import StepUpSIPFAQ from "./StepUpSIP Faq";
 
 export const metadata = {
   title: "Step-Up SIP Calculator - Grow Your Investment with Increasing SIPs",
@@ -38,5 +40,11 @@ export const metadata = {
 
 
 export default function StepUpSIPCalculatorPage() {
-  return <StepUpSIPCalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <StepUpSIPCalc />
+      <StepUpSIPInfo />
+      <StepUpSIPFAQ />
+    </div>
+  );
 }

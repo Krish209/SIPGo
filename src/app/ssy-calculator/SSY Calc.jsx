@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import SSYInfo from "./SSY Info";
 import SSYFAQ from "./SSY Faq";
 
-function SSY() {
+function SSYCalc() {
   const [principalAmount, setPrincipalAmount] = useState(10000); // Default ₹10000 for FD
   const [startingPeriod, setStartingPeriod] = useState(2025); // Default start year
   const rateOfInterest = 8.2; // fixed rate of interest for SSY
@@ -139,7 +139,7 @@ function SSY() {
   const canonicalUrl = "https://www.sipgo.in/ssy-calculator";
 
   return (
-    <div className="max-w-screen-md md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -364,14 +364,9 @@ function SSY() {
             </div>
           ) : null}
         </div>
-
-        <div className="py-4">
-          <SSYInfo />
-          <SSYFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default SSY;
+export default SSYCalc;

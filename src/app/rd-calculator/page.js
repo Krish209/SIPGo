@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import RD from "./RD Calc";
+import RDCalc from "./RD Calc";
+import RDInfo from "./RD Info";
+import RDFAQ from "./RD Faq";
 
 export const metadata = {
   title: "RD Calculator - Calculate Recurring Deposit Maturity Value",
@@ -36,5 +38,11 @@ export const metadata = {
 };
 
 export default function RDCalculatorPage() {
-  return <RD />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <RDCalc />
+      <RDInfo />
+      <RDFAQ />
+    </div>
+  );
 }

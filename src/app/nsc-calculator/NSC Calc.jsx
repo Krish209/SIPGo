@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import NSCInfo from "./NSC Info";
 import NSCFAQ from "./NSC Faq";
 
-function NSC() {
+function NSCCalc() {
   const [principalAmount, setPrincipalAmount] = useState(10000); // Default ₹10000 for FD
   const [rateOfInterest, setRateOfInterest] = useState(6); // Default 6% p.a.
   const [compoundFrequency, setCompoundFrequency] = useState(4); // Default quarterly compounding
@@ -134,7 +134,7 @@ function NSC() {
   const canonicalUrl = "https://www.sipgo.in/nsc-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -361,14 +361,9 @@ function NSC() {
             </div>
           ) : null}
         </div>
-
-        <div className="py-4">
-          <NSCInfo />
-          <NSCFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default NSC;
+export default NSCCalc;

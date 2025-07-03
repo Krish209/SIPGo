@@ -9,24 +9,27 @@ export default function CarLoanInfo() {
 
       <p className="mb-6 text-lg leading-relaxed">
         Are you planning to buy a new or used vehicle and considering financing
-        options? A <strong>car loan</strong> can be a practical solution to drive
-        away with your dream car without paying the full cost upfront. This
-        detailed guide covers everything about car loans — how they work, types,
-        interest rates, eligibility, application process, pros and cons, and tips
-        to get the best deal.
+        options? A <strong>car loan</strong> can be a practical solution to
+        drive away with your dream car without paying the full cost upfront.
+        This detailed guide covers everything about car loans — how they work,
+        types, interest rates, eligibility, application process, pros and cons,
+        and tips to get the best deal.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">What Is a Car Loan?</h2>
       <p className="mb-6 leading-relaxed">
         A <strong>car loan</strong> is a type of <em>secured loan</em> used
-        specifically to purchase a vehicle. You borrow money from a lender (bank,
-        credit union, online lender, or dealership), and in return, you agree to
-        repay it over a fixed term, usually in <strong>monthly installments</strong>.
-        The loan is secured by the vehicle itself, meaning the lender can{" "}
+        specifically to purchase a vehicle. You borrow money from a lender
+        (bank, credit union, online lender, or dealership), and in return, you
+        agree to repay it over a fixed term, usually in{" "}
+        <strong>monthly installments</strong>. The loan is secured by the
+        vehicle itself, meaning the lender can{" "}
         <strong>repossess the car</strong> if you fail to make payments.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Why Consider a Car Loan?</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        Why Consider a Car Loan?
+      </h2>
       <ul className="list-disc list-inside mb-6 space-y-2">
         <li>Avoid depleting your savings</li>
         <li>Spread out payments over time</li>
@@ -34,7 +37,9 @@ export default function CarLoanInfo() {
         <li>Build or improve your credit history</li>
       </ul>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Key Car Loan Terminology</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        Key Car Loan Terminology
+      </h2>
       <div className="overflow-x-auto mb-6">
         <table className="min-w-full border border-gray-300 dark:border-gray-700 text-left">
           <thead className="bg-gray-100 dark:bg-gray-800">
@@ -63,13 +68,19 @@ export default function CarLoanInfo() {
                 "Monthly Payment",
                 "Fixed amount due each month, including principal and interest.",
               ],
-              ["Amortization", "The process of paying off the loan in regular installments."],
+              [
+                "Amortization",
+                "The process of paying off the loan in regular installments.",
+              ],
               [
                 "Lien",
                 "Legal claim by the lender on the car until the loan is repaid.",
               ],
             ].map(([term, def]) => (
-              <tr key={term} className="border-t border-gray-300 dark:border-gray-700">
+              <tr
+                key={term}
+                className="border-t border-gray-300 dark:border-gray-700"
+              >
                 <td className="py-2 px-4 font-medium">{term}</td>
                 <td className="py-2 px-4">{def}</td>
               </tr>
@@ -78,10 +89,14 @@ export default function CarLoanInfo() {
         </table>
       </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">How Does a Car Loan Work?</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        How Does a Car Loan Work?
+      </h2>
       <ol className="list-decimal list-inside mb-6 space-y-2">
         <li>Choose a car and determine your budget.</li>
-        <li>Apply for financing through a bank, dealership, or online lender.</li>
+        <li>
+          Apply for financing through a bank, dealership, or online lender.
+        </li>
         <li>
           Lender evaluates your <em>credit score</em>, income, and financial
           stability.
@@ -91,8 +106,8 @@ export default function CarLoanInfo() {
         </li>
         <li>You make monthly payments until the loan is fully repaid.</li>
         <li>
-          Once paid off, the <strong>lien is removed</strong>, and the car title is
-          transferred to your name.
+          Once paid off, the <strong>lien is removed</strong>, and the car title
+          is transferred to your name.
         </li>
       </ol>
 
@@ -125,14 +140,19 @@ export default function CarLoanInfo() {
               "Financing provided directly by the dealership. High-interest rates and strict terms. Often used by buyers with poor credit.",
           },
         ].map(({ title, description }) => (
-          <div key={title} className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow-sm">
+          <div
+            key={title}
+            className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow-sm"
+          >
             <h3 className="text-xl font-semibold mb-2">{title}</h3>
             <p>{description}</p>
           </div>
         ))}
       </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Car Loan Interest Rates in 2025</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        Car Loan Interest Rates in 2025
+      </h2>
       <div className="overflow-x-auto mb-6">
         <table className="min-w-full border border-gray-300 dark:border-gray-700 text-left">
           <thead className="bg-gray-100 dark:bg-gray-800">
@@ -168,7 +188,9 @@ export default function CarLoanInfo() {
         </table>
       </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Factors That Affect Your Car Loan Approval</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        Factors That Affect Your Car Loan Approval
+      </h2>
       <ul className="list-disc list-inside mb-6 space-y-2">
         {[
           "Credit Score – A higher score means lower interest rates and better terms.",
@@ -182,7 +204,9 @@ export default function CarLoanInfo() {
         ))}
       </ul>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">How to Apply for a Car Loan</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        How to Apply for a Car Loan
+      </h2>
       <ol className="list-decimal list-inside mb-6 space-y-2">
         {[
           "Determine your budget and ideal loan term.",
@@ -198,7 +222,9 @@ export default function CarLoanInfo() {
         ))}
       </ol>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Expert Tips for Getting the Best Car Loan</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        Expert Tips for Getting the Best Car Loan
+      </h2>
       <ul className="list-disc list-inside mb-6 space-y-2">
         {[
           "Improve your credit score before applying",
@@ -213,10 +239,14 @@ export default function CarLoanInfo() {
         ))}
       </ul>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Pros and Cons of Car Loans</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        Pros and Cons of Car Loans
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         <div>
-          <h3 className="text-xl font-semibold mb-3 text-green-700 dark:text-green-400">Pros</h3>
+          <h3 className="text-xl font-semibold mb-3 text-green-700 dark:text-green-400">
+            Pros
+          </h3>
           <ul className="list-disc list-inside space-y-2">
             <li>Flexible repayment terms</li>
             <li>Build credit history</li>
@@ -225,17 +255,24 @@ export default function CarLoanInfo() {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold mb-3 text-red-700 dark:text-red-400">Cons</h3>
+          <h3 className="text-xl font-semibold mb-3 text-red-700 dark:text-red-400">
+            Cons
+          </h3>
           <ul className="list-disc list-inside space-y-2">
             <li>Total cost increases due to interest</li>
             <li>Risk of repossession</li>
-            <li>Negative equity if the car depreciates faster than the loan balance</li>
+            <li>
+              Negative equity if the car depreciates faster than the loan
+              balance
+            </li>
             <li>May require insurance with higher coverage</li>
           </ul>
         </div>
       </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Frequently Asked Questions (FAQs)</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">
+        Frequently Asked Questions (FAQs)
+      </h2>
       <div className="space-y-6 mb-12">
         {[
           {
@@ -259,16 +296,15 @@ export default function CarLoanInfo() {
               "Yes, but check if your lender charges prepayment penalties.",
           },
         ].map(({ question, answer }) => (
-          <div key={question} className="border border-gray-300 dark:border-gray-700 rounded-lg p-4 bg-gray-50 dark:bg-gray-800">
+          <div
+            key={question}
+            className="border border-gray-300 dark:border-gray-700 rounded-lg p-4 bg-gray-50 dark:bg-gray-800"
+          >
             <h3 className="font-semibold text-lg mb-2">{question}</h3>
             <p>{answer}</p>
           </div>
         ))}
       </div>
-
-      <p className="text-center text-sm text-gray-600 dark:text-gray-400 mb-12">
-        © 2025 Car Loans Guide. All rights reserved.
-      </p>
     </section>
   );
 }

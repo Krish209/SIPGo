@@ -1,8 +1,8 @@
 // This is a server component (no 'use client')
 
-import KVP from "./KVP Calc";
-import KVPFAQ from "./KVP Faq";
+import KVPCalc from "./KVP Calc";
 import KVPInfo from "./KVP Info";
+import KVPFAQ from "./KVP Faq";
 
 export const metadata = {
   title: "KVP Calculator - Calculate Maturity Value for Kisan Vikas Patra",
@@ -40,8 +40,8 @@ export const metadata = {
 
 export default function KVPCalculatorPage() {
   return (
-    <div className="py-4">
-      <KVP />
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <KVPCalc />
       <KVPInfo />
       <KVPFAQ />
     </div>

@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import InflationCalculator from "./Inflation Calc";
+import InflationCalc from "./Inflation Calc";
+import InflationInfo from "./Inflation Info";
+import InflationFAQ from "./Inflation Faq";
 
 export const metadata = {
   title: "Inflation Calculator - Real Value of Money & Investment Impact",
@@ -37,5 +39,11 @@ export const metadata = {
 };
 
 export default function InflationCalculatorPage() {
-  return <InflationCalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <InflationCalc />
+      <InflationInfo />
+      <InflationFAQ />
+    </div>
+  );
 }

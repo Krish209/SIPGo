@@ -207,7 +207,7 @@ function LumpsumCalc() {
   const canonicalUrl = "https://www.sipgo.in/lumpsum-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -511,11 +511,6 @@ function LumpsumCalc() {
               </div>
             </div>
           ) : null}
-        </div>
-
-        <div className="py-4">
-          <LumpsumInfo />
-          <LumpsumFAQ />
         </div>
       </div>
     </div>

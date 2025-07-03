@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import SWPCalculator from "./SWP Calc";
+import SWPCalc from "./SWP Calc";
+import SWPInfo from "./SWP Info";
+import SWPFAQ from "./SWP Faq";
 
 export const metadata = {
   title: "SWP Calculator - Calculate Systematic Withdrawal Plan Returns",
@@ -37,5 +39,11 @@ export const metadata = {
 };
 
 export default function SWPCalculatorPage() {
-  return <SWPCalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <SWPCalc />
+      <SWPInfo />
+      <SWPFAQ />
+    </div>
+  );
 }

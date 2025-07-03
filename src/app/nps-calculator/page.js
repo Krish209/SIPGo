@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import NPSCalculator from "./NPS Calc";
+import NPSCalc from "./NPS Calc";
+import NPSInfo from "./NPS Info";
+import NPSFAQ from "./NPS Faq";
 
 export const metadata = {
   title: "NPS Calculator - Calculate National Pension Scheme Returns",
@@ -36,5 +38,11 @@ export const metadata = {
 };
 
 export default function NPSCalculatorPage() {
-  return <NPSCalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <NPSCalc />
+      <NPSInfo />
+      <NPSFAQ />
+    </div>
+  );
 }

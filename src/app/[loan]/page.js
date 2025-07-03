@@ -38,7 +38,7 @@ export default async function LoanPage({ params }) {
   if (!config) notFound();
 
   return (
-    <div className="space-y-8">
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
       <EMICalculator 
         defaultValues={config.defaultValues}
         title={config.title}

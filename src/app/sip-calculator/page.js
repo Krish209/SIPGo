@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import SIPCalculator from "./SIP Calc";
+import SIPCalc from "./SIP Calc";
+import SIPInfo from "./SIP Info";
+import SIPFAQ from "./SIP Faq";
 
 export const metadata = {
   title: "SIP Calculator - Calculate Monthly SIP Returns Online",
@@ -37,5 +39,11 @@ export const metadata = {
 };
 
 export default function SIPCalculatorPage() {
-  return <SIPCalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <SIPCalc />
+      <SIPInfo />
+      <SIPFAQ />
+    </div>
+  );
 }

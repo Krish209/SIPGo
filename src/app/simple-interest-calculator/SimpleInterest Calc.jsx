@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import SimpleInterestInfo from "./SimpleInterest Info";
 import SimpleInterestFAQ from "./SimpleInterest Faq";
 
-function SimpleInterest() {
+function SimpleInterestCalc() {
   const [principalAmount, setPrincipalAmount] = useState(10000); // Default ₹10000 for FD
   const [rateOfInterest, setRateOfInterest] = useState(6); // Default 6% p.a.
   const [investmentPeriod, setInvestmentPeriod] = useState(5); // Default 5 years
@@ -184,7 +184,7 @@ function SimpleInterest() {
   const canonicalUrl = "https://www.sipgo.in/simple-interest-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -435,14 +435,9 @@ function SimpleInterest() {
             </div>
           ) : null}
         </div>
-
-        <div className="py-4">
-          <SimpleInterestInfo />
-          <SimpleInterestFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default SimpleInterest;
+export default SimpleInterestCalc;

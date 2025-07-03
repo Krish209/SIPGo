@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import Gratuity from "./Gratuity Calc";
+import GratuityCalc from "./Gratuity Calc";
+import GratuityInfo from "./Gratuity Info";
+import GratuityFAQ from "./Gratuity Faq";
 
 export const metadata = {
   title: "Gratuity Calculator - Calculate Gratuity Amount Online",
@@ -36,5 +38,11 @@ export const metadata = {
 };
 
 export default function GratuityPage() {
-  return <Gratuity />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <GratuityCalc />
+      <GratuityInfo />
+      <GratuityFAQ />
+    </div>
+  );
 }

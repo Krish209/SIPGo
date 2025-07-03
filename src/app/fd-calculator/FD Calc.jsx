@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import FdInfo from "./FD Info";
 import FDFaq from "./FD Faq";
 
-function FDCalculator() {
+function FDCalc() {
   const [principalAmount, setPrincipalAmount] = useState(100000); // Default ₹100000 for FD
   const [rateOfInterest, setRateOfInterest] = useState(6); // Default 6% p.a.
   const [investmentPeriod, setInvestmentPeriod] = useState(10); // Default 10 years
@@ -137,7 +137,7 @@ function FDCalculator() {
   const canonicalUrl = "https://www.sipgo.in/fd-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -383,13 +383,9 @@ function FDCalculator() {
           ) : null}
         </div>
 
-        <div className="py-4">
-          <FdInfo />
-          <FDFaq />
-        </div>
       </div>
     </div>
   );
 }
 
-export default FDCalculator;
+export default FDCalc;

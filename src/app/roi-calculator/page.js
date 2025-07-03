@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import ROICalculator from "./ROI Calc";
+import ROICalc from "./ROI Calc";
+import ROIInfo from "./ROI Info";
+import ROIFAQ from "./ROI Faq";
 
 export const metadata = {
   title: "ROI Calculator - Return on Investment Calculator",
@@ -37,5 +39,11 @@ export const metadata = {
 };
 
 export default function ROICalculatorPage() {
-  return <ROICalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <ROICalc />
+      <ROIInfo />
+      <ROIFAQ />
+    </div>
+  );
 }

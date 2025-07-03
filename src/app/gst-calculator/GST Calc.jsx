@@ -7,7 +7,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import GSTInfo from "./GST Info";
 import GSTFAQ from "./GST Faq";
 
-function GSTCalculator() {
+function GSTCalc() {
   const [price, setPrice] = useState(10000); // Default ₹10000
   const [gstRate, setGstRate] = useState(18); // Default 18% GST
   const [gstAmount, setGstAmount] = useState(0);
@@ -86,7 +86,7 @@ function GSTCalculator() {
   const canonicalUrl = "https://www.sipgo.in/gst-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -142,13 +142,13 @@ function GSTCalculator() {
         <div className="flex md:flex-row flex-col gap-6 md:gap-[74px] text-[15px] lg:text-lg lg:space-x-0 rounded-xl py-4 lg:py-8 p-2 vs:p-6 md:p-6 lg:p-8 border border-gray-200">
           <div className="w-full lg:w-6/12 space-y-2 sm:space-y-4 md:space-y-8 m-auto">
             {/* Buttons for toggling between GST Inclusive or Exclusive */}
-            <div className="flex justify-center space-x-4 mb-4">
+            <div className="flex justify-center space-x-4 mb-6 sm:mb-8">
               <button
                 onClick={handleInclusive}
                 className={`p-2 w-32 sm:w-36 rounded-lg shadow-sm ${
                   isInclusive
                     ? "bg-tomato text-white"
-                    : "border text-tomato border-tomato"
+                    : "border text-tomato border-tomato cursor-pointer"
                 }`}
               >
                 GST Inclusive
@@ -159,7 +159,7 @@ function GSTCalculator() {
                 className={`p-2 w-32 sm:w-36 rounded-lg shadow-sm ${
                   !isInclusive
                     ? "bg-tomato text-white"
-                    : "border text-tomato border-tomato"
+                    : "border text-tomato border-tomato cursor-pointer"
                 }`}
               >
                 GST Exclusive
@@ -303,13 +303,9 @@ function GSTCalculator() {
             </div>
           </div>
         </div>
-        <div className="py-4">
-          <GSTInfo />
-          <GSTFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default GSTCalculator;
+export default GSTCalc;

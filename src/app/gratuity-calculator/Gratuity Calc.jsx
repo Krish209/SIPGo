@@ -7,7 +7,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import GratuityInfo from "./Gratuity Info";
 import GratuityFAQ from "./Gratuity Faq";
 
-function Gratuity() {
+function GratuityCalc() {
   const [basicSalary, setBasicSalary] = useState(50000); // Default ₹50,000
   const [yearsWorked, setYearsWorked] = useState(10); // Default 10 years
   const [gratuityAmount, setGratuityAmount] = useState(0);
@@ -86,7 +86,7 @@ function Gratuity() {
   const canonicalUrl = "https://www.sipgo.in/gratuity-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -266,14 +266,9 @@ function Gratuity() {
             </div>
           ) : null}
         </div>
-
-        <div className="py-4">
-          <GratuityInfo />
-          <GratuityFAQ />
-        </div>
       </div>
     </div>
   );
 }
 
-export default Gratuity;
+export default GratuityCalc;

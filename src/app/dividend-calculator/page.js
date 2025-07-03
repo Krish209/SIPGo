@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
 import DividendYieldCalc from "./Dividend Yield Calc";
+import DividendYieldInfo from "./Dividend Yield Info";
+import DividendYieldFAQ from "./Dividend Faq";
 
 export const metadata = {
   title: "Dividend Calculator - Estimate Dividend Income & Yield",
@@ -37,5 +39,11 @@ export const metadata = {
 };
 
 export default function DividendYieldCalcPage() {
-  return <DividendYieldCalc />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <DividendYieldCalc />
+      <DividendYieldInfo />
+      <DividendYieldFAQ />
+    </div>
+  );
 }

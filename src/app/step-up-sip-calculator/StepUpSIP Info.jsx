@@ -44,7 +44,7 @@ const StepUpSIPInfo = () => {
   ];
 
   return (
-    <article className="p-1 sm:p-0 text-primary text-[15px] md:text-base">
+    <article className="p-1 vs:p-4 text-primary text-[15px] md:text-base">
       {/* Article as information Schema Markup */}
       <script type="application/ld+json">
         {JSON.stringify({

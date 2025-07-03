@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import CompoundInterest from "./CompoundInterest Calc";
+import CompoundInterestCalc from "./CompoundInterest Calc";
+import CompoundingInterestInfo from "./CompoundInterest Info";
+import CompoundInterestFAQ from "./CompoundInterest Faq";
 
 export const metadata = {
   title: "Compound Interest Calculator - Estimate Growth Over Time",
@@ -35,5 +37,11 @@ export const metadata = {
 };
 
 export default function CompoundInterestCalculatorPage() {
-  return <CompoundInterest />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <CompoundInterestCalc />
+      <CompoundingInterestInfo />
+      <CompoundInterestFAQ />
+    </div>
+  );
 }

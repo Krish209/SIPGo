@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import NSC from "./NSC Calc";
+import NSCCalc from "./NSC Calc";
+import NSCInfo from "./NSC Info";
+import NSCFAQ from "./NSC Faq";
 
 export const metadata = {
   title: "NSC Calculator - Calculate National Savings Certificate Maturity",
@@ -36,5 +38,11 @@ export const metadata = {
 };
 
 export default function NSCCalculatorPage() {
-  return <NSC />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <NSCCalc />
+      <NSCInfo />
+      <NSCFAQ />
+    </div>
+  );
 }

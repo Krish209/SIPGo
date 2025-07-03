@@ -6,7 +6,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import KVPInfo from "./KVP Info";
 import KVPFAQ from "./KVP Faq";
 
-function KVP() {
+function KVPCalc() {
   const [investmentAmount, setInvestmentAmount] = useState(50000); // Default ₹50,000
   const [maturityAmount, setMaturityAmount] = useState(0);
 
@@ -46,10 +46,8 @@ function KVP() {
   const canonicalUrl = "https://www.sipgo.in/kvp-calculator";
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
-        
-
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
         <script type="application/ld+json">
@@ -174,14 +172,10 @@ function KVP() {
               </div>
             </div>
           </div>
-          {/* <div className="py-4">
-            <KVPInfo />
-            <KVPFAQ />
-          </div> */}
         </div>
       </main>
     </div>
   );
 }
 
-export default KVP;
+export default KVPCalc;

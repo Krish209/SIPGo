@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 
@@ -31,8 +31,7 @@ const ROIFAQ = () => {
     },
     {
       question: "Can ROI be negative?",
-      answer:
-        "Yes, a negative ROI indicates a loss on the investment.",
+      answer: "Yes, a negative ROI indicates a loss on the investment.",
     },
     {
       question: "Is ROI the only metric to evaluate investments?",
@@ -42,27 +41,26 @@ const ROIFAQ = () => {
   ];
 
   return (
-    <div className="mx-auto mb-4 text-primary">
-
+    <div className="mb-4 text-primary">
       {/* JSON-LD for FAQ */}
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",
           "@id": "https://www.sipgo.in/roi-calculator#faq",
-          "name": "ROI FAQs",
-          "headline": "ROI FAQs",
-          "mainEntity": questions.map((q) => ({
+          name: "ROI FAQs",
+          headline: "ROI FAQs",
+          mainEntity: questions.map((q) => ({
             "@type": "Question",
-            "name": q.question,
-            "acceptedAnswer": {
+            name: q.question,
+            acceptedAnswer: {
               "@type": "Answer",
-              "text": q.answer,
-              "dateCreated": "2025-04-01",
-              "speakable": {
+              text: q.answer,
+              dateCreated: "2025-04-01",
+              speakable: {
                 "@type": "SpeakableSpecification",
-                "cssSelector": ".faq-answer"
-              }
+                cssSelector: ".faq-answer",
+              },
             },
           })),
         })}
@@ -75,7 +73,7 @@ const ROIFAQ = () => {
       {/* FAQ Section */}
       <div className="space-y-2">
         {questions.map((item, index) => (
-          <div key={index} className="overflow-hidden border-b">
+          <div key={index} className="overflow-hidden border-b border-gray-200">
             <div
               className="flex justify-between items-center px-2 py-2 md:py-3 cursor-pointer hover:bg-gray-100"
               onClick={() => toggleFAQ(index)}
@@ -87,7 +85,9 @@ const ROIFAQ = () => {
               >
                 {item.question}
               </h3>
-              <span className="text-xl">{activeIndex === index ? "-" : "+"}</span>
+              <span className="text-xl">
+                {activeIndex === index ? "-" : "+"}
+              </span>
             </div>
             {activeIndex === index && (
               <div className="faq-answer text-[14px] md:text-[15px] px-2 py-1 md:py-3 whitespace-pre-line">

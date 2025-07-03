@@ -305,9 +305,13 @@ const LoanFAQTabs = () => {
       </h2>
 
       {/* FAQ List */}
-      <div className="space-y-2" role="tabpanel" aria-labelledby={`tab-${activeTab}`}>
+      <div
+        className="space-y-2"
+        role="tabpanel"
+        aria-labelledby={`tab-${activeTab}`}
+      >
         {questions.map((item, index) => (
-          <div key={index} className="overflow-hidden border-b">
+          <div key={index} className="overflow-hidden border-b border-gray-200">
             <button
               className="flex justify-between items-center w-full px-2 py-2 md:py-3 cursor-pointer hover:bg-gray-100 text-left"
               onClick={() => toggleFAQ(index)}

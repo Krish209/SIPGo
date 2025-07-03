@@ -8,7 +8,7 @@ import { formatNumber, formatChartNumber } from "../../utils/NumberFormater";
 import PPFInfo from "./PPF Info";
 import PPFFAQ from "./PPF Faq";
 
-function PPF() {
+function PPFCalc() {
   const [principalAmount, setPrincipalAmount] = useState(5000); // Default ₹5000 for monthly PPF contribution
   const rateOfInterest = 7.1; // Fixed 7.1% p.a. for PPF
   const [investmentPeriod, setInvestmentPeriod] = useState(15); // Default 15 years (minimum)
@@ -172,7 +172,7 @@ function PPF() {
   const currentPPFRate = "7.1%"; // Get current PPF interest rate
 
   return (
-    <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
+    <div className="p-1 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -445,14 +445,9 @@ function PPF() {
             </div>
           ) : null}
         </div>
-
-        {/* <div className="py-4">
-          <PPFInfo />
-          <PPFFAQ />
-        </div> */}
       </div>
     </div>
   );
 }
 
-export default PPF;
+export default PPFCalc;

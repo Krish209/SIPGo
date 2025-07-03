@@ -1,6 +1,8 @@
 // This is a server component (no 'use client')
 
-import GSTCalculator from "./GST Calc";
+import GSTCalc from "./GST Calc";
+import GSTFAQ from "./GST Faq";
+import GSTInfo from "./GST Info";
 
 export const metadata = {
   title: "GST Calculator - Calculate Goods and Services Tax Online",
@@ -37,5 +39,11 @@ export const metadata = {
 };
 
 export default function GSTCalculatorPage() {
-  return <GSTCalculator />;
+  return (
+    <div className="max-w-screen-lg md:mx-auto space-y-6">
+      <GSTCalc />
+      <GSTInfo />
+      <GSTFAQ />
+    </div>
+  );
 }
