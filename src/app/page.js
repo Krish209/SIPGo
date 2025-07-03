@@ -6,7 +6,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const HomeLanding = () => {
-  // For Schema
 
   // const pageTitle =  SIPGo - more than Calculator
   // const pageTitle =  SIPGo - Free SIP, FD & EMI Calculators for Smarter Investing
@@ -21,8 +20,47 @@ const HomeLanding = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans overflow-hidden">
-      {/* Hero Section */}
+      <>
+        {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
+        {/* Primary WebPage Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: pageTitle,
+            description: pageDescription,
+            url: canonicalUrl,
+            "@id": canonicalUrl,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "SIPGo Financial Calculators",
+              url: "https://www.sipgo.in",
+            },
+            dateModified: "2025-06-15T00:00:00Z",
+          })}
+        </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "@id": "https://www.sipgo.in/#breadcrumb",
+            name: "Home Page Navigation Path",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: canonicalUrl,
+              },
+            ],
+          })}
+        </script>
+      </>
+
+      {/* Hero Section */}
       <section className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white py-8 sm:py-16 md:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
           {/* Text Section */}

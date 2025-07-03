@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "404 Page Not Found - SIPGo",
+  description: "Oops! The page you are looking for doesn't exist.",
+  robots: "noindex, nofollow",
+};
+
 export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">

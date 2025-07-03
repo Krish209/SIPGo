@@ -2,73 +2,18 @@
 
 import React, { useState, useEffect } from "react";
 import Head from "next/head"; // for SEO, Schema Markup, etc.
-import { usePathname } from "next/navigation";
-import { BarChart } from "../../utils/Bar";
-import { DoughnutChart } from "../../utils/Donut";
+import { BarChart } from "../../../utils/Bar";
+import { DoughnutChart } from "../../../utils/Donut";
 import {
   formatNumber,
   formatChartNumber,
   format2decimal,
-} from "../../utils/NumberFormater";
-import EMIInfo from "./EMI Info";
-import EMIFAQ from "./EMI Faq";
-import loanMetaConfig from "../../utils/LoanMetaConfig"; // Import your loan meta config
+} from "../../../utils/NumberFormater";
 
-function EMICalculator() {
-  const pathname = usePathname();
-
-  const path = usePathname();
-
-  // const location = useLocation();
-  // const path = location.pathname;
-
-  const getLoanTypeFromPath = (path) => {
-    if (path.includes("car")) return "car";
-    if (path.includes("home")) return "home";
-    if (path.includes("personal")) return "personal";
-    if (path.includes("education")) return "education";
-    return "emi"; // default
-  };
-
-  const defaultValues = {
-    emi: { loan: 100000, rate: 8, tenure: 5 },
-    car: { loan: 500000, rate: 9, tenure: 7 },
-    home: { loan: 3000000, rate: 7.5, tenure: 20 },
-    personal: { loan: 200000, rate: 11, tenure: 4 },
-    education: { loan: 20000, rate: 11, tenure: 4 },
-  };
-
-  const loanType = getLoanTypeFromPath(path);
-  const initial = defaultValues[loanType] || defaultValues["emi"];
-  const metaConfig = loanMetaConfig[loanType] || loanMetaConfig["emi"];
-
-  const [pageTitles, setpageTitles] = useState("EMI Calculator");
-
-  // Map routes to headings
-  const titleMap = {
-    "/emi-calculator": "EMI Calculator",
-    "/car-loan-calculator": "Car Loan Calculator",
-    "/home-loan-calculator": "Home Loan Calculator",
-    "/personal-loan-calculator": "Personal Loan Calculator",
-    "/education-loan-calculator": "Education Loan Calculator",
-  };
-
-  useEffect(() => {
-    const matchedTitle = titleMap[pathname] || "Loan Calculator";
-    setpageTitles(matchedTitle);
-    document.title = metaConfig.title;
-
-    const type = getLoanTypeFromPath(pathname);
-    const values = defaultValues[type];
-
-    setLoanAmount(values.loan);
-    setInterestRate(values.rate);
-    setLoanTenure(values.tenure);
-  }, [pathname, metaConfig.title]);
-
-  const [loanAmount, setLoanAmount] = useState(initial.loan);
-  const [interestRate, setInterestRate] = useState(initial.rate);
-  const [loanTenure, setLoanTenure] = useState(initial.tenure);
+function EMICalculator({ defaultValues, title, canonical, meta }) {
+  const [loanAmount, setLoanAmount] = useState(defaultValues.loan);
+  const [interestRate, setInterestRate] = useState(defaultValues.rate);
+  const [loanTenure, setLoanTenure] = useState(defaultValues.tenure);
 
   const [emi, setEmi] = useState(0);
   const [totalPayment, setTotalPayment] = useState(0);
@@ -183,30 +128,6 @@ function EMICalculator() {
   return (
     <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
       <>
-        <title>{metaConfig.title}</title>
-        <meta name="description" content={metaConfig.description} />
-        <meta name="keywords" content={metaConfig.keywords} />
-        <link rel="canonical" href={metaConfig.canonical} />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={metaConfig.canonical} />
-        <meta property="og:title" content={metaConfig.title} />
-        <meta property="og:description" content={metaConfig.description} />
-        <meta
-          property="og:image"
-          content="https://www.sipgo.in/images/logo.png"
-        />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={metaConfig.title} />
-        <meta name="twitter:description" content={metaConfig.description} />
-        <meta
-          name="twitter:image"
-          content="https://www.sipgo.in/images/logo.png"
-        />
-
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
         <script type="application/ld+json">
@@ -214,10 +135,10 @@ function EMICalculator() {
             // Primary WebPage Schema
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: metaConfig.title,
-            description: metaConfig.description,
-            url: metaConfig.canonical,
-            "@id": metaConfig.canonical,
+            name: meta.title,
+            description: meta.description,
+            url: canonical,
+            "@id": canonical,
             isPartOf: {
               "@type": "WebSite",
               name: "SIPGo Financial Calculators",
@@ -232,8 +153,8 @@ function EMICalculator() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
-            "@id": "https://www.sipgo.in/emi-calculator#breadcrumb",
-            name: metaConfig.title,
+            "@id": `${canonical}#breadcrumb`,
+            name: meta.title,
             itemListElement: [
               {
                 "@type": "ListItem",
@@ -244,8 +165,8 @@ function EMICalculator() {
               {
                 "@type": "ListItem",
                 position: 2,
-                name: metaConfig.title,
-                item: metaConfig.canonical,
+                name: meta.title,
+                item: canonical,
               },
             ],
           })}
@@ -253,7 +174,7 @@ function EMICalculator() {
       </>
 
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold px-0.5 vs:p-0 my-2 sm:my-4">
-        {pageTitles}
+        {title}
       </h1>
 
       {/* User Inputs Section */}
@@ -461,11 +382,6 @@ function EMICalculator() {
             </div>
           ) : null}
         </div> */}
-
-        <div className="py-4">
-          <EMIInfo />
-          <EMIFAQ />
-        </div>
       </div>
     </div>
   );

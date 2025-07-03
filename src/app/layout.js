@@ -51,6 +51,7 @@ export const metadata = {
       },
     ],
   },
+  
   twitter: {
     card: "summary_large_image",
     title: "SIPGo - Smart Financial Calculators for Investment Planning",
