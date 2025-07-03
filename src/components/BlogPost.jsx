@@ -1,4 +1,5 @@
 // components/BlogPost.jsx
+
 export const blogPosts = [
   {
     title: "How to Get Monthly Pension from NPS",

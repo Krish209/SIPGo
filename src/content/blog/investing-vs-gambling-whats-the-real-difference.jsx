@@ -1,5 +1,6 @@
+// src/content/blog/investing-vs-gambling-whats-the-real-difference.jsx
+
 import React from "react";
-import Table from "../../utils/Table";
 import BlogLayout from "@/components/BlogLayout";
 // import img from ".../../../public/images/blogs/investingvsgambling.jpeg";
 

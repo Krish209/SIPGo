@@ -8,30 +8,51 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }));
 }
 
-// export default async function BlogPage({ params }) {
-//   const slug = params?.slug;
-//   if (!slug) return notFound();
+export async function generateMetadata({ params }) {
+  const { slug } = await params; // <-- await params here
 
-//   const { Component } = await getBlogBySlug(slug);
-//   if (!Component) return notFound();
-
-//   return <Component />;
-// }
-
-// export default async function BlogPage({ params: { slug } }) {
-//   const { Component } = await getBlogBySlug(slug);
-//   return <Component />;
-// }
-
-
-export default async function BlogPage({ params }) {
   try {
-    console.log("Rendering blog page for slug:", params.slug); // helpful logging
-    const { Component } = await getBlogBySlug(params.slug);
-    return <Component />;
-  } catch (err) {
-    console.error("Error loading blog:", err);
-    return notFound();
+    const { meta } = await getBlogBySlug(slug);
+
+    return {
+      title: meta.title,
+      description: meta.description,
+      alternates: {
+        canonical: `https://www.sipgo.in/blog/${slug}`,
+      },
+      openGraph: {
+        title: meta.title,
+        description: meta.description,
+        images: [meta.image],
+        type: 'article',
+        publishedTime: meta.date,
+        tags: meta.tags,
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: meta.title,
+        description: meta.description,
+        images: [meta.image],
+      },
+    };
+  } catch {
+    return {
+      title: 'Not Found',
+      description: 'The blog post you requested was not found.',
+    };
   }
 }
 
+export default async function BlogPage({ params }) {
+  const { slug } = await params; // <-- await params here
+
+  try {
+    const { Component } = await getBlogBySlug(slug);
+    if (!Component) return notFound();
+
+    return <Component />;
+  } catch (err) {
+    console.error(`Blog loading error for "${slug}":`, err);
+    return notFound();
+  }
+}

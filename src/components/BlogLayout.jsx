@@ -146,31 +146,6 @@ const BlogLayout = ({
   return (
     <div className="bg-gray-50 text-night min-h-screen">
       <>
-        <title>{title}</title>
-        <meta
-          name="description"
-          content={metaDescription || `${title} - ${excerpt}`}
-        />
-        <meta name="keywords" content={tags.join(", ")} />
-        <link rel="canonical" href={canonicalUrl} />
-
-        {/* Hreflang */}
-        {/* <link rel="alternate" hreflang="en" href={canonicalUrl} />
-        <link rel="alternate" hreflang="x-default" href={canonicalUrl} /> */}
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={metaDescription || excerpt} />
-        <meta property="og:image" content={image} />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:type" content="article" />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={metaDescription || excerpt} />
-        <meta name="twitter:image" content={image} />
-
         {/* Artical Schema */}
         <script type="application/ld+json">
           {JSON.stringify({

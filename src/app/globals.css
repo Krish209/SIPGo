@@ -4,6 +4,12 @@
   font-family: var(--font-inter), sans-serif;
 } */
 
+@theme inline {
+  --breakpoint-ws: 305px;
+  --breakpoint-us: 385px;
+  --breakpoint-vs: 510px;
+}
+
 @layer {
   /* ========== Custom Color Definitions ========== */
   /* Background Colors */
