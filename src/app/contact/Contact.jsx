@@ -45,31 +45,8 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-indigo-100 to-pink-100 flex items-center justify-center py-12 px-4">
       {/* SEO Meta Tags */}
-      <Head>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
-        <meta
-          name="keywords"
-          content="contact SIPGo, financial calculator support, investment tools help, customer service, SIP calculator help, PPF calculator support"
-        />
-        <link rel="canonical" href={canonicalUrl} />
-
-        {/* hreflang implementation */}
-        <link rel="alternate" hreflang="en" href={canonicalUrl} />
-        <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={pageDescription} />
-        <meta property="og:image" content={logoUrl} />
-
-        {/* Twitter Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content={logoUrl} />
+      <>
+        
 
         {/* Enhanced Schema Markup */}
         <script type="application/ld+json">
@@ -116,7 +93,7 @@ const Contact = () => {
             },
           })}
         </script>
-      </Head>
+      </>
 
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 text-primary bg-white shadow-xl rounded-3xl p-8 md:p-14">
         {/* Left - Contact Info */}

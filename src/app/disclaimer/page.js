@@ -3,49 +3,35 @@
 import Disclaimer from "./Disclaimer";
 
 export const metadata = {
-  title: "Sleep Length Calculator | Optimize Your Sleep Cycles",
+  title: "Disclaimer | SIPGo Financial Calculators",
   description:
-    "Calculate your sleep duration, analyze sleep cycles, and find optimal wake-up times for better rest and energy.",
+    "Legal disclaimer for SIPGo's financial calculators. Our tools provide estimates only, not financial advice.",
   keywords: [
-    "sleep calculator",
-    "sleep cycle calculator",
-    "optimal wake up time",
-    "sleep duration",
-    "REM sleep calculator",
-    "best time to wake up",
-    "sleep quality analyzer",
-    "bedtime calculator",
+    "Disclaimer",
+    "SIPGo",
+    "Financial Calculators",
+    "SIPGo disclaimer",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Sleep Length Calculator | Optimize Your Sleep Cycles",
-    description:
-      "Calculate your sleep duration, analyze sleep cycles, and find optimal wake-up times for better rest and energy.",
-    url: "https://yourwebsite.com/sleep-calculator",
-    siteName: "Sleep Wellness Tools",
-    images: [
-      {
-        url: "https://yourwebsite.com/sleep-calculator-og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Sleep calculator interface showing sleep cycles and optimal wake times",
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/disclaimer",
+    title: "Disclaimer | SIPGo Financial Calculators",
+    description:
+      "Legal disclaimer for SIPGo's financial calculators. Our tools provide estimates only, not financial advice.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Sleep Length Calculator | Optimize Your Sleep Cycles",
+    title: "Disclaimer | SIPGo Financial Calculators",
     description:
-      "Calculate your sleep duration, analyze sleep cycles, and find optimal wake-up times for better rest and energy.",
-    images: ["https://yourwebsite.com/sleep-calculator-twitter-image.png"],
+      "Legal disclaimer for SIPGo's financial calculators. Our tools provide estimates only, not financial advice.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/sleep-calculator",
+    canonical: "https://www.sipgo.in/disclaimer",
   },
 };
 

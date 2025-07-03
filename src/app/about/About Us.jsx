@@ -13,33 +13,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen text-primary">
       {/* Minimal SEO Tags */}
-      <Head>
-        {/* Meta Tags */}
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
-        <meta
-          name="keywords"
-          content="About SIPGo, Financial Calculators, Investment Tools, SIP, PPF, FD"
-        />
-        <link rel="canonical" href={canonicalUrl} />
-
-        {/* Hreflang */}
-        <link rel="alternate" hreflang="en" href={canonicalUrl} />
-        <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
-
-        {/* Open Graph Tags */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={pageDescription} />
-        <meta property="og:image" content={logoUrl} />
-
-        {/* Twitter Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content={logoUrl} />
-
+      <>
         {/* Single High-Value Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
@@ -71,7 +45,7 @@ export default function AboutPage() {
             },
           })}
         </script>
-      </Head>
+      </>
 
       {/* Hero Section */}
       <section

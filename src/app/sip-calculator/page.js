@@ -3,47 +3,36 @@
 import SIPCalculator from "./SIP Calc";
 
 export const metadata = {
-  title: "Time Duration Calculator | Calculate Time Between Two Points",
+  title: "SIP Calculator - Calculate Monthly SIP Returns Online",
   description:
-    "Free online tool to calculate duration between two times. Supports 12-hour and 24-hour formats. Get hours, minutes, and seconds between any two times.",
+    "Use our SIP Calculator to estimate your mutual fund returns based on investment amount, duration, and expected rate of return. Start planning your investments today.",
   keywords: [
-    "time calculator",
-    "duration calculator",
-    "time difference",
-    "hours calculator",
-    "work hours calculator",
-    "time between times",
-    "12-hour format calculator",
-    "24-hour format calculator",
+    "SIP Calculator",
+    "Mutual Fund SIP Returns",
+    "Investment Planning",
+    "SIP Maturity",
+    "Compounding Calculator",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Time Duration Calculator | Precise Time Difference Tool",
-    description:
-      "Calculate precise duration between any two times in hours, minutes, and seconds",
-    url: "https://yourdomain.com/time-calculator",
-    siteName: "Time Tools",
-    images: [
-      {
-        url: "https://yourdomain.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/sip-calculator",
+    title: "SIP Calculator - Calculate Monthly SIP Returns Online",
+    description:
+      "Use our SIP Calculator to estimate your mutual fund returns based on investment amount, duration, and expected rate of return. Start planning your investments today.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Time Duration Calculator",
-    description: "Calculate precise duration between any two times",
-    images: ["https://yourdomain.com/og-image.jpg"],
+    title: "SIP Calculator - Calculate Monthly SIP Returns Online",
+    description:
+      "Use our SIP Calculator to estimate your mutual fund returns based on investment amount, duration, and expected rate of return. Start planning your investments today.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/time-calculator",
+    canonical: "https://www.sipgo.in/sip-calculator",
   },
 };
 

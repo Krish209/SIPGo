@@ -1,5 +1,6 @@
 import loanConfigs from "@/utils/LoanConfig";
 import EMICalculator from "../emi-calculator/EMI Calc";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const config = loanConfigs[params.loan] || {};
@@ -14,7 +15,7 @@ export default function LoanPage({ params }) {
   const loanSlug = params.loan;
   const config = loanConfigs[loanSlug];
 
-  if (!config) return <h1>404 - Invalid Loan Type</h1>;
+  if (!config) return notFound();
 
   const { title, loanType, defaultValues, FAQ: FAQComponent, Info: InfoComponent } = config;
 

@@ -182,19 +182,11 @@ function EMICalculator() {
 
   return (
     <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
-      <Head>
+      <>
         <title>{metaConfig.title}</title>
         <meta name="description" content={metaConfig.description} />
         <meta name="keywords" content={metaConfig.keywords} />
         <link rel="canonical" href={metaConfig.canonical} />
-
-        {/* hreflang implementation */}
-        <link rel="alternate" hreflang="en" href={metaConfig.canonical} />
-        <link
-          rel="alternate"
-          hreflang="x-default"
-          href={metaConfig.canonical}
-        />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
@@ -258,7 +250,7 @@ function EMICalculator() {
             ],
           })}
         </script>
-      </Head>
+      </>
 
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold px-0.5 vs:p-0 my-2 sm:my-4">
         {pageTitles}

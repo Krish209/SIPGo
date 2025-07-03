@@ -3,48 +3,39 @@
 import StepUpSIPCalculator from "./StepUpSIP Calc";
 
 export const metadata = {
-  title: "Precision Stopwatch | Time Tracking Tool",
+  title: "Step-Up SIP Calculator - Grow Your Investment with Increasing SIPs",
   description:
-    "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
+    "Plan your investment strategy with our Step-Up SIP Calculator. Estimate returns when you gradually increase your monthly SIP contributions.",
   keywords: [
-    "stopwatch",
-    "timer",
-    "time tracking",
-    "lap timer",
-    "precision timing",
+    "Step-Up SIP Calculator",
+    "Increasing SIP",
+    "Wealth Planning",
+    "SIP Growth",
+    "Mutual Fund Growth SIP",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Precision Stopwatch | Time Tracking Tool",
-    description:
-      "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
-    url: "https://yourwebsite.com/stopwatch",
-    siteName: "Your App Name",
-    images: [
-      {
-        url: "https://yourwebsite.com/stopwatch-og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Stopwatch Interface Preview",
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/step-up-sip-calculator",
+    title: "Step-Up SIP Calculator - Grow Your Investment with Increasing SIPs",
+    description:
+      "Plan your investment strategy with our Step-Up SIP Calculator. Estimate returns when you gradually increase your monthly SIP contributions.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Precision Stopwatch | Time Tracking Tool",
+    title: "Step-Up SIP Calculator - Grow Your Investment with Increasing SIPs",
     description:
-      "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
-    images: ["https://yourwebsite.com/stopwatch-twitter-image.png"],
+      "Plan your investment strategy with our Step-Up SIP Calculator. Estimate returns when you gradually increase your monthly SIP contributions.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/stopwatch",
+    canonical: "https://www.sipgo.in/step-up-sip-calculator",
   },
 };
+
 
 export default function StepUpSIPCalculatorPage() {
   return <StepUpSIPCalculator />;

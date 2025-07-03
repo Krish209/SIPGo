@@ -3,46 +3,38 @@
 import TermsAndConditions from "./Terms&Condition";
 
 export const metadata = {
-  title: "Precision Stopwatch | Time Tracking Tool",
+  title: "Terms & Conditions | SIPGo Financial Tools",
   description:
-    "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
+    "Terms governing use of SIPGo's financial calculators and services. Learn your rights and obligations.",
   keywords: [
-    "stopwatch",
-    "timer",
-    "time tracking",
-    "lap timer",
-    "precision timing",
+    "Terms and Condition",
+    "SIPGo",
+    "Financial Calculators",
+    "Usage Policy",
+    "SIPGo Terms",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
+  effectiveDate: "2025-01-15",
+  lastUpdated: "2025-06-01",
 
   openGraph: {
-    title: "Precision Stopwatch | Time Tracking Tool",
-    description:
-      "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
-    url: "https://yourwebsite.com/stopwatch",
-    siteName: "Your App Name",
-    images: [
-      {
-        url: "https://yourwebsite.com/stopwatch-og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Stopwatch Interface Preview",
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/terms",
+    title: "Terms & Conditions | SIPGo Financial Tools",
+    description:
+      "Terms governing use of SIPGo's financial calculators and services. Learn your rights and obligations.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Precision Stopwatch | Time Tracking Tool",
+    title: "Terms & Conditions | SIPGo Financial Tools",
     description:
-      "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
-    images: ["https://yourwebsite.com/stopwatch-twitter-image.png"],
+      "Terms governing use of SIPGo's financial calculators and services. Learn your rights and obligations.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/stopwatch",
+    canonical: "https://www.sipgo.in/terms",
   },
 };
 

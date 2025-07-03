@@ -3,46 +3,35 @@
 import SSY from "./SSY Calc";
 
 export const metadata = {
-  title: "Precision Stopwatch | Time Tracking Tool",
+  title: "SSY Calculator - Sukanya Samriddhi Yojana Maturity Calculator",
   description:
-    "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
+    "Calculate the maturity amount and interest earned on your SSY account using our Sukanya Samriddhi Yojana Calculator. Ideal for girl child savings planning.",
   keywords: [
-    "stopwatch",
-    "timer",
-    "time tracking",
-    "lap timer",
-    "precision timing",
+    "SSY Calculator",
+    "Sukanya Samriddhi Yojana",
+    "SSY Interest",
+    "SSY Maturity Value",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Precision Stopwatch | Time Tracking Tool",
-    description:
-      "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
-    url: "https://yourwebsite.com/stopwatch",
-    siteName: "Your App Name",
-    images: [
-      {
-        url: "https://yourwebsite.com/stopwatch-og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Stopwatch Interface Preview",
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/ssy-calculator",
+    title: "SSY Calculator - Sukanya Samriddhi Yojana Maturity Calculator",
+    description:
+      "Calculate the maturity amount and interest earned on your SSY account using our Sukanya Samriddhi Yojana Calculator. Ideal for girl child savings planning.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Precision Stopwatch | Time Tracking Tool",
+    title: "SSY Calculator - Sukanya Samriddhi Yojana Maturity Calculator",
     description:
-      "Accurate stopwatch with lap timing functionality. Track time with millisecond precision.",
-    images: ["https://yourwebsite.com/stopwatch-twitter-image.png"],
+      "Calculate the maturity amount and interest earned on your SSY account using our Sukanya Samriddhi Yojana Calculator. Ideal for girl child savings planning.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/stopwatch",
+    canonical: "https://www.sipgo.in/ssy-calculator",
   },
 };
 

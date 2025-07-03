@@ -173,38 +173,7 @@ function PPF() {
 
   return (
     <div className="max-w-screen-lg md:mx-auto p-1 vs:p-4 bg-white text-night">
-      <Head>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
-        <meta
-          name="keywords"
-          content="PPF Calculator, Public Provident Fund, PPF Returns, Tax Saving Calculator, 80C Investment, Government Savings Scheme"
-        />
-        <link rel="canonical" href={canonicalUrl} />
-
-        {/* hreflang implementation */}
-        <link rel="alternate" hreflang="en" href={canonicalUrl} />
-        <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={pageDescription} />
-        <meta
-          property="og:image"
-          content="https://www.sipgo.in/images/logo.png"
-        />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={pageDescription} />
-        <meta
-          name="twitter:image"
-          content="https://www.sipgo.in/images/logo.png"
-        />
-
+      <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
         <script type="application/ld+json">
@@ -292,7 +261,7 @@ function PPF() {
             ],
           })}
         </script>
-      </Head>
+      </>
 
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold px-0.5 vs:p-0 my-2 sm:my-4">
         PPF Calculator

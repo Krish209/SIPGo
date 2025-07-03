@@ -3,47 +3,36 @@
 import GSTCalculator from "./GST Calc";
 
 export const metadata = {
-  title: "Time Duration Calculator | Calculate Time Between Two Points",
+  title: "GST Calculator - Calculate Goods and Services Tax Online",
   description:
-    "Free online tool to calculate duration between two times. Supports 12-hour and 24-hour formats. Get hours, minutes, and seconds between any two times.",
+    "Easily calculate GST amounts on products and services using our GST Calculator. Supports various tax slabs including CGST, SGST, and IGST.",
   keywords: [
-    "time calculator",
-    "duration calculator",
-    "time difference",
-    "hours calculator",
-    "work hours calculator",
-    "time between times",
-    "12-hour format calculator",
-    "24-hour format calculator",
+    "GST Calculator",
+    "India GST",
+    "Goods and Services Tax",
+    "GST Inclusive",
+    "GST Exclusive",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Time Duration Calculator | Precise Time Difference Tool",
-    description:
-      "Calculate precise duration between any two times in hours, minutes, and seconds",
-    url: "https://yourdomain.com/time-calculator",
-    siteName: "Time Tools",
-    images: [
-      {
-        url: "https://yourdomain.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/gst-calculator",
+    title: "GST Calculator - Calculate Goods and Services Tax Online",
+    description:
+      "Easily calculate GST amounts on products and services using our GST Calculator. Supports various tax slabs including CGST, SGST, and IGST.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Time Duration Calculator",
-    description: "Calculate precise duration between any two times",
-    images: ["https://yourdomain.com/og-image.jpg"],
+    title: "GST Calculator - Calculate Goods and Services Tax Online",
+    description:
+      "Easily calculate GST amounts on products and services using our GST Calculator. Supports various tax slabs including CGST, SGST, and IGST.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/time-calculator",
+    canonical: "https://www.sipgo.in/gst-calculator",
   },
 };
 

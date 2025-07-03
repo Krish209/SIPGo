@@ -5,47 +5,37 @@ import PPF from "./PPF Calc";
 import PPFInfo from "./PPF Info";
 
 export const metadata = {
-  title: "Time Duration Calculator | Calculate Time Between Two Points",
+  title: "PPF Calculator - Calculate Public Provident Fund Returns",
   description:
-    "Free online tool to calculate duration between two times. Supports 12-hour and 24-hour formats. Get hours, minutes, and seconds between any two times.",
+    "Use our PPF Calculator to estimate your Public Provident Fund maturity amount, interest earned, and investment planning over 15 years.",
   keywords: [
-    "time calculator",
-    "duration calculator",
-    "time difference",
-    "hours calculator",
-    "work hours calculator",
-    "time between times",
-    "12-hour format calculator",
-    "24-hour format calculator",
+    "PPF Calculator",
+    "Public Provident Fund",
+    "PPF Returns",
+    "Tax Saving Calculator",
+    "80C Investment",
+    "Government Savings Scheme",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Time Duration Calculator | Precise Time Difference Tool",
-    description:
-      "Calculate precise duration between any two times in hours, minutes, and seconds",
-    url: "https://yourdomain.com/time-calculator",
-    siteName: "Time Tools",
-    images: [
-      {
-        url: "https://yourdomain.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/ppf-calculator",
+    title: "PPF Calculator - Calculate Public Provident Fund Returns",
+    description:
+      "Use our PPF Calculator to estimate your Public Provident Fund maturity amount, interest earned, and investment planning over 15 years.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Time Duration Calculator",
-    description: "Calculate precise duration between any two times",
-    images: ["https://yourdomain.com/og-image.jpg"],
+    title: "PPF Calculator - Calculate Public Provident Fund Returns",
+    description:
+      "Use our PPF Calculator to estimate your Public Provident Fund maturity amount, interest earned, and investment planning over 15 years.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/time-calculator",
+    canonical: "https://www.sipgo.in/ppf-calculator",
   },
 };
 

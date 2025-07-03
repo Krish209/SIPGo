@@ -12,7 +12,7 @@ function BlogHome() {
 
   return (
     <div className="min-h-screen text-primary bg-gradient-to-b from-indigo-50 to-white">
-      <Head>
+      <>
         {/* Primary Meta Tags */}
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
@@ -89,7 +89,7 @@ function BlogHome() {
             ],
           })}
         </script>
-      </Head>
+      </>
 
       {/* Page Content */}
       <section className="max-w-7xl mx-auto py-8 md:py-12 px-4 sm:px-6 lg:px-8">

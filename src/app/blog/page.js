@@ -2,6 +2,41 @@ import Link from "next/link";
 import { blogPosts } from "@/components/BlogPost";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Financial Blog - Expert Investment Insights & Tips | SIPGo",
+  description:
+    "Explore our financial blog for expert insights on SIP, mutual funds, tax planning, and wealth management strategies.",
+  keywords: [
+    "financial blog",
+    "investment tips",
+    "SIP guide",
+    "mutual funds",
+    "tax planning",
+  ],
+
+  openGraph: {
+    type: "website",
+    url: "https://www.sipgo.in/blog",
+    title: "Financial Blog - Expert Investment Insights & Tips | SIPGo",
+    description:
+      "Explore our financial blog for expert insights on SIP, mutual funds, tax planning, and wealth management strategies.",
+    images: ["https://www.sipgo.in/images/logo.png"],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Financial Blog - Expert Investment Insights & Tips | SIPGo",
+    description:
+      "Explore our financial blog for expert insights on SIP, mutual funds, tax planning, and wealth management strategies.",
+    images: ["https://www.sipgo.in/images/logo.png"],
+  },
+
+  alternates: {
+    canonical: "https://www.sipgo.in/blog",
+  },
+};
+
+
 function BlogHome() {
   // SEO Meta Variables
   const pageTitle =

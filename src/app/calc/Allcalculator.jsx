@@ -212,44 +212,7 @@ const AllCalculator = ({
     <div className="min-h-screen bg-gradient-to-br text-primary from-indigo-50 to-blue-50">
       {/* Conditional SEO Meta */}
       {isStandalonePage && (
-        <Head>
-          <title>{pageTitle}</title>
-          <meta name="description" content={pageDescription} />
-          <meta
-            name="keywords"
-            content="
-              SIP Calculator, Lumpsum Calculator, Step-up SIP Calculator, SWP Calculator,
-              PPF Calculator, FD Calculator, RD Calculator, NPS Calculator,
-              NSC Calculator, SSY Calculator, Sukanya Samriddhi Calculator,
-              EMI Calculator, Home Loan Calculator, Car Loan Calculator,
-              Personal Loan Calculator, Education Loan Calculator,
-              Retirement Calculator, Child Education Calculator,
-              Inflation Calculator, Gratuity Calculator, GST Calculator,
-              Compound Interest Calculator, Simple Interest Calculator, ROI Calculator,
-              Tax Saving Investments, Financial Planning, Wealth Management Tools,
-              Investment Growth Calculator, Mutual Fund Returns,
-              SIP Returns Calculation, Investment Comparison, Retirement Planning
-          "
-          />
-          <link rel="canonical" href={canonicalUrl} />
-
-          {/* hreflang implementation */}
-          <link rel="alternate" hreflang="en" href={canonicalUrl} />
-          <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
-
-          {/* Open Graph / Facebook */}
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={canonicalUrl} />
-          <meta property="og:title" content={pageTitle} />
-          <meta property="og:description" content={pageDescription} />
-          <meta property="og:image" content={logoUrl} />
-
-          {/* Twitter Tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={pageTitle} />
-          <meta name="twitter:description" content={pageDescription} />
-          <meta name="twitter:image" content={logoUrl} />
-
+        <>
           {/* Schema Markup */}
           <script type="application/ld+json">
             {JSON.stringify({
@@ -271,7 +234,7 @@ const AllCalculator = ({
               })),
             })}
           </script>
-        </Head>
+        </>
       )}
 
       {/* Calculator Categories */}

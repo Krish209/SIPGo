@@ -3,49 +3,63 @@
 import AllCalculator from "./Allcalculator";
 
 export const metadata = {
-  title: "Sleep Time Calculator | Find Your Optimal Bedtime & Wake-up Time",
+  title: "Financial Calculators - SIP, EMI, PPF, FD & More | SIPGo",
   description:
-    "Calculate ideal sleep times based on your wake-up or bedtime. Get science-backed recommendations for complete sleep cycles to wake up refreshed.",
+    "Comprehensive suite of 20+ financial calculators for SIP, mutual funds, loans, tax-saving investments, and retirement planning. Compare returns instantly.",
   keywords: [
-    "sleep calculator",
-    "bedtime calculator",
-    "wake up time calculator",
-    "sleep cycle calculator",
-    "optimal sleep time",
-    "REM sleep calculator",
-    "best time to wake up",
-    "best time to go to bed",
+    "SIP Calculator",
+    "Lumpsum Calculator",
+    "Step-up SIP Calculator",
+    "SWP Calculator",
+    "PPF Calculator",
+    "FD Calculator",
+    "RD Calculator",
+    "NPS Calculator",
+    "NSC Calculator",
+    "SSY Calculator",
+    "Sukanya Samriddhi Calculator",
+    "EMI Calculator",
+    "Home Loan Calculator",
+    "Car Loan Calculator",
+    "Personal Loan Calculator",
+    "Education Loan Calculator",
+    "Retirement Calculator",
+    "Child Education Calculator",
+    "Inflation Calculator",
+    "Gratuity Calculator",
+    "GST Calculator",
+    "Compound Interest Calculator",
+    "Simple Interest Calculator",
+    "ROI Calculator",
+    "Tax Saving Investments",
+    "Financial Planning",
+    "Wealth Management Tools",
+    "Investment Growth Calculator",
+    "Mutual Fund Returns",
+    "SIP Returns Calculation",
+    "Investment Comparison",
+    "Retirement Planning",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Sleep Time Calculator | Find Your Optimal Bedtime & Wake-up Time",
-    description:
-      "Calculate ideal sleep times based on your wake-up or bedtime. Get science-backed recommendations for complete sleep cycles to wake up refreshed.",
-    url: "https://yourwebsite.com/sleep-time-calculator",
-    siteName: "Sleep Wellness Tools",
-    images: [
-      {
-        url: "https://yourwebsite.com/sleep-time-calculator-og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Sleep Time Calculator interface showing optimal bedtime and wake-up time recommendations",
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/calc",
+    title: "Financial Calculators - SIP, EMI, PPF, FD & More | SIPGo",
+    description:
+      "Comprehensive suite of 20+ financial calculators for SIP, mutual funds, loans, tax-saving investments, and retirement planning. Compare returns instantly.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Sleep Time Calculator | Find Your Optimal Bedtime & Wake-up Time",
+    title: "Financial Calculators - SIP, EMI, PPF, FD & More | SIPGo",
     description:
-      "Calculate ideal sleep times based on your wake-up or bedtime. Get science-backed recommendations for complete sleep cycles to wake up refreshed.",
-    images: ["https://yourwebsite.com/sleep-time-calculator-twitter-image.png"],
+      "Comprehensive suite of 20+ financial calculators for SIP, mutual funds, loans, tax-saving investments, and retirement planning. Compare returns instantly.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/sleep-time-calculator",
+    canonical: "https://www.sipgo.in/calc",
   },
 };
 

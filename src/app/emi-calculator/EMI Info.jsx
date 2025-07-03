@@ -57,6 +57,7 @@ function EMIInfo() {
       <h2 className="text-[22px] sm:text-2xl md:text-3xl font-bold md:text-center mb-6 text-blue-600">
         EMI - A Comprehensive Guide
       </h2>
+
       {/* Introduction Section */}
       <section className="my-4 md:my-6">
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
@@ -70,6 +71,7 @@ function EMIInfo() {
           components.
         </p>
       </section>
+
       {/* Components of EMI */}
       <section className="my-4 md:my-6">
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">

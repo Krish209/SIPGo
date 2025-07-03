@@ -5,47 +5,36 @@ import KVPFAQ from "./KVP Faq";
 import KVPInfo from "./KVP Info";
 
 export const metadata = {
-  title: "Time Duration Calculator | Calculate Time Between Two Points",
+  title: "KVP Calculator - Calculate Maturity Value for Kisan Vikas Patra",
   description:
-    "Free online tool to calculate duration between two times. Supports 12-hour and 24-hour formats. Get hours, minutes, and seconds between any two times.",
+    "Estimate KVP maturity value and learn about the Kisan Vikas Patra scheme including interest rate, tenure, and tax rules.",
   keywords: [
-    "time calculator",
-    "duration calculator",
-    "time difference",
-    "hours calculator",
-    "work hours calculator",
-    "time between times",
-    "12-hour format calculator",
-    "24-hour format calculator",
+    "KVP Calculator",
+    "Kisan Vikas Patra Interest",
+    "KVP Maturity",
+    "KVP Tax",
+    "Savings Scheme India",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Time Duration Calculator | Precise Time Difference Tool",
-    description:
-      "Calculate precise duration between any two times in hours, minutes, and seconds",
-    url: "https://yourdomain.com/time-calculator",
-    siteName: "Time Tools",
-    images: [
-      {
-        url: "https://yourdomain.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/kvp-calculator",
+    title: "KVP Calculator - Calculate Maturity Value for Kisan Vikas Patra",
+    description:
+      "Estimate KVP maturity value and learn about the Kisan Vikas Patra scheme including interest rate, tenure, and tax rules.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Time Duration Calculator",
-    description: "Calculate precise duration between any two times",
-    images: ["https://yourdomain.com/og-image.jpg"],
+    title: "KVP Calculator - Calculate Maturity Value for Kisan Vikas Patra",
+    description:
+      "Estimate KVP maturity value and learn about the Kisan Vikas Patra scheme including interest rate, tenure, and tax rules.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/time-calculator",
+    canonical: "https://www.sipgo.in/kvp-calculator",
   },
 };
 
@@ -58,4 +47,3 @@ export default function KVPCalculatorPage() {
     </div>
   );
 }
-

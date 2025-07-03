@@ -1,5 +1,13 @@
+import CarLoanFAQ from "@/app/emi-calculator/Car Loan EMI Faq";
+import CarLoanInfo from "@/app/emi-calculator/Car Loan EMI Info";
+import EducationLoanFAQ from "@/app/emi-calculator/Education Loan EMI Faq";
+import EducationLoanInfo from "@/app/emi-calculator/Education Loan EMI Info";
 import EMIFAQ from "@/app/emi-calculator/EMI Faq";
 import EMIInfo from "@/app/emi-calculator/EMI Info";
+import HomeLoanFAQ from "@/app/emi-calculator/Home Loan EMI Faq";
+import HomeLoanInfo from "@/app/emi-calculator/Home Loan EMI Info";
+import PersonalLoanFAQ from "@/app/emi-calculator/Personal Loan EMI Faq";
+import PersonalLoanInfo from "@/app/emi-calculator/Personal Loan EMI Info";
 
 const loanConfigs = {
   "home-loan-calculator": {
@@ -11,8 +19,8 @@ const loanConfigs = {
       description: "Calculate EMI for your home loan easily...",
       keywords: "home loan, emi calculator",
     },
-    FAQ: EMIFAQ,
-    Info: EMIInfo,
+    FAQ: HomeLoanFAQ,
+    Info: HomeLoanInfo,
   },
   "car-loan-calculator": {
     loanType: "car",
@@ -23,8 +31,8 @@ const loanConfigs = {
       description: "Estimate car loan EMI quickly...",
       keywords: "car loan, emi calculator",
     },
-    FAQ: EMIFAQ,
-    Info: EMIInfo,
+    FAQ: CarLoanFAQ,
+    Info: CarLoanInfo,
   },
   "personal-loan-calculator": {
     loanType: "personal",
@@ -35,8 +43,8 @@ const loanConfigs = {
       description: "Calculate EMI for personal loans in seconds...",
       keywords: "personal loan, emi calculator",
     },
-    FAQ: EMIFAQ,
-    Info: EMIInfo,
+    FAQ: PersonalLoanFAQ,
+    Info: PersonalLoanInfo,
   },
   "education-loan-calculator": {
     loanType: "education",
@@ -47,8 +55,8 @@ const loanConfigs = {
       description: "Easily calculate your EMI for education loans, including interest and repayment.",
       keywords: "education loan, student loan, emi calculator, study loan",
     },
-    FAQ: EMIFAQ,
-    Info: EMIInfo,
+    FAQ: EducationLoanFAQ,
+    Info: EducationLoanInfo,
   },
 };
 

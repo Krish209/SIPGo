@@ -3,49 +3,36 @@
 import DividendYieldCalc from "./Dividend Yield Calc";
 
 export const metadata = {
-  title: "Sleep Length Calculator | Optimize Your Sleep Cycles",
+  title: "Dividend Calculator - Estimate Dividend Income & Yield",
   description:
-    "Calculate your sleep duration, analyze sleep cycles, and find optimal wake-up times for better rest and energy.",
+    "Calculate your expected dividend income and yield based on shares held and dividend declared. Plan your income from equity investments more effectively.",
   keywords: [
-    "sleep calculator",
-    "sleep cycle calculator",
-    "optimal wake up time",
-    "sleep duration",
-    "REM sleep calculator",
-    "best time to wake up",
-    "sleep quality analyzer",
-    "bedtime calculator",
+    "Dividend Calculator",
+    "Dividend Income",
+    "Stock Yield",
+    "Passive Income",
+    "Dividend Yield Calculator",
   ],
-  // authors: [{ name: 'Your Name', url: 'https://yourwebsite.com' }],
 
   openGraph: {
-    title: "Sleep Length Calculator | Optimize Your Sleep Cycles",
-    description:
-      "Calculate your sleep duration, analyze sleep cycles, and find optimal wake-up times for better rest and energy.",
-    url: "https://yourwebsite.com/sleep-calculator",
-    siteName: "Sleep Wellness Tools",
-    images: [
-      {
-        url: "https://yourwebsite.com/sleep-calculator-og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Sleep calculator interface showing sleep cycles and optimal wake times",
-      },
-    ],
-    locale: "en_US",
     type: "website",
+    url: "https://www.sipgo.in/dividend-calculator",
+    title: "Dividend Calculator - Estimate Dividend Income & Yield",
+    description:
+      "Calculate your expected dividend income and yield based on shares held and dividend declared. Plan your income from equity investments more effectively.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Sleep Length Calculator | Optimize Your Sleep Cycles",
+    title: "Dividend Calculator - Estimate Dividend Income & Yield",
     description:
-      "Calculate your sleep duration, analyze sleep cycles, and find optimal wake-up times for better rest and energy.",
-    images: ["https://yourwebsite.com/sleep-calculator-twitter-image.png"],
+      "Calculate your expected dividend income and yield based on shares held and dividend declared. Plan your income from equity investments more effectively.",
+    images: ["https://www.sipgo.in/images/logo.png"],
   },
 
   alternates: {
-    canonical: "https://yourwebsite.com/sleep-calculator",
+    canonical: "https://www.sipgo.in/dividend-calculator",
   },
 };
 

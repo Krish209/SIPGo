@@ -145,7 +145,7 @@ const BlogLayout = ({
 
   return (
     <div className="bg-gray-50 text-night min-h-screen">
-      <Head>
+      <>
         <title>{title}</title>
         <meta
           name="description"
@@ -155,8 +155,8 @@ const BlogLayout = ({
         <link rel="canonical" href={canonicalUrl} />
 
         {/* Hreflang */}
-        <link rel="alternate" hreflang="en" href={canonicalUrl} />
-        <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+        {/* <link rel="alternate" hreflang="en" href={canonicalUrl} />
+        <link rel="alternate" hreflang="x-default" href={canonicalUrl} /> */}
 
         {/* Open Graph / Facebook */}
         <meta property="og:title" content={title} />
@@ -232,7 +232,7 @@ const BlogLayout = ({
             ],
           })}
         </script>
-      </Head>
+      </>
 
       {/* Progress bar */}
       <div
@@ -242,7 +242,7 @@ const BlogLayout = ({
       {showScrollButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg z-50 hover:bg-indigo-700"
+          className="fixed cursor-pointer bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg z-50 hover:bg-indigo-700"
           aria-label="Scroll to top"
         >
           <FiArrowUp className="w-5 h-5" />
