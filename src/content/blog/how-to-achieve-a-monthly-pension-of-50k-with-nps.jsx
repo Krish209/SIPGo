@@ -16,7 +16,7 @@ export const meta = {
     "Passive Income",
     "Wealth Management",
   ],
-  date: "2025-05-25", // ISO format better for SEO
+  // date: "2025-05-25", // ISO format better for SEO
 };
 
 const AchieveMonthlyPensionwithNPS = () => {

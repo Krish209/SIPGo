@@ -3,7 +3,8 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   const baseUrl = "https://www.sipgo.in";
-  const lastMod = "2025-06-15";
+  const lastMod = "2025-07-04";
+  // const lastMod = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
 
   const pages = [
     "",
