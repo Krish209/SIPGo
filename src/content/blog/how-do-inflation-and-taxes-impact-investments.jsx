@@ -11,7 +11,6 @@ export const meta = {
   slug: "how-do-inflation-and-taxes-impact-investments",
   image: "https://www.sipgo.in/images/blogs/tax-inflation.jpeg",
   tags: ["Tax & Inflation", "Returns", "Investment Planning", "Finance"],
-  date: "2025-05-29", // ISO format better for SEO
 };
 
 const InflationandTaxesImpact = () => {
@@ -122,8 +121,6 @@ const InflationandTaxesImpact = () => {
       {...meta} // Spread all meta properties
       author="Ankit Nayak"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/tax-inflation.jpeg"
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

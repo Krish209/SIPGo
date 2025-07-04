@@ -30,8 +30,6 @@ const BlogLayout = ({
   description,
   author,
   role,
-  date,
-  readTime,
   image,
   tags,
   children,
@@ -108,7 +106,7 @@ const BlogLayout = ({
           navigator
             .share({
               title: title,
-              text: metaDescription || excerpt,
+              text: metaDescription,
               url: currentUrl,
             })
             .catch(console.error);
@@ -132,16 +130,7 @@ const BlogLayout = ({
 
   // ISO date format for structured data
   const dateISO = new Date(currentPost.date).toISOString();
-  const modISO = new Date("2025-06-16").toISOString();
-
-  // Generate excerpt from first paragraph if no description
-  const excerpt = useMemo(() => {
-    if (metaDescription) return metaDescription;
-    const firstPara = children.props.children.find(
-      (child) => child.type === "p"
-    );
-    return firstPara?.props.children.substring(0, 160) + "...";
-  }, [metaDescription, children]);
+  const modISO = new Date("2025-07-04").toISOString();
 
   return (
     <div className="bg-gray-50 text-night min-h-screen">
@@ -152,7 +141,7 @@ const BlogLayout = ({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             headline: title,
-            description: metaDescription || excerpt,
+            description: metaDescription,
             author: {
               "@type": "Person",
               name: author,
@@ -174,7 +163,7 @@ const BlogLayout = ({
               "@id": `https://www.sipgo.in/blog/${slug}`,
             },
             keywords: tags.join(", "),
-            articleBody: excerpt, // Consider adding full text for better SEO
+            articleBody: metaDescription, // Consider adding full text for better SEO
           })}
         </script>
 
@@ -211,7 +200,7 @@ const BlogLayout = ({
 
       {/* Progress bar */}
       <div
-        className="fixed top-14 left-0 right-0 h-1 bg-indigo-600 z-50"
+        className="fixed top-14 md:top-13 left-0 right-0 h-1 bg-indigo-600 z-50"
         style={{ width: `${readingProgress}%` }}
       />
       {showScrollButton && (
@@ -277,10 +266,10 @@ const BlogLayout = ({
             </div>
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">
-                <FiCalendar /> <span>{currentPost?.date || date}</span>
+                <FiCalendar /> <span>{currentPost?.date}</span>
               </div>
               <div className="flex items-center space-x-2">
-                <FiClock /> <span>{currentPost?.readTime || read}</span>
+                <FiClock /> <span>{currentPost?.readTime}</span>
               </div>
             </div>
           </div>
@@ -310,28 +299,28 @@ const BlogLayout = ({
               <span className="text-gray-500 font-medium">Share:</span>
               <button
                 onClick={() => shareArticle("twitter")}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
+                className="p-2 cursor-pointer rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
                 aria-label="Share on Twitter"
               >
                 <FaTwitter className="w-5 h-5" />
               </button>
               <button
                 onClick={() => shareArticle("linkedin")}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
+                className="p-2 cursor-pointer rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
                 aria-label="Share on LinkedIn"
               >
                 <FaLinkedin className="w-5 h-5" />
               </button>
               <button
                 onClick={() => shareArticle("facebook")}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
+                className="p-2 cursor-pointer rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
                 aria-label="Share on Facebook"
               >
                 <FaFacebook className="w-5 h-5" />
               </button>
               <button
                 onClick={() => shareArticle()}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
+                className="p-2 cursor-pointer rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors duration-200"
                 aria-label="Share via other methods"
               >
                 <FiShare2 className="w-5 h-5" />

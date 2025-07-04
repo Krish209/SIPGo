@@ -16,7 +16,6 @@ export const meta = {
     "Investing",
     "Income Strategies",
   ],
-  date: "2025-05-29", // ISO format better for SEO
 };
 
 const CreatePassiveIncome = () => {
@@ -126,8 +125,6 @@ const CreatePassiveIncome = () => {
       {...meta} // Spread all meta properties
       author="Surabhi Sharma"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/tree1.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

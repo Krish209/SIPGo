@@ -10,7 +10,6 @@ export const meta = {
   slug: "stocks-vs-mutual-funds",
   image: "https://www.sipgo.in/images/blogs/stock-mutualfund.jpeg",
   tags: ["Investment", "Stocks", "Mutual Funds", "Comparison"],
-  date: "2025-06-01", // ISO format better for SEO
 };
 
 const StocksorMutualFunds = () => {
@@ -131,8 +130,6 @@ const StocksorMutualFunds = () => {
       {...meta} // Spread all meta properties
       author="Deepak Dube"
       role="Financial Advisor"
-      date="June 1, 2025"
-      readTime="10 min read"
       image="/images/blogs/stock-mutualfund.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

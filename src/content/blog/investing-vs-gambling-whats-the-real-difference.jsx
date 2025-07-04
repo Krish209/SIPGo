@@ -11,7 +11,6 @@ export const meta = {
   slug: "investing-vs-gambling-whats-the-real-difference",
   image: "https://www.sipgo.in/images/blogs/investingvsgambling.jpeg",
   tags: ["Finance Mindset", "Investment Psychology", "Risk", "Gambling"],
-  date: "2025-05-26", // ISO format better for SEO
 };
 
 const InvestingVsGambling = () => {
@@ -21,8 +20,6 @@ const InvestingVsGambling = () => {
       {...meta} // Spread all meta properties
       author="Suresh Mohan"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/investingvsgambling.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

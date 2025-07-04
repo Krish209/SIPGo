@@ -16,7 +16,6 @@ export const meta = {
     "Asset Allocation",
     "Risk Management",
   ],
-  date: "2025-05-29", // ISO format better for SEO
 };
 
 const DiversifyPortfolio = () => {
@@ -91,8 +90,6 @@ const DiversifyPortfolio = () => {
       {...meta} // Spread all meta properties
       author="Vrinda Jain"
       role="Financial Advisor"
-      date="May 29, 2025"
-      readTime="4 min read"
       image="/images/blogs/diversify.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

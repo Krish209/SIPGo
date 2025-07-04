@@ -11,7 +11,6 @@ export const meta = {
   slug: "what-are-stocks-etfs-mutual-funds-and-bonds",
   image: "https://www.sipgo.in/images/blogs/stocketf.jpeg",
   tags: ["Education", "Stocks", "ETFs", "Mutual Funds", "Bonds"],
-  date: "2025-05-28", // ISO format better for SEO
 };
 
 const StockEtfMfBond = () => {
@@ -82,8 +81,6 @@ const StockEtfMfBond = () => {
       {...meta} // Spread all meta properties
       author="Gaurav Singh"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/stocketf.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

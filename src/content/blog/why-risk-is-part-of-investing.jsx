@@ -15,7 +15,6 @@ export const meta = {
     "Returns",
     "Investment Psychology",
   ],
-  date: "2025-05-26", // ISO format better for SEO
 };
 
 const WhyRiskIsPartOfInvesting = () => {
@@ -109,8 +108,6 @@ const WhyRiskIsPartOfInvesting = () => {
       {...meta} // Spread all meta properties
       author="Haresh Yadav"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/riskvsreward3.png" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

@@ -10,7 +10,6 @@ export const meta = {
   slug: "sip-vs-lumpsum",
   image: "https://www.sipgo.in/images/blogs/sip-lump2.jpeg",
   tags: ["Investment", "SIP", "Lumpsum", "Financial Planning"],
-  date: "2025-05-25", // ISO format better for SEO
 };
 
 const SIPvsLumpsum = () => {
@@ -67,8 +66,6 @@ const SIPvsLumpsum = () => {
       {...meta} // Spread all meta properties
       author="Dev Pal"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/sip-lump2.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

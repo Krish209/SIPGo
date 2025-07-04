@@ -10,7 +10,6 @@ export const meta = {
   slug: "how-to-invest-if-you-are-self-employed-or-a-freelancer",
   image: "https://www.sipgo.in/images/blogs/self-employed.jpeg",
   tags: ["Self-Employed", "Freelancer", "Investing", "Financial Independence"],
-  date: "2025-05-29", // ISO format better for SEO
 };
 
 const SelfEmployedOrFreelancer = () => {
@@ -145,8 +144,6 @@ const SelfEmployedOrFreelancer = () => {
       {...meta} // Spread all meta properties
       author="Chaitanya Rao"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/self-employed.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

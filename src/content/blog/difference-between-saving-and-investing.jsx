@@ -11,7 +11,6 @@ export const meta = {
   slug: "difference-between-saving-and-investing",
   image: "https://www.sipgo.in/images/blogs/saving-investing.jpeg",
   tags: ["Finance Basics", "Saving", "Investing", "Money Management"],
-  date: "2025-06-01", // ISO format better for SEO
 };
 
 const SavingvsInvesting = () => {
@@ -65,8 +64,6 @@ const SavingvsInvesting = () => {
       {...meta} // Spread all meta properties
       author="Chaitanya Rao"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/saving-investing.jpeg"
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

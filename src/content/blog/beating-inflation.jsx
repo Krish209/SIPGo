@@ -16,7 +16,6 @@ export const meta = {
     "Smart Investing",
     "Financial Literacy",
   ],
-  date: "2025-05-28",
 };
 
 const BeatingInflation = () => {
@@ -60,8 +59,6 @@ const BeatingInflation = () => {
       {...meta} // Spread all meta properties
       author="Rahul Das"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/inflation2.jpeg"
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}

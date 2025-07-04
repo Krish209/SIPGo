@@ -11,7 +11,6 @@ export const meta = {
   slug: "how-does-compounding-work",
   image: "https://www.sipgo.in/images/blogs/compounding.jpeg",
   tags: ["Compounding", "Long-term Investing", "Growth", "Financial Education"],
-  date: "2025-05-29", // ISO format better for SEO
 };
 
 const CompoundingWork = () => {
@@ -145,8 +144,6 @@ const CompoundingWork = () => {
       {...meta} // Spread all meta properties
       author="Devika Gupta"
       role="Financial Advisor"
-      date="May 26, 2025"
-      readTime="10 min read"
       image="/images/blogs/compounding.jpeg"
       isPremium={true} // set as per your requirement
       isWeeklyUpdated={true}
