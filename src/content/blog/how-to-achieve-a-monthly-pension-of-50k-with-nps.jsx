@@ -55,7 +55,7 @@ const AchieveMonthlyPensionwithNPS = () => {
       {...meta} // Spread all meta properties
       author="Tarun Kumar"
       role="Financial Advisor"
-      date="May 26, 2025"
+      // date="May 26, 2025"
       readTime="10 min read"
       image="/images/blogs/registration2.jpeg" // Adjust the path as necessary
       isPremium={true} // set as per your requirement

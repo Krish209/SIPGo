@@ -22,6 +22,7 @@ import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { blogPosts } from "./BlogPost";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 const BlogLayout = ({
   slug,
@@ -45,7 +46,7 @@ const BlogLayout = ({
   // const { slug } = useParams();
   const currentPost = blogPosts.find((post) => post.slug === slug);
 
-  if (!currentPost) return <div>Post not found.</div>;
+  if (!currentPost) return notFound();
 
   // Filter out the current post
   const otherPosts = blogPosts.filter((p) => p.path !== currentPost.path);
@@ -130,9 +131,8 @@ const BlogLayout = ({
   const metaDescription = description;
 
   // ISO date format for structured data
-  const dateISO = new Date(date).toISOString();
+  const dateISO = new Date(currentPost.date).toISOString();
   const modISO = new Date("2025-06-16").toISOString();
-  const canonicalUrl = `https://www.sipgo.in/blog/${slug}`;
 
   // Generate excerpt from first paragraph if no description
   const excerpt = useMemo(() => {
@@ -211,7 +211,7 @@ const BlogLayout = ({
 
       {/* Progress bar */}
       <div
-        className="fixed top-13 left-0 right-0 h-1 bg-indigo-600 z-50"
+        className="fixed top-14 left-0 right-0 h-1 bg-indigo-600 z-50"
         style={{ width: `${readingProgress}%` }}
       />
       {showScrollButton && (
