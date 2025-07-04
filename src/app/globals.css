@@ -14,6 +14,7 @@
   /* ========== Custom Color Definitions ========== */
   /* Background Colors */
   .bg-night { background-color: rgb(21, 20, 20); }
+  .bg-grap { background-color: rgb(166, 140, 238); }
   .bg-primary { background-color: rgb(43, 41, 41); }
   .bg-crayola { background-color: rgb(255, 128, 66); }
   .bg-mint { background-color: rgb(0, 196, 159); }
@@ -28,6 +29,7 @@
 
   /* Text Colors */
   .text-night { color: rgb(21, 20, 20); }
+  .text-grap { color: rgb(166, 140, 238); }
   .text-primary { color: rgb(43, 41, 41); }
   .text-crayola { color: rgb(255, 128, 66); }
   .text-mint { color: rgb(0, 196, 159); }
@@ -42,6 +44,7 @@
 
   /* Border Colors */
   .border-night { border-color: rgb(21, 20, 20); }
+  .border-grap { border-color: rgb(166, 140, 238); }
   .border-primary { border-color: rgb(43, 41, 41); }
   .border-crayola { border-color: rgb(255, 128, 66); }
   .border-mint { border-color: rgb(0, 196, 159); }

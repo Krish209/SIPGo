@@ -17,13 +17,12 @@ import {
   FaRegBookmark,
 } from "react-icons/fa";
 
-import Head from "next/head"; // for SEO, Schema Markup, etc.
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { blogPosts } from "./BlogPost";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { formatDate } from "@/utils/NumberFormater";
+import { formatDateISO } from "@/utils/NumberFormater";
 
 const BlogLayout = ({
   slug,
@@ -130,9 +129,9 @@ const BlogLayout = ({
   const metaDescription = description;
 
   // ISO date format for structured data
-  // const dateISO = formatDate(currentPost.date) ;
+  const dateISO = formatDateISO(currentPost.date);
   // const dateISO = new Date(currentPost.date).toISOString();
-  const dateISO = new Date("2025-06-01").toISOString();
+  // const dateISO = new Date("2025-06-01").toISOString();
   const modISO = new Date("2025-07-04").toISOString();
 
   return (
@@ -232,6 +231,7 @@ const BlogLayout = ({
 
         {/* Header */}
         <div className="mb-4 sm:mb-6">
+          
           <div className="flex justify-between items-start mb-4">
             <div className="flex space-x-2">
               {isPremium && (
@@ -249,6 +249,8 @@ const BlogLayout = ({
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             {title}
+
+            formate
           </h1>
 
           <div className="flex vs:flex-row flex-col space-y-4 sm:space-y-0 justify-between text-sm text-gray-600">

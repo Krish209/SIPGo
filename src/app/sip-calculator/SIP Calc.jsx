@@ -262,7 +262,7 @@ function SIPCalc() {
       <div className="flex space-x-4 sm:space-x-6 lg:space-x-8 px-0.5 vs:p-0 mb-4">
         <button
           onClick={() => setIsSIP(true)}
-          className={`px-6 py-2 border-2 border-tomato text-sm font-semibold rounded-lg  ${
+          className={`px-6 py-2 border-2 border-tomato text-sm font-bold rounded-lg ${
             isSIP
               ? "bg-tomato text-white"
               : "bg-white text-black hover:bg-gray-200 cursor-pointer"
@@ -273,7 +273,7 @@ function SIPCalc() {
 
         <button
           onClick={() => setIsSIP(false)}
-          className={`px-6 py-2 border-2 border-tomato text-sm font-semibold rounded-lg  ${
+          className={`px-6 py-2 border-2 border-tomato text-sm font-bold rounded-lg ${
             !isSIP
               ? "bg-tomato text-white"
               : "bg-white text-black hover:bg-gray-200 cursor-pointer"

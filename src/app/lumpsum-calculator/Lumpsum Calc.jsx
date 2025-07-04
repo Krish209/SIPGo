@@ -262,8 +262,8 @@ function LumpsumCalc() {
       <div className="flex space-x-4 sm:space-x-6 lg:space-x-8 px-0.5 vs:p-0 mb-4">
         <button
           onClick={() => setIsSIP(true)}
-          className={`relative px-6 py-2 isolation-auto z-10 border-2 border-tomato before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-lg before:bg-tomato before:-z-10 before:aspect-square overflow-hidden before:hover:duration-400 inline-flex items-center justify-center text-sm font-semibold rounded-lg disabled:opacity-50 disabled:pointer-events-none ${
-            isSIP ? "bg-tomato text-white" : "bg-white text-black"
+          className={`px-6 py-2 border-2 border-tomato text-sm font-bold rounded-lg ${
+            isSIP ? "bg-tomato text-white" : "bg-white text-black hover:bg-gray-200 cursor-pointer"
           }`}
         >
           SIP
@@ -271,8 +271,8 @@ function LumpsumCalc() {
 
         <button
           onClick={() => setIsSIP(false)}
-          className={`relative px-6 py-2 isolation-auto z-10 border-2 border-tomato before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-lg before:bg-tomato before:-z-10 before:aspect-square overflow-hidden before:hover:duration-400 inline-flex items-center justify-center text-sm font-semibold rounded-lg disabled:opacity-50 disabled:pointer-events-none ${
-            !isSIP ? "bg-tomato text-white" : "bg-white text-black"
+          className={`px-6 py-2 border-2 border-tomato text-sm font-bold rounded-lg ${
+            !isSIP ? "bg-tomato text-white" : "bg-white text-black hover:bg-gray-200 cursor-pointer"
           }`}
         >
           Lumpsum

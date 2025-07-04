@@ -22,6 +22,11 @@ export const formatDate = (dateString) => {
   });
 };
 
+export const formatDateISO = (dateStr) => {
+  const date = new Date(dateStr);
+  return date.toISOString().split('T')[0];
+}
+
 export const formatChartNumber = (num) => {
   return num.toLocaleString("en-IN", {
     minimumFractionDigits: 0,
