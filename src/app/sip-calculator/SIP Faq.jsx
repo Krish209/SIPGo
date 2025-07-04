@@ -66,7 +66,7 @@ const SIPFAQ = () => {
   ];
 
   return (
-    <div className="mb-4 text-primary">
+    <div className="p-2 vs:p-4 mb-4 text-primary">
       {/* JSON-LD for FAQ */}
       <script type="application/ld+json">
         {JSON.stringify({

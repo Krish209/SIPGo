@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
@@ -44,11 +44,8 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-indigo-100 to-pink-100 flex items-center justify-center py-12 px-4">
-      {/* SEO Meta Tags */}
       <>
-        
-
-        {/* Enhanced Schema Markup */}
+        {/* SEO Meta Tags */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -97,14 +94,14 @@ const Contact = () => {
 
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 text-primary bg-white shadow-xl rounded-3xl p-8 md:p-14">
         {/* Left - Contact Info */}
-        <div className="space-y-8">
+        <div className="space-y-6 sm:space-y-8">
           <h1 className="text-4xl font-bold">Get in Touch</h1>
           <p className="text-gray-600 text-lg">
             We'd love to hear from you! Whether you have a question about our
             financial calculators or need support with investment planning.
           </p>
 
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             <div className="flex items-start space-x-3">
               <FaLocationDot className="w-6 h-6 text-indigo-600 mt-1 flex-shrink-0" />
               <div>
@@ -245,12 +242,15 @@ const Contact = () => {
               By submitting this form, you agree to our{" "}
               <Link
                 href="/privacy-policy"
-                className="text-indigo-600 hover:underline"
+                className="text-indigo-600 hover:underline underline-offset-2 hover:text-indigo-700"
               >
                 Privacy Policy
               </Link>{" "}
               and{" "}
-              <Link href="/terms" className="text-indigo-600 hover:underline">
+              <Link
+                href="/terms"
+                className="text-indigo-600 hover:underline underline-offset-2 hover:text-indigo-700"
+              >
                 Terms and Condition
               </Link>
               .

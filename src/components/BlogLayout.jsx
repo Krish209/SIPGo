@@ -259,7 +259,7 @@ const BlogLayout = ({
             {title}
           </h1>
 
-          <div className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 justify-between text-sm text-gray-600">
+          <div className="flex vs:flex-row flex-col space-y-4 sm:space-y-0 justify-between text-sm text-gray-600">
             <div className="flex items-center space-x-4">
               <div className="h-10 w-10 rounded-full bg-indigo-100 flex items-center justify-center">
                 <span className="text-indigo-800 font-semibold tracking-wider text-lg">

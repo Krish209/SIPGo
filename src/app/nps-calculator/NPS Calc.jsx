@@ -167,7 +167,7 @@ function NPSCalc() {
   const canonicalUrl = "https://www.sipgo.in/nps-calculator";
 
   return (
-    <div className="p-1 vs:p-4 bg-white text-night">
+    <div className="p-2 vs:p-4 bg-white text-night">
       <>
         {/* ========== CRITICAL SCHEMA MARKUP ========== */}
 
@@ -214,7 +214,7 @@ function NPSCalc() {
         </script>
       </>
 
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold px-0.5 vs:p-0 my-2 sm:my-4">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold my-2 sm:my-4">
         NPS Calculator
       </h1>
 

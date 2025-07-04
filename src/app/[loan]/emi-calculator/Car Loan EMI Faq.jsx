@@ -52,7 +52,7 @@ const CarLoanFAQ = () => {
   ];
 
   return (
-    <div className="mb-4 text-primary">
+    <div className="p-2 vs:p-4 mb-4 text-primary">
       {/* JSON-LD Structured Data */}
       <script type="application/ld+json">
         {JSON.stringify({
