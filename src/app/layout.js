@@ -32,9 +32,6 @@ export const metadata = {
       "x-default": "https://www.sipgo.in/",
     },
   },
-  other: {
-    "google-site-verification": "x79cEmQ7U8SWq_WOKaSFuCUyoyOQFKxLCtFmrHDyNBo",
-  },
 
   openGraph: {
     title: "SIPGo - Smart Financial Calculators for Investment Planning",

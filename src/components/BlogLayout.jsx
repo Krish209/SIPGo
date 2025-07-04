@@ -129,9 +129,9 @@ const BlogLayout = ({
   const metaDescription = description;
 
   // ISO date format for structured data
-  const dateISO = formatDateISO(currentPost.date);
+  // const dateISO = formatDateISO(currentPost.date);
   // const dateISO = new Date(currentPost.date).toISOString();
-  // const dateISO = new Date("2025-06-01").toISOString();
+  const dateISO = new Date("2025-06-01").toISOString();
   const modISO = new Date("2025-07-04").toISOString();
 
   return (
