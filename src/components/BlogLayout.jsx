@@ -23,6 +23,7 @@ import Link from "next/link";
 import { blogPosts } from "./BlogPost";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import { formatDate } from "@/utils/NumberFormater";
 
 const BlogLayout = ({
   slug,
@@ -129,7 +130,9 @@ const BlogLayout = ({
   const metaDescription = description;
 
   // ISO date format for structured data
-  const dateISO = new Date(currentPost.date).toISOString();
+  // const dateISO = formatDate(currentPost.date) ;
+  // const dateISO = new Date(currentPost.date).toISOString();
+  const dateISO = new Date("2025-06-01").toISOString();
   const modISO = new Date("2025-07-04").toISOString();
 
   return (
