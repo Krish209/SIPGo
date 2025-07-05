@@ -123,7 +123,7 @@ function Footer() {
           </li>
           <li>
             <a
-              href="https://www.youtube.com/@S1PGo"
+              href="https://www.youtube.com/@justsipgo"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
