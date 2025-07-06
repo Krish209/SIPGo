@@ -249,8 +249,6 @@ const BlogLayout = ({
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             {title}
-
-            formate
           </h1>
 
           <div className="flex vs:flex-row flex-col space-y-4 sm:space-y-0 justify-between text-sm text-gray-600">
@@ -288,7 +286,7 @@ const BlogLayout = ({
               alt={`Illustration image for ${title}`} // More descriptive alt text
               className="w-full rounded-xl shadow-md"
               width={800} // Replace with your image's actual width
-              height={600} // Replace with your image's actual height
+              height={450} // Replace with your image's actual height
               loading="lazy"
             />
           </figure>
