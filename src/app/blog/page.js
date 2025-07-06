@@ -36,7 +36,6 @@ export const metadata = {
   },
 };
 
-
 function BlogHome() {
   // SEO Meta Variables
   const pageTitle =
@@ -47,6 +46,52 @@ function BlogHome() {
 
   return (
     <div className="min-h-screen text-primary bg-gradient-to-b from-indigo-50 to-white">
+      <>
+        {/* ========== CRITICAL SCHEMA MARKUP ========== */}
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            // Primary WebPage Schema
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: pageTitle,
+            description: pageDescription,
+            url: canonicalUrl,
+            "@id": canonicalUrl,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "SIPGo Financial Calculators",
+              url: "https://www.sipgo.in",
+            },
+            dateModified: "2025-07-05T00:00:00Z",
+          })}
+        </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "@id": "https://www.sipgo.in/blog#breadcrumb",
+            name: "Blog - Financial Insights",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.sipgo.in/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog - Financial Insights",
+                item: "https://www.sipgo.in/blog",
+              },
+            ],
+          })}
+        </script>
+      </>
+
       {/* Page Content */}
       <section className="max-w-7xl mx-auto py-8 md:py-12 px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12">

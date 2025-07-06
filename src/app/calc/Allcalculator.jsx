@@ -234,6 +234,30 @@ const AllCalculator = ({
               })),
             })}
           </script>
+
+          {/* Breadcrumb Schema */}
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "@id": "https://www.sipgo.in/calc#breadcrumb",
+              name: "Financial Calculators",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://www.sipgo.in/",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Financial Calculators",
+                  item: "https://www.sipgo.in/calc",
+                },
+              ],
+            })}
+          </script>
         </>
       )}
 

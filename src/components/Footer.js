@@ -57,6 +57,11 @@ function Footer() {
                     Support
                   </Link>
                 </li>
+                <li>
+                  <Link href="/calc" className="hover:text-indigo-600">
+                    Calculator Hub
+                  </Link>
+                </li>
               </ul>
             </div>
 
