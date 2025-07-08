@@ -15,6 +15,11 @@ const CarLoanFAQ = () => {
         "A Car Loan EMI (Equated Monthly Installment) is a fixed monthly payment made by a borrower to repay a car loan over time, including both principal and interest.",
     },
     {
+      question: "What is the ideal loan term for a car loan?",
+      answer:
+        "Shorter terms (36-48 months) save on interest, but have higher monthly payments. Avoid long terms (72+ months) unless necessary.",
+    },
+    {
       question: "How is the EMI for a car loan calculated?",
       answer:
         "Car loan EMI is calculated based on the loan amount, interest rate, and loan tenure using a standard formula or EMI calculator.",
@@ -23,6 +28,11 @@ const CarLoanFAQ = () => {
       question: "Can I prepay my car loan EMI?",
       answer:
         "Yes, most lenders allow full or partial prepayment of car loans. This helps reduce the total interest paid or shorten the loan duration.",
+    },
+    {
+      question: "Can I get a car loan with bad credit?",
+      answer:
+        "Yes, but expect higher interest rates. Consider applying with a co-signer or seeking lenders that specialize in subprime loans.",
     },
     {
       question: "Is there a prepayment penalty on car loans?",
@@ -38,6 +48,11 @@ const CarLoanFAQ = () => {
       question: "Does my credit score affect car loan EMI?",
       answer:
         "Yes, a higher credit score can get you a lower interest rate, which reduces your EMI. Poor credit may lead to higher EMIs or loan rejection.",
+    },
+    {
+      question: "Does getting pre-approved hurt my credit?",
+      answer:
+        "No. Pre-approvals typically use a soft credit check, which does not affect your score.",
     },
     {
       question: "Can I change my EMI amount later?",
@@ -78,7 +93,7 @@ const CarLoanFAQ = () => {
       </script>
 
       <h2 className="text-xl md:text-2xl font-semibold text-center mb-4 md:mb-6">
-        Frequently Asked Questions - Car Loan EMI
+        Frequently Asked Questions - Car Loan
       </h2>
 
       <div className="space-y-2">

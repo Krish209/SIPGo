@@ -48,11 +48,11 @@ function Header() {
   }, []);
 
   return (
-    <header className="bg-white text-primary shadow-md sticky top-0 z-50 border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-8 py-2">
+    <header className="bg-white text-primary shadow-md sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-8 py-2 md:py-3">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/images/logo.webp" alt="Logo of the SIPGo Website" width={32} height={32} />
+            <Image src="/images/logo.webp" alt="Logo of the SIPGo Website" width={36} height={36} />
           </Link>
 
           {/* Desktop Navigation */}

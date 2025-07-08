@@ -20,12 +20,22 @@ const EducationLoanFAQ = () => {
         "Repayment usually starts after a moratorium period, which includes the course duration plus 6 to 12 months (known as the grace period). Interest may accrue during this time.",
     },
     {
+      question: "Can I get an education loan without collateral?",
+      answer:
+        "Yes, many banks provide unsecured education loans up to a certain amount, typically for courses within the country or lower amounts.",
+    },
+    {
       question: "How is EMI for an education loan calculated?",
       answer:
         "EMI is calculated based on the loan amount, interest rate, and repayment tenure using the standard EMI formula or an online EMI calculator.",
     },
     {
       question: "Can I repay my education loan before the EMI starts?",
+      answer:
+        "Yes, you can start making payments during the moratorium period. This helps reduce the interest burden and overall loan cost.",
+    },
+    {
+      question: "What happens if I default on my education loan?",
       answer:
         "Yes, you can start making payments during the moratorium period. This helps reduce the interest burden and overall loan cost.",
     },
@@ -78,7 +88,7 @@ const EducationLoanFAQ = () => {
       </script>
 
       <h2 className="text-xl md:text-2xl font-semibold text-center mb-4 md:mb-6">
-        Frequently Asked Questions - Education Loan EMI
+        Frequently Asked Questions - Education Loan
       </h2>
 
       <div className="space-y-2">

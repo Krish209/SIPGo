@@ -416,9 +416,9 @@ const SIPInfo = () => {
           of the tax structure for various types of mutual funds:
         </p>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           1. Tax on Equity Mutual Funds
-        </h3>
+        </h4>
         <ul className="list-disc pl-6 mb-4 space-y-2">
           <li>
             <strong>Short-Term Capital Gains (STCG)</strong>: If you sell equity
@@ -436,9 +436,9 @@ const SIPInfo = () => {
           </li>
         </ul>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           2. Tax on Debt Mutual Funds
-        </h3>
+        </h4>
         <ul className="list-disc pl-6 mb-4 space-y-2">
           <li>
             <strong>Short-Term Capital Gains (STCG)</strong>: If you sell debt
@@ -452,9 +452,9 @@ const SIPInfo = () => {
           </li>
         </ul>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           3. Tax on Hybrid Mutual Funds
-        </h3>
+        </h4>
         <ul className="list-disc pl-6 mb-4 space-y-2">
           <li>
             If the equity exposure is more than 65%, it is treated as an equity
@@ -466,9 +466,9 @@ const SIPInfo = () => {
           </li>
         </ul>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           4. Tax on ELSS (Equity Linked Savings Schemes)
-        </h3>
+        </h4>
         <ul className="list-disc pl-6 space-y-2">
           <li>
             <strong>ELSS funds</strong> offer tax benefits under Section 80C,
@@ -498,9 +498,9 @@ const SIPInfo = () => {
           inflation erodes the purchasing power of your money, which can affect
           your overall returns. Here’s how inflation can influence your SIP:
         </p>
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           How Inflation Affects SIPs
-        </h3>
+        </h4>
         <ul className="list-disc pl-6 space-y-2 ">
           <li>
             <strong>Erosion of Purchasing Power</strong>: Inflation reduces the
@@ -569,9 +569,9 @@ const SIPInfo = () => {
           Here are some additional options:
         </p>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           1. SIP in ETFs (Exchange-Traded Funds)
-        </h3>
+        </h4>
         <p className="mb-2 md:mb-4">
           ETFs track specific indices like the Nifty 50 or Sensex. They are
           cost-effective, offering lower expense ratios compared to mutual
@@ -580,9 +580,9 @@ const SIPInfo = () => {
           investments.
         </p>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           2. SIP in Gold Funds
-        </h3>
+        </h4>
         <p className="mb-2 md:mb-4">
           Gold is often seen as a hedge against inflation. By investing in gold
           funds or Gold ETFs through SIP, you can accumulate gold in a digital
@@ -591,9 +591,9 @@ const SIPInfo = () => {
           market volatility or inflation.
         </p>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           3. SIP in Balanced or Hybrid Funds
-        </h3>
+        </h4>
         <p className="mb-2 md:mb-4">
           Hybrid funds invest in both equities and debt, offering a balanced
           risk-return profile. These funds are ideal for investors looking for
@@ -601,9 +601,9 @@ const SIPInfo = () => {
           through SIP is a great way to gain exposure to both asset classes.
         </p>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           4. SIP in International Funds
-        </h3>
+        </h4>
         <p className="mb-2 md:mb-4">
           International funds allow you to invest in global markets, offering
           diversification beyond the domestic market. By investing in
@@ -612,9 +612,9 @@ const SIPInfo = () => {
           risks.
         </p>
 
-        <h3 className="text-lg md:text-xl font-semibold mb-2">
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
           5. SIP in REITs (Real Estate Investment Trusts)
-        </h3>
+        </h4>
         <p className="mb-2 md:mb-4">
           REITs allow you to invest in real estate without owning property
           directly, and you can invest via SIP to gain exposure to real estate

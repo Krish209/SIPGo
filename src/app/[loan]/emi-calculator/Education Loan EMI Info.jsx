@@ -3,6 +3,7 @@ import React from "react";
 export default function EducationLoanInfo() {
   const datePublished = new Date("2025-04-01").toISOString();
   const dateModified = new Date("2025-06-01").toISOString();
+
   return (
     <article className="p-2 vs:p-4 text-primary text-[15px] md:text-base">
       {/* Article as information Schema Markup */}
@@ -10,8 +11,8 @@ export default function EducationLoanInfo() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          url: "https://www.sipgo.in/fd-calculator#guide",
-          "@id": "https://www.sipgo.in/fd-calculator#guide",
+          url: "https://www.sipgo.in/education-loan-calculator#guide",
+          "@id": "https://www.sipgo.in/education-loan-calculator#guide",
           headline:
             "FD Calculator – Fixed Deposit Maturity and Interest Estimator",
           description:
@@ -34,7 +35,7 @@ export default function EducationLoanInfo() {
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://www.sipgo.in/fd-calculator",
+            "@id": "https://www.sipgo.in/education-loan-calculator",
           },
           mainEntity: {
             "@type": "Table",
@@ -77,7 +78,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Why Are Education Loans Important?
         </h3>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
             Bridges the Financial Gap: Many families cannot afford the full cost
             of higher education upfront.
@@ -104,70 +105,64 @@ export default function EducationLoanInfo() {
         </h3>
 
         {/* Government Education Loans */}
-        <div className="mb-2 md:mb-4">
-          <h4 className="text-xl font-semibold mb-2 text-indigo-500">
-            1. Government Education Loans
-          </h4>
-          <p className="text-gray-700 leading-relaxed mb-2">
-            Government-backed student loans often offer{" "}
-            <strong>low-interest rates</strong>, subsidies, and easier terms.
-          </p>
-          <p className="italic text-gray-600 mb-2">
-            Examples: U.S. Federal Student Loans (Stafford, PLUS), UK’s Student
-            Loans Company, India’s Education Loan schemes by public banks.
-          </p>
-          <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-1">
-            <li>
-              Lower interest rates, sometimes interest-free during study period.
-            </li>
-            <li>Flexible repayment tenures.</li>
-            <li>Possible income-based repayment plans.</li>
-            <li>Some may offer loan forgiveness or waiver programs.</li>
-          </ul>
-        </div>
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
+          1. Government Education Loans
+        </h4>
+        <p className="mb-2">
+          Government-backed student loans often offer{" "}
+          <strong>low-interest rates</strong>, subsidies, and easier terms.
+        </p>
+        <p className="italic mb-2">
+          Examples: U.S. Federal Student Loans (Stafford, PLUS), UK’s Student
+          Loans Company, India’s Education Loan schemes by public banks.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 mb-2 md:mb-4">
+          <li>
+            Lower interest rates, sometimes interest-free during study period.
+          </li>
+          <li>Flexible repayment tenures.</li>
+          <li>Possible income-based repayment plans.</li>
+          <li>Some may offer loan forgiveness or waiver programs.</li>
+        </ul>
 
         {/* Private Education Loans */}
-        <div className="mb-6">
-          <h4 className="text-xl font-semibold mb-2 text-indigo-500">
-            2. Private Education Loans
-          </h4>
-          <p className="text-gray-700 leading-relaxed mb-2">
-            Offered by private banks and lenders, these loans are ideal when
-            government loans don’t cover the full cost or aren’t available.
-          </p>
-          <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-1">
-            <li>Higher interest rates than government loans.</li>
-            <li>
-              Credit score and income of borrower/co-applicant heavily impact
-              approval.
-            </li>
-            <li>May require collateral.</li>
-            <li>Less flexible repayment options.</li>
-          </ul>
-        </div>
+        <h4 className="text-lg md:text-xl font-semibold mb-2">
+          2. Private Education Loans
+        </h4>
+        <p className="mb-2">
+          Offered by private banks and lenders, these loans are ideal when
+          government loans don’t cover the full cost or aren’t available.
+        </p>
+        <ul className="list-disc pl-6 space-y-2 mb-2 md:mb-4">
+          <li>Higher interest rates than government loans.</li>
+          <li>
+            Credit score and income of borrower/co-applicant heavily impact
+            approval.
+          </li>
+          <li>May require collateral.</li>
+          <li>Less flexible repayment options.</li>
+        </ul>
 
         {/* International Education Loans */}
-        <div>
-          <h4 className="text-xl font-semibold mb-2 text-indigo-500">
-            3. International Education Loans
-          </h4>
-          <p className="text-gray-700 leading-relaxed mb-2">
-            Designed specifically for students studying abroad.
-          </p>
-          <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-1">
-            <li>
-              Often require a <strong>cosigner</strong> or collateral.
-            </li>
-            <li>
-              Higher loan amounts due to higher overseas tuition and living
-              expenses.
-            </li>
-            <li>
-              May have different disbursement terms depending on the country and
-              institution.
-            </li>
-          </ul>
-        </div>
+        <h4 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">
+          3. International Education Loans
+        </h4>
+        <p className="mb-2">
+          Designed specifically for students studying abroad.
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            Often require a <strong>cosigner</strong> or collateral.
+          </li>
+          <li>
+            Higher loan amounts due to higher overseas tuition and living
+            expenses.
+          </li>
+          <li>
+            May have different disbursement terms depending on the country and
+            institution.
+          </li>
+        </ul>
       </section>
 
       {/* What Can Education Loans Cover */}
@@ -175,7 +170,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           What Can Education Loans Cover?
         </h3>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-1">
+        <ul className="list-disc pl-6 space-y-1">
           <li>Tuition fees</li>
           <li>Hostel or accommodation fees</li>
           <li>Books, stationery, and study materials</li>
@@ -191,11 +186,11 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Eligibility Criteria for Education Loans
         </h3>
-        <p className="text-gray-700 leading-relaxed mb-4">
+        <p className="mb-2">
           While requirements vary by lender and country, common eligibility
           criteria include:
         </p>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
             Admission to a recognized institute or university: Proof of
             admission is mandatory.
@@ -226,7 +221,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Documents Required to Apply for an Education Loan
         </h3>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-1">
+        <ul className="list-disc pl-6 space-y-2">
           <li>Admission letter or provisional admission proof</li>
           <li>Academic transcripts and certificates</li>
           <li>Identity proof (passport, voter ID, etc.)</li>
@@ -245,7 +240,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Step-by-Step Application Process
         </h3>
-        <ol className="list-decimal list-inside text-gray-700 leading-relaxed space-y-2">
+        <ol className="list-decimal list-inside space-y-2">
           <li>
             Research and Compare: Look for loan options with the best interest
             rates, tenure, and terms.
@@ -274,7 +269,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Interest Rates and Charges
         </h3>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
             <strong>Fixed vs Floating Interest Rate:</strong> Fixed rates remain
             constant throughout the loan tenure. Floating rates fluctuate with
@@ -294,7 +289,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Repayment Terms
         </h3>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
             Grace Period: Most education loans offer a grace period of 6-12
             months after course completion before repayment starts.
@@ -316,7 +311,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Tax Benefits on Education Loans
         </h3>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="mb-2">
           Many countries offer{" "}
           <strong>tax deductions on the interest paid</strong> on education
           loans. For example, under <em>Section 80E</em> of the Indian Income
@@ -330,7 +325,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Advantages of Taking an Education Loan
         </h3>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>Access to quality education without upfront financial burden.</li>
           <li>Flexible repayment options post education.</li>
           <li>Potential tax benefits on interest paid.</li>
@@ -344,7 +339,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Risks and Disadvantages
         </h3>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
             Debt burden: Can lead to financial stress if not managed well.
           </li>
@@ -367,7 +362,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Tips to Choose the Best Education Loan
         </h3>
-        <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>Compare interest rates and total repayment cost.</li>
           <li>Check eligibility and documentation requirements upfront.</li>
           <li>
@@ -379,57 +374,12 @@ export default function EducationLoanInfo() {
         </ul>
       </section>
 
-      {/* FAQs */}
-      <section className="my-4 md:my-6">
-        <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
-          Frequently Asked Questions (FAQs)
-        </h3>
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-semibold text-indigo-500">
-              Q1: Can I get an education loan without collateral?
-            </h3>
-            <p className="text-gray-700">
-              Yes, many banks provide unsecured education loans up to a certain
-              amount, typically for courses within the country or lower amounts.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-indigo-500">
-              Q2: When should I start repaying my education loan?
-            </h3>
-            <p className="text-gray-700">
-              Repayment usually begins after the course completion and the grace
-              period ends.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-indigo-500">
-              Q3: Can education loans be used for study abroad?
-            </h3>
-            <p className="text-gray-700">
-              Yes, many lenders offer special loans for international education
-              covering tuition, living expenses, and travel.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-indigo-500">
-              Q4: What happens if I default on my education loan?
-            </h3>
-            <p className="text-gray-700">
-              Defaulting can lead to penalties, damaged credit score, and legal
-              action. It can also affect your ability to borrow in the future.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Conclusion */}
       <section>
-        <h2 className="text-2xl font-semibold mb-3 text-indigo-600">
+        <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Conclusion
-        </h2>
-        <p className="text-gray-700 leading-relaxed">
+        </h3>
+        <p className="mb-2">
           An <strong>education loan</strong> is a powerful tool that can unlock
           educational opportunities by providing the necessary funds to cover
           higher education costs. However, it is crucial to understand the

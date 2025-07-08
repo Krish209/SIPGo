@@ -15,9 +15,9 @@ const HomeLoanFAQ = () => {
         "A Home Loan EMI (Equated Monthly Installment) is the fixed monthly payment made by a borrower to repay a home loan. It includes both principal and interest components.",
     },
     {
-      question: "How is Home Loan EMI calculated?",
+      question: "Is it better to choose a fixed or floating interest rate?",
       answer:
-        "Home Loan EMI is calculated using the formula: EMI = [P × R × (1+R)^N]/[(1+R)^N–1], where P = principal, R = monthly interest rate, and N = loan tenure in months. Online calculators can simplify this.",
+        "Fixed rates offer stability; floating rates may save money if interest rates fall.",
     },
     {
       question: "Can I get a lower EMI on my home loan?",
@@ -78,7 +78,7 @@ const HomeLoanFAQ = () => {
       </script>
 
       <h2 className="text-xl md:text-2xl font-semibold text-center mb-4 md:mb-6">
-        Frequently Asked Questions - Home Loan EMI
+        Frequently Asked Questions - Home Loan
       </h2>
 
       <div className="space-y-2">

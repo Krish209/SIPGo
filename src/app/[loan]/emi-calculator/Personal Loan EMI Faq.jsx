@@ -20,6 +20,11 @@ const PersonalLoanFAQ = () => {
         "EMI is calculated based on the loan amount, interest rate, and tenure using the standard EMI formula. Online EMI calculators can help you compute it easily.",
     },
     {
+      question: "What happens if I miss an EMI?",
+      answer:
+        "Late fees apply, and missed payments hurt your credit score.",
+    },
+    {
       question: "Is there any collateral required for a personal loan?",
       answer:
         "No, personal loans are unsecured loans and do not require any collateral or security. Approval is usually based on credit score and income.",
@@ -48,6 +53,11 @@ const PersonalLoanFAQ = () => {
       question: "How can I reduce the EMI burden on my personal loan?",
       answer:
         "You can reduce EMI by opting for a longer tenure, negotiating for a lower interest rate, or prepaying part of the loan.",
+    },
+    {
+      question: "Is a personal loan taxable?",
+      answer:
+        "The loan amount is not taxable as it is debt, but interest paid may have tax benefits in some cases (check your country’s tax laws).",
     },
   ];
 
@@ -78,7 +88,7 @@ const PersonalLoanFAQ = () => {
       </script>
 
       <h2 className="text-xl md:text-2xl font-semibold text-center mb-4 md:mb-6">
-        Frequently Asked Questions - Personal Loan EMI
+        Frequently Asked Questions - Personal Loan
       </h2>
 
       <div className="space-y-2">
