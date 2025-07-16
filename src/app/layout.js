@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script"; // 👈 Import Script
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -61,6 +62,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ Inject Ahrefs Analytics Script in <head> */}
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="fdkjjdfdfdf"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={inter.variable}

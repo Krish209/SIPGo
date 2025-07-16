@@ -66,7 +66,7 @@ function Header() {
               >
                 <Link
                   href={item.link || "#"}
-                  className={`flex items-center px-3 py-2 text-sm rounded-md transition-colors
+                  className={`flex items-center px-3 py-2 text-[15px] rounded-md transition-colors
                     ${
                       pathname === item.link
                         ? "text-indigo-600 bg-indigo-50 font-medium hover:font-medium"
