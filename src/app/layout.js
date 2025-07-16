@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
         {/* ✅ Inject Ahrefs Analytics Script in <head> */}
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
-          data-key="fdkjjdfdfdf"
+          data-key="fdZH6PY0eaTgPn8ogyWkMw"
           strategy="afterInteractive"
         />
       </head>
