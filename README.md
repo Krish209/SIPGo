@@ -2,7 +2,7 @@
 
 SIPGo is a suite of free financial calculators built with React and Next.js to help users make smarter investment decisions.
 
-👉 **Try it live here:** [SIPGo - SIP, FD, PPF & EMI Calculators](https://www.sipgo.in)
+👉 **Try it live here:** [SIPGo - Smart Financial Calculators for Investment Planning](https://www.sipgo.in)
 
 This tool includes:
 - SIP calculator
