@@ -3,7 +3,7 @@ import Table from "../../utils/Table";
 
 const StepUpSIPInfo = () => {
   const datePublished = new Date("2025-04-01").toISOString();
-  const dateModified = new Date("2025-06-01").toISOString();
+  const dateModified = new Date("2025-07-17").toISOString();
   const columns = [
     { key: "details", header: "Details" },
     { key: "sip", header: "SIP" },

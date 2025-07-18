@@ -21,8 +21,7 @@ const PersonalLoanFAQ = () => {
     },
     {
       question: "What happens if I miss an EMI?",
-      answer:
-        "Late fees apply, and missed payments hurt your credit score.",
+      answer: "Late fees apply, and missed payments hurt your credit score.",
     },
     {
       question: "Is there any collateral required for a personal loan?",
@@ -77,7 +76,7 @@ const PersonalLoanFAQ = () => {
             acceptedAnswer: {
               "@type": "Answer",
               text: q.answer,
-              dateCreated: "2025-04-01",
+              dateCreated: "2025-07-17",
               speakable: {
                 "@type": "SpeakableSpecification",
                 cssSelector: ".faq-answer",

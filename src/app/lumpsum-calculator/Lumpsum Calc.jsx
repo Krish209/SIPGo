@@ -225,7 +225,7 @@ function LumpsumCalc() {
               name: "SIPGo Financial Calculators",
               url: "https://www.sipgo.in",
             },
-            dateModified: "2025-06-15T00:00:00Z",
+            dateModified: "2025-07-17T00:00:00Z",
           })}
         </script>
 
@@ -263,7 +263,9 @@ function LumpsumCalc() {
         <button
           onClick={() => setIsSIP(true)}
           className={`px-6 py-2 border-2 border-tomato text-sm font-bold rounded-lg ${
-            isSIP ? "bg-tomato text-white" : "bg-white text-black hover:bg-gray-200 cursor-pointer"
+            isSIP
+              ? "bg-tomato text-white"
+              : "bg-white text-black hover:bg-gray-200 cursor-pointer"
           }`}
         >
           SIP
@@ -272,7 +274,9 @@ function LumpsumCalc() {
         <button
           onClick={() => setIsSIP(false)}
           className={`px-6 py-2 border-2 border-tomato text-sm font-bold rounded-lg ${
-            !isSIP ? "bg-tomato text-white" : "bg-white text-black hover:bg-gray-200 cursor-pointer"
+            !isSIP
+              ? "bg-tomato text-white"
+              : "bg-white text-black hover:bg-gray-200 cursor-pointer"
           }`}
         >
           Lumpsum

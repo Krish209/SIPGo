@@ -2,7 +2,7 @@ import React from "react";
 
 const KVPInfo = () => {
   const datePublished = new Date("2025-04-01").toISOString();
-  const dateModified = new Date("2025-06-01").toISOString();
+  const dateModified = new Date("2025-07-17").toISOString();
   return (
     <article className="p-2 vs:p-4 text-primary text-[15px] md:text-base">
       {/* Article as information Schema Markup */}

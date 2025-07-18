@@ -56,7 +56,7 @@ const ROIFAQ = () => {
             acceptedAnswer: {
               "@type": "Answer",
               text: q.answer,
-              dateCreated: "2025-04-01",
+              dateCreated: "2025-07-17",
               speakable: {
                 "@type": "SpeakableSpecification",
                 cssSelector: ".faq-answer",
