@@ -71,7 +71,7 @@ const SavingvsInvesting = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             When it comes to managing personal finances, the terms{" "}
             <strong>saving</strong> and <strong>investing</strong> are often
@@ -84,7 +84,7 @@ const SavingvsInvesting = () => {
         </section>
 
         {/* What Is Saving? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What Is Saving?
           </h2>
@@ -100,7 +100,7 @@ const SavingvsInvesting = () => {
         </section>
 
         {/* Key Features of Saving */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Key Features of Saving
           </h2>
@@ -134,7 +134,7 @@ const SavingvsInvesting = () => {
         </section>
 
         {/* What Is Investing? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What Is Investing?
           </h2>
@@ -151,7 +151,7 @@ const SavingvsInvesting = () => {
         </section>
 
         {/* Key Features of Investing */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Key Features of Investing
           </h2>
@@ -187,7 +187,7 @@ const SavingvsInvesting = () => {
         </section>
 
         {/* Key Differences Between Saving and Investing */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Key Differences Between Saving and Investing
           </h2>
@@ -198,7 +198,7 @@ const SavingvsInvesting = () => {
         </section>
 
         {/* When Should You Save vs Invest? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             When Should You Save vs Invest?
           </h2>
@@ -243,7 +243,7 @@ const SavingvsInvesting = () => {
           </ul>
         </section>
 
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Real-Life Scenario
           </h2>
@@ -273,7 +273,7 @@ const SavingvsInvesting = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

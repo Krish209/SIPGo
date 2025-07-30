@@ -115,7 +115,7 @@ const WhyRiskIsPartOfInvesting = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             When people think about investing, they often focus on the potential
             gains—growing wealth, building a retirement fund, or achieving
@@ -129,7 +129,7 @@ const WhyRiskIsPartOfInvesting = () => {
         </section>
 
         {/* What Is Investment Risk? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What Is Investment Risk?
           </h2>
@@ -146,7 +146,7 @@ const WhyRiskIsPartOfInvesting = () => {
         </section>
 
         {/* Types of Investment Risks: */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Types of Investment Risks:
           </h2>
@@ -159,7 +159,7 @@ const WhyRiskIsPartOfInvesting = () => {
         </section>
 
         {/* Why Risk Is Inevitable in Investing */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why Risk Is Inevitable in Investing
           </h2>
@@ -216,7 +216,7 @@ const WhyRiskIsPartOfInvesting = () => {
         </section>
 
         {/* 5 Smart Ways to Manage Investment Risk */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             5 Smart Ways to Manage Investment Risk
           </h2>
@@ -325,7 +325,7 @@ const WhyRiskIsPartOfInvesting = () => {
         </section>
 
         {/* Conclusion: Risk Isn’t the Enemy—Ignorance Is */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion: Risk Isn’t the Enemy—Ignorance Is
           </h2>

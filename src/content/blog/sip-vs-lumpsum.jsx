@@ -73,7 +73,7 @@ const SIPvsLumpsum = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             When it comes to investing in mutual funds or other market-linked
             instruments, a common question investors face is:{" "}
@@ -90,7 +90,7 @@ const SIPvsLumpsum = () => {
         </section>
 
         {/* Understanding SIP and Lumpsum Investments */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Understanding SIP and Lumpsum Investments
           </h2>
@@ -119,7 +119,7 @@ const SIPvsLumpsum = () => {
         </section>
 
         {/* Comparative Analysis of SIP vs Lumpsum */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Comparative Analysis of SIP vs Lumpsum
           </h2>
@@ -132,7 +132,7 @@ const SIPvsLumpsum = () => {
         </section>
 
         {/* When Is SIP Better? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             When Is SIP Better?
           </h2>
@@ -148,7 +148,7 @@ const SIPvsLumpsum = () => {
         </section>
 
         {/* When Is Lumpsum Better? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             When Is Lumpsum Better?
           </h2>
@@ -164,7 +164,7 @@ const SIPvsLumpsum = () => {
         </section>
 
         {/* Tax Efficiency and Liquidity */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Tax Efficiency and Liquidity
           </h2>
@@ -182,7 +182,7 @@ const SIPvsLumpsum = () => {
         </section>
 
         {/* Conclusion: Which Is Better? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion: Which Is Better?
           </h2>

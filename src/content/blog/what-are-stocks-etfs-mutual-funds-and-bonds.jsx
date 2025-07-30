@@ -88,7 +88,7 @@ const StockEtfMfBond = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             If you're just starting your investment journey or using an
             investment calculator in India to plan your finances, you’ve
@@ -101,7 +101,7 @@ const StockEtfMfBond = () => {
         </section>
 
         {/* What is a Stock? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What is a Stock?
           </h2>
@@ -138,7 +138,7 @@ const StockEtfMfBond = () => {
         </section>
 
         {/* What is an ETF? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What is an ETF (Exchange-Traded Fund)?
           </h2>
@@ -174,7 +174,7 @@ const StockEtfMfBond = () => {
         </section>
 
         {/* What is a Mutual Fund? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What is a Mutual Fund?
           </h2>
@@ -217,7 +217,7 @@ const StockEtfMfBond = () => {
         </section>
 
         {/* What is a Bond? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What is a Bond?
           </h2>
@@ -258,7 +258,7 @@ const StockEtfMfBond = () => {
         </section>
 
         {/* Summary Table */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Summary Table
           </h2>
@@ -267,7 +267,7 @@ const StockEtfMfBond = () => {
         </section>
 
         {/* Final Thoughts: Which One Should You Choose? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Final Thoughts: Which One Should You Choose?
           </h2>

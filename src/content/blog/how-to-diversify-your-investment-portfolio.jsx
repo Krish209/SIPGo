@@ -97,7 +97,7 @@ const DiversifyPortfolio = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             When it comes to investing, one golden rule always holds true —
             <strong>don’t put all your eggs in one basket</strong>. This age-old
@@ -112,7 +112,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* What is Portfolio Diversification? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What is Portfolio Diversification?
           </h2>
@@ -128,7 +128,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* Why is Diversification Important? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why is Diversification Important?
           </h2>
@@ -143,7 +143,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* Benefits of Diversification: */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Benefits of Diversification:
           </h2>
@@ -172,7 +172,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* How to Diversify Your Investment Portfolio in India */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             How to Diversify Your Investment Portfolio in India
           </h2>
@@ -270,7 +270,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* Common Mistakes to Avoid While Diversifying */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Common Mistakes to Avoid While Diversifying
           </h2>
@@ -302,7 +302,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* Tools to Help You Diversify */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Tools to Help You Diversify
           </h2>
@@ -341,7 +341,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* Sample Diversified Portfolios Based on Risk Profiles */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Sample Diversified Portfolios Based on Risk Profiles
           </h2>
@@ -350,7 +350,7 @@ const DiversifyPortfolio = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

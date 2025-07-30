@@ -151,7 +151,7 @@ const CompoundingWork = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             <strong>Compounding</strong> is one of the most powerful forces in
             investing often referred to as the{" "}
@@ -164,7 +164,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* What Is Compounding? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What Is Compounding?
           </h2>
@@ -186,7 +186,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* The Formula Behind Compounding */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Formula Behind Compounding
           </h2>
@@ -224,7 +224,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* Real-Life Example of Compounding in India */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Real-Life Example of Compounding in India
           </h2>
@@ -245,7 +245,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* Why Risk Is Inevitable in Investing */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Step-by-Step: How to Create Passive Income with Investments
           </h2>
@@ -287,7 +287,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* Compounding in SIP (Systematic Investment Plan) */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Compounding in SIP (Systematic Investment Plan)
           </h2>
@@ -310,7 +310,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* Where Can You Benefit from Compounding in India? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Where Can You Benefit from Compounding in India?
           </h2>
@@ -324,7 +324,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* The Role of Tax Efficiency in Compounding */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Role of Tax Efficiency in Compounding
           </h2>
@@ -349,7 +349,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* Inflation: The Silent Wealth Killer */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Inflation: The Silent Wealth Killer
           </h2>
@@ -375,7 +375,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* Tips to Maximize Compounding Benefits */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Tips to Maximize Compounding Benefits
           </h2>
@@ -405,7 +405,7 @@ const CompoundingWork = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

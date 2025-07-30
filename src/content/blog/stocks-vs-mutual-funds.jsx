@@ -137,7 +137,7 @@ const StocksorMutualFunds = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             When it comes to growing your wealth, two of the most popular
             investment options are <strong>stocks</strong> and{" "}
@@ -150,7 +150,7 @@ const StocksorMutualFunds = () => {
         </section>
 
         {/* What Are Stocks and Mutual Funds? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What Are Stocks and Mutual Funds?
           </h2>
@@ -176,7 +176,7 @@ const StocksorMutualFunds = () => {
         </section>
 
         {/* Key Differences Between Stocks and Mutual Funds */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Key Differences Between Stocks and Mutual Funds
           </h2>
@@ -185,7 +185,7 @@ const StocksorMutualFunds = () => {
         </section>
 
         {/* Pros and Cons of Investing in Stocks */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Pros and Cons of Investing in Stocks
           </h2>
@@ -271,7 +271,7 @@ const StocksorMutualFunds = () => {
         </section>
 
         {/* Pros and Cons of Investing in Mutual Funds */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Pros and Cons of Investing in Mutual Funds
           </h2>
@@ -394,7 +394,7 @@ const StocksorMutualFunds = () => {
         </section>
 
         {/* Which Is Better: Stocks or Mutual Funds? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Which Is Better: Stocks or Mutual Funds?
           </h2>
@@ -407,7 +407,7 @@ const StocksorMutualFunds = () => {
           <Table columns={columns2} data={data2} />
         </section>
 
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Combining Both: A Balanced Approach
           </h2>
@@ -433,7 +433,7 @@ const StocksorMutualFunds = () => {
           </p>
         </section>
 
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Taxation of Stocks vs Mutual Funds in India (FY 2024-25)
           </h2>
@@ -441,7 +441,7 @@ const StocksorMutualFunds = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

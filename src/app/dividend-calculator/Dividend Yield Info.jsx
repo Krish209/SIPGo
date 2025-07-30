@@ -100,7 +100,7 @@ const DividendYieldInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           How Does Dividend Yield Work?
         </h3>
-        <p>
+        <p className="mb-2">
           When a company earns profit, it may choose to share a portion of it
           with shareholders in the form of dividends. The dividend yield tells
           you how much return you’re getting from those dividends per INR
@@ -116,7 +116,7 @@ const DividendYieldInfo = () => {
           </code>
         </div>
 
-        <h3 className="font-semibold mt-6">Example:</h3>
+        <p className="font-semibold mt-6">Example:</p>
         <p className="mt-2">
           Suppose a company pays an annual dividend of ₹20 per share, and the
           current stock price is ₹400. The dividend yield would be: (20 ÷ 400) ×
@@ -178,7 +178,7 @@ const DividendYieldInfo = () => {
         </ul>
 
         <div className="bg-blue-50 p-2 md:p-4 rounded-lg mt-4 shadow-md">
-          <p>
+          <p className="mb-2">
             <strong>Important Note</strong>: Regardless of TDS, all dividend
             income must be reported in your ITR.
           </p>

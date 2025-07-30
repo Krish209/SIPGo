@@ -128,7 +128,7 @@ const InflationandTaxesImpact = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             When planning your financial future, it's crucial to understand how
             inflation and taxes affect your investments. Many Indian investors
@@ -140,7 +140,7 @@ const InflationandTaxesImpact = () => {
         </section>
 
         {/* What is Inflation and Why Should Investors Care? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What is Inflation and Why Should Investors Care?
           </h2>
@@ -176,7 +176,7 @@ const InflationandTaxesImpact = () => {
         </section>
 
         {/* How Inflation Affects Different Investments: */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             How Inflation Affects Different Investments:
           </h2>
@@ -184,7 +184,7 @@ const InflationandTaxesImpact = () => {
         </section>
 
         {/* Understanding the Taxation of Investments in India */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Understanding the Taxation of Investments in India
           </h2>
@@ -209,7 +209,7 @@ const InflationandTaxesImpact = () => {
         </section>
 
         {/* Combined Impact of Inflation and Taxes on Investments */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Combined Impact of Inflation and Taxes on Investments
           </h2>
@@ -227,7 +227,7 @@ const InflationandTaxesImpact = () => {
         </section>
 
         {/* Strategies to Minimize Tax and Beat Inflation */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Strategies to Minimize Tax and Beat Inflation
           </h2>
@@ -349,7 +349,7 @@ const InflationandTaxesImpact = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

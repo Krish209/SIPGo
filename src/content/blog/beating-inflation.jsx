@@ -66,7 +66,7 @@ const BeatingInflation = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             Inflation is a silent wealth eroder over time. In India, the
             Consumer Price Index (CPI) has averaged around 8.07% over the past
@@ -78,7 +78,7 @@ const BeatingInflation = () => {
         </section>
 
         {/* Understanding Inflation's Impact */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Understanding Inflation's Impact
           </h2>
@@ -92,7 +92,7 @@ const BeatingInflation = () => {
           </p>
         </section>
 
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Investment Strategies to Hedge Against Inflation
           </h2>
@@ -175,7 +175,7 @@ const BeatingInflation = () => {
         </section>
 
         {/* Warren Buffett's Inflation Advice */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Warren Buffett's Inflation Advice
           </h2>
@@ -193,7 +193,7 @@ const BeatingInflation = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

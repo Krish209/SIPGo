@@ -132,7 +132,7 @@ const CreatePassiveIncome = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             In today’s fast-paced world, creating passive income is no longer
             just a financial aspiration: it has become a necessity for achieving
@@ -144,7 +144,7 @@ const CreatePassiveIncome = () => {
         </section>
 
         {/* What is Passive Income? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What is Passive Income?
           </h2>
@@ -174,7 +174,7 @@ const CreatePassiveIncome = () => {
         </section>
 
         {/* Why Should You Create Passive Income? */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why Should You Create Passive Income?
           </h2>
@@ -198,7 +198,7 @@ const CreatePassiveIncome = () => {
         </section>
 
         {/* Best Investment Options in India for Passive Income */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Best Investment Options in India for Passive Income
           </h2>
@@ -217,7 +217,7 @@ const CreatePassiveIncome = () => {
         </section>
 
         {/* Step-by-Step: How to Create Passive Income with Investments */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Step-by-Step: How to Create Passive Income with Investments
           </h2>
@@ -399,7 +399,7 @@ const CreatePassiveIncome = () => {
         </section>
 
         {/* Example Passive Income Portfolio (Monthly Budget: ₹25,000) */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Example Passive Income Portfolio (Monthly Budget: ₹25,000)
           </h2>
@@ -407,7 +407,7 @@ const CreatePassiveIncome = () => {
           <Table columns={columns2} data={data2} />
         </section>
 
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Tips for Success in Passive Income Investing
           </h2>
@@ -437,7 +437,7 @@ const CreatePassiveIncome = () => {
           </p>
         </section>
 
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Risks and Things to Watch Out For
           </h2>
@@ -479,7 +479,7 @@ const CreatePassiveIncome = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

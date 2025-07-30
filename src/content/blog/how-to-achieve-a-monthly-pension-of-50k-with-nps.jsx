@@ -61,7 +61,7 @@ const AchieveMonthlyPensionwithNPS = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             Retirement isn’t just about stopping work—it’s about gaining peace
             of mind, achieving financial freedom, and enjoying the lifestyle
@@ -75,7 +75,7 @@ const AchieveMonthlyPensionwithNPS = () => {
         </section>
 
         {/* Understanding NPS: A Quick Overview */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Understanding NPS: A Quick Overview
           </h2>
@@ -101,7 +101,7 @@ const AchieveMonthlyPensionwithNPS = () => {
         </section>
 
         {/* The Goal: ₹50,000 Monthly Pension */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Goal: ₹50,000 Monthly Pension
           </h2>
@@ -121,7 +121,7 @@ const AchieveMonthlyPensionwithNPS = () => {
         </section>
 
         {/* Real-Life Example: Planning at Age 30 */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Real-Life Example: Planning at Age 30
           </h2>
@@ -150,7 +150,7 @@ const AchieveMonthlyPensionwithNPS = () => {
         </section>
 
         {/* Why NPS is a Strong Retirement Tool */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why NPS is a Strong Retirement Tool
           </h2>
@@ -175,7 +175,7 @@ const AchieveMonthlyPensionwithNPS = () => {
         </section>
 
         {/* How Pension is Calculated from NPS Corpus */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             NPS Pension Estimate Table
           </h2>
@@ -184,7 +184,7 @@ const AchieveMonthlyPensionwithNPS = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

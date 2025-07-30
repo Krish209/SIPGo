@@ -58,6 +58,13 @@
   .border-teal { border-color: rgb(0, 128, 128); }
 }
 
+@layer base {
+  strong {
+    @apply font-semibold; /* or font-medium, font-normal as needed */
+  }
+}
+
+
 /* Remove number input arrows globally */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {

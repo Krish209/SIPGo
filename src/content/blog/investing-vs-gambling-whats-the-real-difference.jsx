@@ -27,7 +27,7 @@ const InvestingVsGambling = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             Many people mistakenly believe that{" "}
             <strong>
@@ -41,7 +41,7 @@ const InvestingVsGambling = () => {
         </section>
 
         {/* Purpose and Intent */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Purpose and Intent
           </h2>
@@ -71,7 +71,7 @@ const InvestingVsGambling = () => {
         </section>
 
         {/* Risk and Return */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Risk and Return
           </h2>
@@ -108,7 +108,7 @@ const InvestingVsGambling = () => {
         </section>
 
         {/* Knowledge and Strategy */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Knowledge and Strategy
           </h2>
@@ -137,7 +137,7 @@ const InvestingVsGambling = () => {
         </section>
 
         {/* Time Horizon */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Time Horizon
           </h2>
@@ -165,7 +165,7 @@ const InvestingVsGambling = () => {
         </section>
 
         {/* Ownership and Value Creation */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Ownership and Value Creation
           </h2>
@@ -193,7 +193,7 @@ const InvestingVsGambling = () => {
         </section>
 
         {/* When Investing Resembles Gambling */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             When Investing Resembles Gambling
           </h2>
@@ -225,7 +225,7 @@ const InvestingVsGambling = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>

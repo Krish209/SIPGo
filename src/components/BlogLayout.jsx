@@ -132,7 +132,7 @@ const BlogLayout = ({
   // const dateISO = formatDateISO(currentPost.date);
   // const dateISO = new Date(currentPost.date).toISOString();
   const dateISO = new Date("2025-06-01").toISOString();
-  const modISO = new Date("2025-07-17").toISOString();
+  const modISO = new Date("2025-07-29").toISOString();
 
   return (
     <div className="bg-gray-50 text-night min-h-screen">

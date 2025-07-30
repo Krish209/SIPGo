@@ -151,7 +151,7 @@ const SelfEmployedOrFreelancer = () => {
       {/* Blog content here */}
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <p className="mb-2">
             Freelancing and self-employment in India have surged in recent
             years. Whether you’re a graphic designer, content writer, digital
@@ -164,7 +164,7 @@ const SelfEmployedOrFreelancer = () => {
         </section>
 
         {/* Why Investment Planning is Crucial for Freelancers and the Self-Employed */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why Investment Planning is Crucial for Freelancers and the
             Self-Employed
@@ -197,7 +197,7 @@ const SelfEmployedOrFreelancer = () => {
         </section>
 
         {/* Key Financial Goals You Should Plan For */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Key Financial Goals You Should Plan For
           </h2>
@@ -205,7 +205,7 @@ const SelfEmployedOrFreelancer = () => {
         </section>
 
         {/* Step-by-Step Investment Strategy for Freelancers in India */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Step-by-Step Investment Strategy for Freelancers in India
           </h2>
@@ -320,7 +320,7 @@ const SelfEmployedOrFreelancer = () => {
         </section>
 
         {/* How to Invest with Irregular Income */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             How to Invest with Irregular Income
           </h2>
@@ -352,7 +352,7 @@ const SelfEmployedOrFreelancer = () => {
         </section>
 
         {/* Best Investment Options for Freelancers in India */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Best Investment Options for Freelancers in India
           </h2>
@@ -364,7 +364,7 @@ const SelfEmployedOrFreelancer = () => {
         </section>
 
         {/* Mistakes to Avoid */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Mistakes to Avoid
           </h2>
@@ -389,7 +389,7 @@ const SelfEmployedOrFreelancer = () => {
         </section>
 
         {/* Conclusion */}
-        <section className="my-4 md:my-6">
+        <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion
           </h2>
