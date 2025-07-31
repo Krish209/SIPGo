@@ -90,7 +90,7 @@ const PrivacyPolicy = () => {
               We use only two trusted third-party services to ensure website
               performance and analytics:
             </p>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 Google Analytics (anonymized traffic analysis) – This service
                 provides aggregated insights into website usage without

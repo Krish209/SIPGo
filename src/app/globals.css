@@ -5,6 +5,7 @@
 } */
 
 @theme inline {
+  --breakpoint-hs: 815px;
   --breakpoint-ws: 305px;
   --breakpoint-us: 385px;
   --breakpoint-vs: 510px;

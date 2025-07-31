@@ -97,7 +97,7 @@ const CompoundingInterestInfo = () => {
           <code className="font-bold">A = P × (1 + r/n)^(nt)</code>
 
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>A</strong> = Amount of money accumulated after{" "}
               <strong>n</strong> years, including interest

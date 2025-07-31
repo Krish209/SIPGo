@@ -81,7 +81,7 @@ const MonetizeHobbies = () => {
             <strong>Keyword research:</strong> Use tools like Ahrefs or Google
             Keyword Planner to identify search phrases like:
           </p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>“monetize hobby”</li>
             <li>“make money from [your hobby]”</li>
             <li>“hobby passive income ideas”</li>
@@ -312,7 +312,7 @@ const MonetizeHobbies = () => {
             In 2025, the lines between hobby and business blur beautifully. You
             can now:
           </p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>Define your niche</li>
             <li>Build content & audience</li>
             <li>Monetize with affiliate, digital products, and services</li>

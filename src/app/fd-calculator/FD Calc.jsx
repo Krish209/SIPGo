@@ -64,9 +64,10 @@ function FDCalc() {
     const totalPeriods = investmentPeriod * compoundFrequency;
 
     let accumulatedValue = principalAmount;
+    let investedAmountCalc = principalAmount;
+    
     const barDataInvested = [];
     const barDataReturns = [];
-    let investedAmountCalc = principalAmount;
 
     // Generate yearly data
     for (let year = 1; year <= investmentPeriod; year++) {

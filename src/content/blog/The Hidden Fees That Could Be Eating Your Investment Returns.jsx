@@ -61,18 +61,19 @@ const HiddenFees = () => {
             Investing is a powerful way to grow your wealth and secure your
             financial future. Yet, many investors overlook a critical factor
             that silently chips away at their hard-earned money — hidden
-            investment fees. These fees are often buried beneath the surface of
-            your investment statements, disguised in fund expense ratios, or
-            embedded in seemingly straightforward transactions. If left
-            unchecked, these fees can dramatically reduce your long-term returns
-            and derail your financial goals.
+            <strong>investment fees</strong>. These fees are often buried
+            beneath the surface of your investment statements, disguised in fund
+            expense ratios, or embedded in seemingly straightforward
+            transactions. If left unchecked, these fees can dramatically reduce
+            your long-term returns and derail your financial goals.
           </p>
           <p className="mb-2">
             In this comprehensive guide, we’ll uncover the most common hidden
             fees, explain how they impact your investment returns, and provide
-            actionable tips to help you identify and minimize these fees. By
-            understanding and managing hidden fees, you can maximize your
-            investment growth and keep more money working for you.
+            actionable tips to help you{" "}
+            <strong>identify and minimize these fees</strong>. By understanding
+            and managing hidden fees, you can maximize your investment growth
+            and keep more money working for you.
           </p>
         </section>
 
@@ -84,10 +85,13 @@ const HiddenFees = () => {
 
           <p className="mb-2">
             When you invest, your primary focus might be on picking winning
-            stocks or funds, but fees have a much larger influence on your
-            portfolio’s growth than most realize. Even small fees can compound
-            negatively over decades, reducing your wealth by thousands or even
-            millions of dollars.
+            stocks or funds, but{" "}
+            <strong>
+              fees have a much larger influence on your portfolio’s growth than
+              most realize
+            </strong>
+            . Even small fees can compound negatively over decades, reducing
+            your wealth by thousands or even millions of dollars.
           </p>
 
           <p className="mb-2 font-semibold">
@@ -97,8 +101,9 @@ const HiddenFees = () => {
 
           <p className="mb-2">
             The 1% fee in Portfolio B costs you over $11,000 after 30 years —
-            all due to the power of compounding fees. Understanding these fees
-            can help you avoid unnecessary costs and grow your wealth faster.
+            all due to the <strong>power of compounding fees</strong>.
+            Understanding these fees can help you avoid unnecessary costs and
+            grow your wealth faster.
           </p>
         </section>
 
@@ -114,11 +119,11 @@ const HiddenFees = () => {
               1. Expense Ratios: The Silent Deduction
             </h3>
             <p className="mb-1">
-              Expense ratios are the most pervasive hidden fee. They represent
-              the annual percentage of your investment in a mutual fund or ETF
-              that goes toward operating expenses.
+              <strong>Expense ratios</strong> are the most pervasive hidden fee.
+              They represent the annual percentage of your investment in a
+              mutual fund or ETF that goes toward operating expenses.
             </p>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 <strong>How it’s charged:</strong> Automatically deducted from
                 fund assets before returns are reported.
@@ -132,12 +137,12 @@ const HiddenFees = () => {
                 <strong>Why it matters:</strong> Even a seemingly low 0.5% can
                 erode returns drastically over time.
               </li>
-              <li>
-                <strong>Pro Tip:</strong> Always compare expense ratios when
-                selecting funds — opting for low-cost index funds can save
-                thousands.
-              </li>
             </ul>
+            <p className="mb-2">
+              <strong>Pro Tip:</strong> Always compare expense ratios when
+              selecting funds — opting for low-cost index funds can save
+              thousands.
+            </p>
           </div>
 
           {/* Fee 2 */}
@@ -149,7 +154,7 @@ const HiddenFees = () => {
               Load fees are sales commissions paid when you buy or sell mutual
               fund shares.
             </p>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 <strong>Front-end loads:</strong> Paid upfront at purchase,
                 reducing your initial investment.
@@ -179,14 +184,15 @@ const HiddenFees = () => {
               ETFs, some still charge for specific transactions or account
               types.
             </p>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
-                Trading commissions: Fees per trade that can add up, especially
-                with active trading.
+                <strong>Trading commissions</strong>: Fees per trade that can
+                add up, especially with active trading.
               </li>
               <li>
-                Bid-ask spread: The difference between buying and selling
-                prices, representing a hidden cost for each transaction.
+                <strong>Bid-ask spread</strong>: The difference between buying
+                and selling prices, representing a hidden cost for each
+                transaction.
               </li>
             </ul>
             <p className="mb-2">
@@ -200,11 +206,11 @@ const HiddenFees = () => {
             <h3 className="text-lg md:text-xl font-semibold mb-1">
               4. 12b-1 Fees: Marketing Costs Passed to Investors
             </h3>
-            <ul className="list-disc pl-6 mb-2">
-              <li>
-                These are annual fees (up to 1%) charged by some mutual funds to
-                cover marketing and distribution expenses.
-              </li>
+            <p className="mb-2">
+              These are annual fees (up to 1%) charged by some mutual funds to
+              cover marketing and distribution expenses.
+            </p>
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 Included in the expense ratio but specifically earmarked for
                 advertising and broker commissions.
@@ -213,10 +219,10 @@ const HiddenFees = () => {
                 Many investors don’t realize they’re paying for ads and sales
                 commissions through this fee.
               </li>
-              <li>
-                Choosing funds without 12b-1 fees can improve your net returns.
-              </li>
             </ul>
+            <p className="mb-2">
+              Choosing funds without 12b-1 fees can improve your net returns.
+            </p>
           </div>
 
           {/* Fee 5 */}
@@ -228,7 +234,7 @@ const HiddenFees = () => {
               Some brokerages and investment platforms charge fees for
               maintaining your account, which can be:
             </p>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Monthly or annual flat fees</li>
               <li>Fees for paper statements or inactivity</li>
             </ul>
@@ -243,12 +249,13 @@ const HiddenFees = () => {
             <h3 className="text-lg md:text-xl font-semibold mb-1">
               6. Advisory Fees: What You Pay for Guidance
             </h3>
-            <ul className="list-disc pl-6 mb-2">
-              <li>
-                Using a financial advisor or robo-advisor usually involves an
-                advisory fee, typically calculated as a percentage of your
-                assets under management (AUM).
-              </li>
+            <p className="mb-2">
+              Using a financial advisor or robo-advisor usually involves an
+              <strong>advisory fee</strong>, typically calculated as a
+              percentage of your assets under management (AUM).
+            </p>
+
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Traditional advisors may charge 1% or more.</li>
               <li>Robo-advisors usually charge between 0.25% and 0.50%.</li>
             </ul>
@@ -263,11 +270,12 @@ const HiddenFees = () => {
             <h3 className="text-lg md:text-xl font-semibold mb-1">
               7. Performance Fees: The Cost of Outsized Gains
             </h3>
-            <ul className="list-disc pl-6 mb-2">
-              <li>
-                Certain hedge funds and private equity funds charge a
-                performance fee — often 20% of the profits above a benchmark.
-              </li>
+            <p className="mb-2">
+              Certain hedge funds and private equity funds charge a performance
+              fee — often 20% of the profits above a benchmark.
+            </p>
+
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Only applicable to high-net-worth investors.</li>
               <li>
                 Can significantly reduce net gains despite high gross returns.
@@ -280,11 +288,12 @@ const HiddenFees = () => {
             <h3 className="text-lg md:text-xl font-semibold mb-1">
               8. Fund Transaction Costs and Turnover
             </h3>
-            <ul className="list-disc pl-6 mb-2">
-              <li>
-                When funds buy and sell securities, they incur transaction costs
-                (brokerage fees, taxes, market impact).
-              </li>
+            <p className="mb-2">
+              When funds buy and sell securities, they incur transaction costs
+              (brokerage fees, taxes, market impact).
+            </p>
+
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Not always included in the expense ratio.</li>
               <li>
                 High turnover funds (actively traded) usually have higher

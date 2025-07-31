@@ -5,9 +5,9 @@ import BlogLayout from "@/components/BlogLayout";
 
 export const meta = {
   title:
-    "How Does Compounding Work? The Power Behind Long-Term Wealth Creation",
+    "Power of Compounding in Stock Market: How It Works & Maximizes Wealth",
   description:
-    "Unlock the power of compounding: Learn how reinvesting returns turns small SIPs into crores over time. Discover tips, examples, and calculate growth with free tools & beat inflation!",
+    "The power of compounding in the stock market multiplies wealth over time. Learn with examples, formulas, and strategies to maximize long-term returns.",
   slug: "how-does-compounding-work",
   image: "https://www.sipgo.in/images/blogs/compounding.jpeg",
   tags: ["Compounding", "Long-term Investing", "Growth", "Financial Education"],
@@ -200,7 +200,7 @@ const CompoundingWork = () => {
             <code className="font-bold">A = P × (1 + r/n)^(nt)</code>
 
             <p className="mt-2">Where:</p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 <strong>A</strong> = Amount of money accumulated after{" "}
                 <strong>n</strong> years, including interest

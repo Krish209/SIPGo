@@ -128,9 +128,9 @@ const PsychologicalTrapsNewInvestorsFall = () => {
           </ul>
 
           <p className="mb-2">
-            Statistic: According to a study by Nobel laureate Daniel Kahneman,
-            the pain of losing $1 is psychologically equivalent to gaining $2.
-            That’s how powerful this trap can be.
+            <strong>Statistic</strong>: According to a study by Nobel laureate
+            Daniel Kahneman, the pain of losing $1 is psychologically equivalent
+            to gaining $2. That’s how powerful this trap can be.
           </p>
 
           <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
@@ -152,7 +152,7 @@ const PsychologicalTrapsNewInvestorsFall = () => {
           </ul>
 
           <p className="mb-2">
-            Mindset Shift: Focus on time in the market — not timing the market.
+            <strong>Mindset Shift</strong>: Focus on time in the market — not timing the market.
             Volatility is the price you pay for long-term growth.
           </p>
         </section>
@@ -204,7 +204,7 @@ const PsychologicalTrapsNewInvestorsFall = () => {
           </ul>
 
           <p className="mb-2">
-            Smart Move: Read contrary opinions. If everyone is bullish, find the
+            <strong>Smart Move</strong>: Read contrary opinions. If everyone is bullish, find the
             bear case — and vice versa.
           </p>
         </section>

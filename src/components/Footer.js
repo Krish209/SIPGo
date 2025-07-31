@@ -13,7 +13,10 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer aria-label="Site Footer" className="bg-slate-50 text-gunmetal py-16">
+    <footer
+      aria-label="Site Footer"
+      className="bg-slate-50 text-gunmetal py-16"
+    >
       <div className="container sm:text-sm md:text-md text-xs mx-auto px-2 lg:px-1">
         {/* Intro */}
         <div className="flex flex-col gap-4 md:flex-row md:justify-between items-center text-center mb-8 lg:px-32">
@@ -62,6 +65,16 @@ function Footer() {
                     Calculator Hub
                   </Link>
                 </li>
+                <li>
+                  <a
+                    href="https://zippler-pi.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-indigo-600"
+                  >
+                    Time Tools
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -70,7 +83,10 @@ function Footer() {
               <h2 className="text-sm font-semibold mb-4">Legal</h2>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/privacy-policy" className="hover:text-indigo-600">
+                  <Link
+                    href="/privacy-policy"
+                    className="hover:text-indigo-600"
+                  >
                     Privacy Policy
                   </Link>
                 </li>

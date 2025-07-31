@@ -288,7 +288,7 @@ const SIPInfo = () => {
             A = P × [(1 + r)^n - 1] / r × (1 + r)
           </code>
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>A</strong> = Final Amount (after interest)
             </li>

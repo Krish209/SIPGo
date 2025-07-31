@@ -57,7 +57,7 @@ const NeverSellStocks = () => {
               years saving, but consistently purchased market peaks just before
               crashes:
             </p>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Dec 1972: invested $6K, followed by ~50% market crash</li>
               <li>Aug 1987: $46K before the −34% crash</li>
               <li>Dec 1999: $68K at the tech bubble peak (~−49%)</li>
@@ -90,7 +90,7 @@ const NeverSellStocks = () => {
             <h3 className="font-semibold">
               Smoothing Volatility and Capturing Best Days
             </h3>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 Missing just the 10 best trading days per decade in the S&P 500
                 slashes cumulative returns drastically.
@@ -102,7 +102,7 @@ const NeverSellStocks = () => {
             </ul>
 
             <h3 className="font-semibold">Empirical Loss Probabilities</h3>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>A ≥5-year holding period: real-loss probability ~20%</li>
               <li>For 10‑year holding: ~12%</li>
               <li>
@@ -116,7 +116,7 @@ const NeverSellStocks = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">
               3. Insights from Legendary Investors
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 <strong>Philip Fisher</strong>: “Sell Only If Fundamentals
                 Crumble” — Fisher often held stocks for decades, only selling if
@@ -138,7 +138,7 @@ const NeverSellStocks = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">
               4. Psychological Barriers to Holding Forever
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 <strong>Disposition Effect & Loss Aversion</strong>: Selling
                 winners early and clinging to losers due to behavioral bias.
@@ -154,7 +154,7 @@ const NeverSellStocks = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">
               5. Benefits of Never Selling Your Stocks
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 <strong>Powerful Compounding</strong>: Dividends and price
                 growth multiply over decades.
@@ -178,7 +178,7 @@ const NeverSellStocks = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">
               6. Drawbacks & Real Risks
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 <strong>Tying Up Capital</strong>: Missed opportunities or
                 better investments.
@@ -198,7 +198,7 @@ const NeverSellStocks = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">
               7. Smart Exceptions in a Never-Sell Mindset
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Fundamentals deteriorate</li>
               <li>Extreme overvaluation</li>
               <li>Portfolio rebalancing</li>
@@ -210,7 +210,7 @@ const NeverSellStocks = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">
               8. How to Thrive with a Buy‑And‑Hold-for-Life Approach
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Pick high-quality businesses with strong fundamentals</li>
               <li>Diversify sensibly across sectors and geographies</li>
               <li>Automate investments via SIP or rupee-cost averaging</li>
@@ -275,7 +275,7 @@ const NeverSellStocks = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">
               11. Summary: The Takeaways
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>
                 Time in the market beats timing it—even poor timing can succeed.
               </li>

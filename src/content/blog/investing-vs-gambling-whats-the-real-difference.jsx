@@ -200,7 +200,7 @@ const InvestingVsGambling = () => {
           <p className="mb-2">
             The line between investing and gambling can blur, especially when:
           </p>
-          <ul className="list-disc pl-6 mb-2">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               Decisions are driven by emotions or the desire for quick profits
               rather than informed analysis.

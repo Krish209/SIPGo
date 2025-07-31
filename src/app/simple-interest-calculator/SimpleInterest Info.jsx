@@ -72,7 +72,7 @@ const SimpleInterestInfo = () => {
         <code className="">SI = (P × R × T) / 100</code>
 
         <p className="mt-2">Where:</p>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>P = Principal amount (the initial investment or loan amount)</li>
           <li>R = Rate of interest per annum (in percentage)</li>
           <li>T = Time period (in years)</li>

@@ -156,7 +156,7 @@ export default function CarLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Why Consider a Car Loan?
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Avoid depleting your savings</li>
           <li>Spread out payments over time</li>
           <li>Buy a better car than you could afford with cash</li>
@@ -245,7 +245,7 @@ export default function CarLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Factors That Affect Your Car Loan Approval
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           {[
             "Credit Score – A higher score means lower interest rates and better terms.",
             "Income – Lenders assess your ability to repay based on income.",
@@ -283,7 +283,7 @@ export default function CarLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Expert Tips for Getting the Best Car Loan
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           {[
             "Improve your credit score before applying",
             "Make a sizable down payment (ideally 20%)",

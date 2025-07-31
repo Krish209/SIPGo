@@ -170,7 +170,7 @@ export default function EducationLoanInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           What Can Education Loans Cover?
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Tuition fees</li>
           <li>Hostel or accommodation fees</li>
           <li>Books, stationery, and study materials</li>

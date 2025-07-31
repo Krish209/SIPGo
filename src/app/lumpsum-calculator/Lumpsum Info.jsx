@@ -177,7 +177,7 @@ const LumpsumInfo = () => {
           </p>
           <code className="font-bold">A = P × (1 + r)^n</code>
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>A</strong> = Final Amount (after interest)
             </li>

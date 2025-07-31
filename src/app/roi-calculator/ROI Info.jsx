@@ -91,7 +91,7 @@ const ROIInfo = () => {
             Investment) × 100
           </code>
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>Gain from Investment</strong>: Total amount received from
               the investment

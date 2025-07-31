@@ -123,7 +123,7 @@ const KVPInfo = () => {
           Who is Eligible?
         </h3>
         <p>Any Indian resident can invest in KVP. Eligibility includes:</p>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Minors (through a guardian)</li>
           <li>Joint accounts (up to 3 individuals)</li>
           <li>Trusts (excluding Hindu Undivided Families)</li>
@@ -171,7 +171,7 @@ const KVPInfo = () => {
             A = P × (1 + r/n)<sup>nt</sup>
           </code>
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>A</strong> = Final maturity amount
             </li>
@@ -285,7 +285,7 @@ const KVPInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           How to Buy KVP?
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Available at all India Post Office branches</li>
           <li>Also available through authorized public sector banks</li>
         </ul>

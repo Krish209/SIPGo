@@ -101,7 +101,7 @@ const Disclaimer = () => {
               estimates provided due to various factors, including but not
               limited to:
             </p>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>Market conditions</li>
               <li>Government regulations or policy changes</li>
               <li>Inflation rates</li>

@@ -75,9 +75,9 @@ const FireNumberGuide = () => {
           <h3 className="text-lg md:text-xl font-semibold mb-2">
             Example (USD):
           </h3>
-          <ul className="list-disc pl-6 mb-2">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>$60k/year → Corpus:</li>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>At 4% = $1.5M (× 25)</li>
               <li>At 3.5% = $1.71M (× 28)</li>
               <li>At 3.25% = $1.85M (× 30)</li>
@@ -87,9 +87,9 @@ const FireNumberGuide = () => {
           <h3 className="text-lg md:text-xl font-semibold mb-2">
             Example (India, INR):
           </h3>
-          <ul className="list-disc pl-6 mb-2">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>₹12 lakh/year → Corpus:</li>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>×25 = ₹3 crore</li>
               <li>×30 = ₹3.6 crore</li>
             </ul>

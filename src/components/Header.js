@@ -56,7 +56,7 @@ function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex lg:space-x-6 pr-5">
+          <nav className="hidden hs:flex lg:space-x-6 pr-5">
             {links.map((item, index) => (
               <div
                 key={index}
@@ -115,7 +115,7 @@ function Header() {
           {/* Mobile Menu Toggle */}
           <button
             onClick={toggleMobileMenu}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100"
+            className="hs:hidden p-2 rounded-lg hover:bg-gray-100"
             aria-label={mobileMenu ? "Close menu" : "Open menu"}
           >
             {mobileMenu ? <AiOutlineClose className="w-6 h-6" /> : <FiMenu className="w-6 h-6" />}
@@ -126,7 +126,7 @@ function Header() {
       {/* Mobile Menu */}
       <div
         ref={menuRef}
-        className={`md:hidden fixed inset-y-0 right-0 w-full bg-white shadow-xl z-50 transform transition-transform
+        className={`hs:hidden fixed inset-y-0 right-0 w-full bg-white shadow-xl z-50 transform transition-transform
         ${mobileMenu ? "translate-x-0" : "translate-x-full"}`}
       >
         <div className="px-4 sm:px-6 lg:px-8 py-2 border-b border-gray-100 flex justify-between items-center">

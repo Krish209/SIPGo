@@ -52,10 +52,6 @@ const BillionaireInvestmentStrategy = () => {
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Introduction */}
         <section className="my-4 md:my-8">
-          <h1 className="text-2xl md:text-3xl font-bold mb-4">
-            The One Investment Strategy Billionaires Don’t Want You to Know
-            About
-          </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Introduction: Unlocking the Billionaire Secret Weapon
           </h2>

@@ -33,22 +33,25 @@ const BeginnerLossesGuide = () => {
           <p className="mb-2">
             Every year, thousands of beginners jump into investing, trading, or
             money-making ventures with dreams of quick profits and financial
-            freedom. But the shocking reality is that most of them lose money —
-            sometimes a lot. According to studies, nearly 80-90% of beginners
-            fail to make consistent profits and end up losing money in their
-            early stages.
+            freedom. But the <strong>shocking reality</strong> is that most of
+            them lose money — sometimes a lot. According to studies, nearly{" "}
+            <strong>80-90% of beginners fail to make consistent profits</strong>{" "}
+            and end up losing money in their early stages.
           </p>
           <p className="mb-2">
             If you’re just starting out, this might feel discouraging. But don’t
             worry — this guide is here to turn the tide in your favor. We’ll
-            explore the top reasons why most beginners lose money, reveal the
-            common pitfalls, and provide proven, actionable strategies to help
-            you succeed where others fail.
+            explore the{" "}
+            <strong>top reasons why most beginners lose money</strong>, reveal
+            the
+            <strong>common pitfalls</strong>, and provide{" "}
+            <strong>proven, actionable strategies</strong> to help you succeed
+            where others fail.
           </p>
           <p className="mb-2">
-            By the end of this post, you’ll have a clear roadmap to avoid costly
-            mistakes and build a winning mindset and strategy for long-term
-            financial success.
+            By the end of this post, you’ll have a clear roadmap to{" "}
+            <strong>avoid costly mistakes</strong> and build a winning mindset
+            and strategy for long-term financial success.
           </p>
         </section>
 
@@ -84,9 +87,9 @@ const BeginnerLossesGuide = () => {
             2. Emotional Bias — Fear and Greed
           </h3>
           <p className="mb-2">
-            The biggest enemies of beginner investors are emotions. Fear causes
-            panic selling during dips, while greed pushes you to chase “too good
-            to be true” opportunities.
+            The biggest enemies of beginner investors are{" "}
+            <strong>emotions</strong>. Fear causes panic selling during dips,
+            while greed pushes you to chase “too good to be true” opportunities.
           </p>
           <p className="mb-2">
             <strong>Real example:</strong> During the 2020 pandemic crash, many
@@ -151,7 +154,7 @@ const BeginnerLossesGuide = () => {
           <p className="mb-2">
             Knowledge is your best weapon against losing money.
           </p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               Read classic investing books like{" "}
               <em>The Intelligent Investor</em> by Benjamin Graham or{" "}
@@ -171,7 +174,7 @@ const BeginnerLossesGuide = () => {
             2. Create a Detailed and Realistic Trading or Investment Plan
           </h3>
           <p className="mb-2">Your plan should include:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>Clear goals (short-term trading vs. long-term investing)</li>
             <li>Entry and exit criteria based on analysis, not emotions</li>
             <li>Risk tolerance levels</li>
@@ -186,7 +189,7 @@ const BeginnerLossesGuide = () => {
           <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
             3. Implement Strict Risk Management Practices
           </h3>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>Diversify:</strong> Spread investments across different
               asset classes and sectors.
@@ -204,7 +207,7 @@ const BeginnerLossesGuide = () => {
           <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
             4. Master Emotional Control and Trading Psychology
           </h3>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>Practice mindfulness or meditation to reduce stress.</li>
             <li>Use journaling to track emotional triggers and mistakes.</li>
             <li>
@@ -305,15 +308,16 @@ const BeginnerLossesGuide = () => {
             The Bottom Line: Turn Your Losses into Wins
           </h2>
           <p className="mb-2">
-            While the statistics on beginner losses are daunting, losing money
-            is NOT your destiny. With the right education, a well-crafted plan,
-            disciplined risk management, and emotional control, you can beat the
-            odds.
+            While the statistics on beginner losses are daunting,{" "}
+            <strong>losing money is NOT your destiny</strong>. With the right
+            education, a well-crafted plan, disciplined risk management, and
+            emotional control, you can beat the odds.
           </p>
           <p className="mb-2">
-            Remember, success in investing and trading is a journey that demands
-            continuous learning and resilience. Start small, stay consistent,
-            and keep refining your strategy.
+            Remember, success in investing and trading is a{" "}
+            <strong>journey</strong> that demands continuous learning and
+            resilience. Start small, stay consistent, and keep refining your
+            strategy.
           </p>
           <p className="mb-2">
             Your journey from a losing beginner to a winning investor begins

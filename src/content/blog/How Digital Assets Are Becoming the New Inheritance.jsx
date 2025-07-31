@@ -283,7 +283,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
             </li>
           </ul>
           <h3 className="font-semibold mb-2">Pitfalls to Avoid</h3>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               Never store seed phrases or passwords in public legal documents,
               such as wills

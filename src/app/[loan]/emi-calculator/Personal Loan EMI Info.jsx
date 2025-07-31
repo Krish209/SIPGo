@@ -82,7 +82,7 @@ export default function PersonalLoanInfo() {
         <p className="mb-2">
           Personal loans can be used for various purposes, such as:
         </p>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Debt consolidation</li>
           <li>Medical emergencies</li>
           <li>Home renovation or repairs</li>

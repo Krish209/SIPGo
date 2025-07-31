@@ -31,11 +31,6 @@ function RDCalc() {
   const maxRateOfInterest = 15; // Max RD rate of interest
   const maxInvestmentPeriod = 10; // Max RD period (10 years)
 
-  // Function to get the correct range maximum for monthly deposit
-  const getMaxMonthlyDeposit = () => {
-    return maxMonthlyDeposit;
-  };
-
   useEffect(() => {
     if (monthlyDeposit < 500 || rateOfInterest <= 0 || investmentPeriod <= 0) {
       setErrorMessages({
@@ -114,6 +109,7 @@ function RDCalc() {
       ],
     });
 
+    // Donut chart data
     setDonutChartData({
       labels: ["Invested Amount", "Estimated Returns"],
       datasets: [
@@ -128,7 +124,9 @@ function RDCalc() {
   // Handlers for inputs
   const handleMonthlyDepositChange = (e) =>
     setMonthlyDeposit(
-      Math.max(0, Math.min(Number(e.target.value), getMaxMonthlyDeposit()))
+      // String problem: Ensure value is a string for controlled input
+      // String(Math.max(0, Math.min(Number(e.target.value), maxMonthlyDeposit)))
+      Math.max(0, Math.min(Number(e.target.value), maxMonthlyDeposit))
     );
   const handleRateOfInterestChange = (e) =>
     setRateOfInterest(
@@ -234,7 +232,7 @@ function RDCalc() {
               <input
                 type="range"
                 min="500"
-                max={getMaxMonthlyDeposit()}
+                max={maxMonthlyDeposit}
                 step="500"
                 value={monthlyDeposit}
                 onChange={handleMonthlyDepositChange}

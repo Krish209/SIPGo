@@ -120,7 +120,7 @@ function GratuityInfo() {
             Gratuity = (Last Drawn Salary × Years of Service × 15) / 26
           </code>
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>Last Drawn Salary</strong>: The salary the employee was
               drawing at the time of leaving the company, which includes basic

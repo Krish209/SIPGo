@@ -156,7 +156,7 @@ const NSCInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Tax Benefits of NSC
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Section 80C Deduction</strong>: The principal amount
             invested in NSC is eligible for tax deduction under Section 80C,
@@ -184,7 +184,7 @@ const NSCInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Types of NSC
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>NSC VIII Issue</strong>: This is the standard 5-year NSC,
             which provides interest that is compounded annually and paid only at
@@ -197,7 +197,7 @@ const NSCInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Who Should Invest in NSC?
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Risk-averse individuals looking for a safe investment option.</li>
           <li>
             Taxpayers looking to reduce taxable income under Section 80C of the
@@ -218,7 +218,7 @@ const NSCInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Pros of NSC
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Government-Backed</strong>: The investment is backed by the
             Government of India, making it one of the safest options.
@@ -246,7 +246,7 @@ const NSCInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Cons of NSC
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Taxable Interest</strong>: The interest earned is taxable,
             which can reduce the overall returns depending on your tax bracket.
@@ -266,7 +266,7 @@ const NSCInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           How to Buy an NSC?
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>You can purchase NSC at any Post Office across India.</li>
           <li>
             Some Post Offices also provide the facility to buy NSC online

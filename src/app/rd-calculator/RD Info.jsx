@@ -82,7 +82,7 @@ const RDInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Benefits of RD
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Easy to Start</strong>: Requires no large initial
             investment.
@@ -118,7 +118,7 @@ const RDInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           How to Open an RD?
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Eligibility</strong>: Any individual (single or joint) can
             open an RD, either with or without a guardian for minors.
@@ -161,7 +161,7 @@ const RDInfo = () => {
           </code>
 
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>A</strong> = Amount of money accumulated after n years,
               including interest.
@@ -257,7 +257,7 @@ const RDInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Tax on RDs
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Taxability</strong>: The interest earned on RDs is taxable
             under the Income Tax Act.

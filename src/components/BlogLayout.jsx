@@ -215,7 +215,7 @@ const BlogLayout = ({
         </button>
       )}
 
-      <main className="max-w-4xl mx-auto px-2 sm:px-4 py-6 sm:py-12">
+      <main className="max-w-4xl mx-auto px-2 sm:px-4 py-6 sm:py-8 md:py-12">
         {/* Breadcrumb */}
         <div className="flex items-center text-sm text-gray-600 mb-4 sm:mb-8">
           <Link href="/" className="hover:text-indigo-600">

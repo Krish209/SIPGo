@@ -78,7 +78,7 @@ function EMIInfo() {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Components of EMI
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Principal Amount</strong>: The actual loan amount borrowed.
             The total loan amount affects the EMI, as the higher the loan, the
@@ -126,7 +126,7 @@ function EMIInfo() {
           </code>
 
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>P</strong> = Principal loan amount
             </li>

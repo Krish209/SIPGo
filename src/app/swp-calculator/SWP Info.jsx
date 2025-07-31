@@ -119,7 +119,7 @@ const SWPInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Key Features of SWP
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Flexibility</strong>: Allows withdrawal of fixed amounts
             over time, offering a steady income stream.
@@ -194,7 +194,7 @@ const SWPInfo = () => {
           </p>
           <code className="font-bold">A = B × [(1 + r/n)^n - 1] / (r/n)</code>
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1">
+          <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               <strong>A</strong> = Final Amount (after interest)
             </li>
@@ -243,7 +243,7 @@ const SWPInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Benefits of SWP
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             <strong>Steady Income</strong>: SWP provides a predictable income
             stream, making it ideal for people in need of regular cash flow.
@@ -269,7 +269,7 @@ const SWPInfo = () => {
       {/* Pros */}
       <section className="my-4 md:my-6">
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">Pros</h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Provides a regular income without depleting investments</li>
           <li>Perfect for retirees or those needing steady cash flow</li>
           <li>Allows continued growth of the invested corpus</li>
@@ -281,7 +281,7 @@ const SWPInfo = () => {
       {/* Cons */}
       <section className="my-4 md:my-6">
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">Cons</h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>
             Subject to market volatility, which can affect withdrawal amounts
           </li>

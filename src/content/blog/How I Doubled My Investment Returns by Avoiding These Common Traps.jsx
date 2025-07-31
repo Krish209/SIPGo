@@ -218,7 +218,7 @@ const DoubleInvestmentReturnsBlog = () => {
                 The more I learned about financial markets, economic cycles, and
                 investment vehicles, the better decisions I made. I recommend:
               </p>
-              <ul className="list-disc pl-6 space-y-1">
+              <ul className="list-disc pl-6 space-y-1 mb-2">
                 <li>
                   Reading books like <em>The Intelligent Investor</em> by
                   Benjamin Graham.

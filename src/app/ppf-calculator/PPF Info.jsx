@@ -121,7 +121,7 @@ const PPFInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Who is Eligible?
         </h3>
-        <ul className="list-disc pl-6 space-y-1">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Indian citizens (residents)</li>
           <li>Minors (operated by a parent or legal guardian)</li>
           <li>
