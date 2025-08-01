@@ -43,8 +43,8 @@ const FireNumberGuide = () => {
             amount of savings and investments required to retire with
             confidence, sustainably funding your life without drawing from
             earned income. In this guide, we’ll walk through proven formulas,
-            real-life case studies in both ₹ and USD, and actionable steps to
-            get your number.
+            real-life case studies in both ₹ and USD, and{" "}
+            <strong>actionable steps</strong> to get your number.
           </p>
         </section>
 
@@ -54,27 +54,31 @@ const FireNumberGuide = () => {
             1. Understanding the Core Rules: 25× or 30× Your Annual Expenses
           </h2>
 
-          <p className="mb-2">
-            <strong>The 4% Rule</strong>: Based on the Trinity Study, this rule
-            suggests you can withdraw 4% of your retirement portfolio in the
-            first year and adjust for inflation thereafter. This gives a 95–98%
-            chance that your money will last for at least 30 years.
-          </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>
+              <strong>The 4% Rule</strong>: Based on the Trinity Study, this
+              rule suggests you can withdraw{" "}
+              <strong>4% of your retirement portfolio in the first year</strong>{" "}
+              and adjust for inflation thereafter. This gives a 95–98% chance
+              that your money will last for at least 30 years.
+            </li>
 
-          <p className="mb-2">
-            <strong>25× Formula</strong>: Your corpus = Annual Expenses × 25.
-            Ideal for retirement within traditional age ranges.
-          </p>
+            <li>
+              <strong>25× Formula</strong>: Your corpus = Annual Expenses × 25.
+              Ideal for retirement within traditional age ranges.
+            </li>
 
-          <p className="mb-2">
-            <strong>Conservative Approach</strong>: For early retirees planning
-            40–60 years horizon, use 3.25–3.5% withdrawal rates, leading to
-            25–30× multipliers.
-          </p>
+            <li>
+              <strong>Conservative Approach</strong>: For early retirees
+              planning 40–60 years horizon, use{" "}
+              <strong>3.25–3.5% withdrawal rates</strong>, leading to{" "}
+              <strong>25–30× multipliers</strong>.
+            </li>
+          </ul>
 
-          <h3 className="text-lg md:text-xl font-semibold mb-2">
+          <p className="text-base md:text-lg font-semibold mb-2">
             Example (USD):
-          </h3>
+          </p>
           <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>$60k/year → Corpus:</li>
             <ul className="list-disc pl-6 space-y-1 mb-2">
@@ -84,9 +88,9 @@ const FireNumberGuide = () => {
             </ul>
           </ul>
 
-          <h3 className="text-lg md:text-xl font-semibold mb-2">
+          <p className="text-base md:text-lg font-semibold mb-2">
             Example (India, INR):
-          </h3>
+          </p>
           <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>₹12 lakh/year → Corpus:</li>
             <ul className="list-disc pl-6 space-y-1 mb-2">
@@ -102,39 +106,43 @@ const FireNumberGuide = () => {
             2. Deep Dive: Key Variables That Shape Your FIRE Number
           </h2>
 
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Inflation & Real-Returns
+          </h3>
+
           <ul className="list-disc pl-6 mb-2 space-y-2">
+            <li>India: inflation ~6–7% per year</li>
+            <li>US/global: ~2–3% per year</li>
+          </ul>
+          <p className="mb-2">
+            Make sure your FIRE corpus accounts for inflation and rising living
+            costs over a 30–40-year retirement horizon.
+          </p>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Investment Returns
+          </h3>
+          <ul className="list-disc pl-6 mb-2 space-y-2">
+            <li>Pre-retirement: equity-heavy portfolios may earn 10–12%</li>
             <li>
-              <strong>Inflation & Real-Returns</strong>
-              <br />
-              India: inflation ~6–7% per year
-              <br />
-              US/global: ~2–3% per year
-              <br />
-              Make sure your FIRE corpus accounts for inflation and rising
-              living costs over a 30–40-year retirement horizon.
-            </li>
-            <li>
-              <strong>Investment Returns</strong>
-              <br />
-              Pre-retirement: equity-heavy portfolios may earn 10–12%
-              <br />
               Post-retirement: shift to conservative allocation (debt, bonds)
               yield ~8–10%
             </li>
-            <li>
-              <strong>Life Expectancy</strong>
-              <br />
-              Factor in longevity—if retiring at 55 and expecting to live until
-              90, plan for at least 35 years of withdrawals.
-            </li>
-            <li>
-              <strong>Special Expenses</strong>
-              <br />
-              Include one‑offs like children’s education, health emergencies,
-              weddings, travel or family support. Add these into your “bucket
-              hole” gap planning.
-            </li>
           </ul>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Life Expectancy
+          </h3>
+          <p className="mb-2">
+            Factor in longevity—if retiring at 55 and expecting to live until
+            90, plan for at least 35 years of withdrawals.
+          </p>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Special Expenses
+          </h3>
+          <p className="mb-2">
+            Include one‑offs like children’s education, health emergencies,
+            weddings, travel or family support. Add these into your “bucket
+            hole” gap planning.
+          </p>
         </section>
 
         {/* 3. FIRE Types */}
@@ -192,11 +200,11 @@ const FireNumberGuide = () => {
 
         {/* 5. FAQ Section */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             5. FAQ Section (Target “featured snippet” queries)
           </h2>
 
-          <dl className="space-y-4">
+          <dl className="space-y-4 mb-4">
             <div>
               <dt className="font-semibold">
                 Q: What is the 4% rule in retirement planning?
@@ -240,25 +248,8 @@ const FireNumberGuide = () => {
               </dd>
             </div>
           </dl>
-        </section>
 
-        {/* Final Thoughts */}
-        <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
-            Final Thoughts
-          </h2>
-
-          <p className="mb-2">
-            Your FIRE number is fundamentally Annual Expenses × 25 to 30,
-            depending on how safe you want to be.
-          </p>
-
-          <p className="mb-2">
-            Back it with inflation-adjusted planning, emergency buffers, passive
-            income channels, and periodic review.
-          </p>
-
-          <p className="mb-2">
+          {/* <p className="mb-2">
             To plan your financial independence journey effectively, try our{" "}
             <a
               href="/sip-calculator"
@@ -283,7 +274,7 @@ const FireNumberGuide = () => {
               Inflation Calculator
             </a>{" "}
             to keep your retirement planning realistic and on track.
-          </p>
+          </p> */}
         </section>
       </div>
     </BlogLayout>

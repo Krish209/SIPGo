@@ -303,7 +303,7 @@ function SIPCalc() {
                           ? handleMonthlyInvestmentChange
                           : handleLumpsumAmountChange
                       }
-                      className={`p-2 pl-4 pr-3 border border-gray-200 rounded-md shadow-sm w-full text-right ${
+                      className={`p-2 pl-4 pr-3 border rounded-md shadow-sm w-full text-right ${
                         errorMessages[
                           isSIP ? "monthlyInvestment" : "lumpsumAmount"
                         ]

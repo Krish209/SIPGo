@@ -123,7 +123,7 @@ const StepUpSIPInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Key Features of Step-Up SIP
         </h3>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
+        <ul className="list-disc pl-6 space-y-1">
           <li>
             Auto-increase SIP amount at set intervals (e.g., ₹500 every year)
           </li>
@@ -164,7 +164,7 @@ const StepUpSIPInfo = () => {
             A = P × [(1 + r)^n - 1] / (r/n) + S × [(1 + r)^n - 1] / (r/n)
           </code>
           <p className="mt-2">Where:</p>
-          <ul className="list-disc pl-6 space-y-1 mb-2">
+          <ul className="list-disc pl-6 space-y-1">
             <li>
               <strong>A</strong> = Final Amount (after interest)
             </li>
@@ -208,7 +208,7 @@ const StepUpSIPInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Benefits of Step-Up SIP
         </h3>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
+        <ul className="list-disc pl-6 space-y-1">
           <li>
             <strong>Increased Wealth Creation</strong>: As your investment
             increases regularly, you accumulate more units over time, leading to
@@ -276,7 +276,7 @@ const StepUpSIPInfo = () => {
       <section className="my-4 md:my-6">
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">Pros</h3>
 
-        <ul className="list-disc pl-6 space-y-1 mb-2">
+        <ul className="list-disc pl-6 space-y-1">
           <li>Boosts returns with rising contributions</li>
           <li>Perfect for long-term goals like retirement or education</li>
           <li>No need to create new SIPs manually each year</li>
@@ -287,7 +287,7 @@ const StepUpSIPInfo = () => {
       {/* Cons */}
       <section className="my-4 md:my-6">
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">Cons</h3>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
+        <ul className="list-disc pl-6 space-y-1">
           <li>Requires steady income growth</li>
           <li>May stretch your monthly budget if not planned well</li>
           <li>Returns depend on mutual fund performance (market-linked)</li>
@@ -302,7 +302,7 @@ const StepUpSIPInfo = () => {
         <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
           Who Should Invest in Step-Up SIP?
         </h3>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
+        <ul className="list-disc pl-6 space-y-1">
           <li>Salaried individuals expecting annual raises</li>
           <li>Young professionals starting with a modest income</li>
           <li>

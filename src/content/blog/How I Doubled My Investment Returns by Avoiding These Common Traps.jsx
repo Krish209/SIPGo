@@ -61,7 +61,7 @@ const DoubleInvestmentReturnsBlog = () => {
             so many investors fall victim to them. The primary culprits are
             often:
           </p>
-          <ul className="list-disc pl-6 space-y-1 mt-2">
+          <ul className="list-disc pl-6 space-y-2 mb-2">
             <li>
               <strong>Emotional Biases:</strong> Greed, fear, and impatience
               lead to irrational decisions.
@@ -83,7 +83,7 @@ const DoubleInvestmentReturnsBlog = () => {
               eat into profits.
             </li>
           </ul>
-          <p className="mt-2">
+          <p className="mb-2">
             Recognizing these issues is the first step toward breaking free and
             enhancing your investment outcomes.
           </p>
@@ -96,112 +96,99 @@ const DoubleInvestmentReturnsBlog = () => {
             Avoided Them)
           </h2>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                1. Chasing Market Hype and “Hot” Stocks
-              </h3>
-              <p className="mb-2">
-                <strong>Trap:</strong> When the media or social buzz hypes a
-                stock or sector, the fear of missing out (FOMO) can push
-                investors to buy at peak prices. This often leads to steep
-                losses when the bubble bursts.
-              </p>
-              <p className="mb-2">
-                <strong>My Experience:</strong> Early on, I chased hot tech
-                stocks during market surges, only to suffer significant setbacks
-                during corrections.
-              </p>
-              <p className="mb-2">
-                <strong>How I Avoided It:</strong> I shifted my focus to
-                fundamental analysis — examining a company’s earnings growth,
-                debt levels, cash flow, and competitive advantages. This
-                approach helped me identify undervalued stocks with genuine
-                growth potential rather than speculative fads.
-              </p>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Chasing Market Hype and “Hot” Stocks
+          </h3>
+          <p className="mb-2">
+            <strong>Trap:</strong> When the media or social buzz hypes a stock
+            or sector, the fear of missing out (FOMO) can push investors to buy
+            at peak prices. This often leads to steep losses when the bubble
+            bursts.
+          </p>
+          <p className="mb-2">
+            <strong>My Experience:</strong> Early on, I chased hot tech stocks
+            during market surges, only to suffer significant setbacks during
+            corrections.
+          </p>
+          <p className="mb-2">
+            <strong>How I Avoided It:</strong> I shifted my focus to fundamental
+            analysis — examining a company’s earnings growth, debt levels, cash
+            flow, and competitive advantages. This approach helped me identify
+            undervalued stocks with genuine growth potential rather than
+            speculative fads.
+          </p>
 
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                2. Trying to Time the Market Instead of Time in the Market
-              </h3>
-              <p className="mb-2">
-                <strong>Trap:</strong> Many investors try to predict market
-                highs and lows, selling before a dip and buying at a low. But
-                timing the market consistently is nearly impossible—even for
-                professionals.
-              </p>
-              <p className="mb-2">
-                <strong>My Experience:</strong> I once sold investments during a
-                downturn out of fear, missing out on a strong recovery that
-                followed.
-              </p>
-              <p className="mb-2">
-                <strong>How I Avoided It:</strong> I adopted a buy-and-hold
-                strategy combined with rupee-cost averaging (DCA). Investing a
-                fixed amount regularly allowed me to smooth out volatility and
-                benefit from compounding growth over time.
-              </p>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Trying to Time the Market Instead of Time in the Market
+          </h3>
+          <p className="mb-2">
+            <strong>Trap:</strong> Many investors try to predict market highs
+            and lows, selling before a dip and buying at a low. But timing the
+            market consistently is nearly impossible—even for professionals.
+          </p>
+          <p className="mb-2">
+            <strong>My Experience:</strong> I once sold investments during a
+            downturn out of fear, missing out on a strong recovery that
+            followed.
+          </p>
+          <p className="mb-2">
+            <strong>How I Avoided It:</strong> I adopted a buy-and-hold strategy
+            combined with rupee-cost averaging (DCA). Investing a fixed amount
+            regularly allowed me to smooth out volatility and benefit from
+            compounding growth over time.
+          </p>
 
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                3. Lack of Diversification — Putting All Eggs in One Basket
-              </h3>
-              <p className="mb-2">
-                <strong>Trap:</strong> Concentrating investments in one sector
-                or asset class can lead to devastating losses if that area
-                underperforms.
-              </p>
-              <p className="mb-2">
-                <strong>My Experience:</strong> Heavy investments in one booming
-                sector once backfired when the sector declined sharply.
-              </p>
-              <p className="mb-2">
-                <strong>How I Avoided It:</strong> I diversified across stocks,
-                bonds, ETFs, international markets, and real estate. This
-                balance reduced portfolio risk and provided steadier returns.
-              </p>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Lack of Diversification — Putting All Eggs in One Basket
+          </h3>
+          <p className="mb-2">
+            <strong>Trap:</strong> Concentrating investments in one sector or
+            asset class can lead to devastating losses if that area
+            underperforms.
+          </p>
+          <p className="mb-2">
+            <strong>My Experience:</strong> Heavy investments in one booming
+            sector once backfired when the sector declined sharply.
+          </p>
+          <p className="mb-2">
+            <strong>How I Avoided It:</strong> I diversified across stocks,
+            bonds, ETFs, international markets, and real estate. This balance
+            reduced portfolio risk and provided steadier returns.
+          </p>
 
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                4. Overtrading and High Transaction Fees
-              </h3>
-              <p className="mb-2">
-                <strong>Trap:</strong> Frequent buying and selling rack up
-                commission fees and taxes, which directly reduce net returns.
-              </p>
-              <p className="mb-2">
-                <strong>My Experience:</strong> Early in my investing journey,
-                overtrading caused my returns to lag behind market averages.
-              </p>
-              <p className="mb-2">
-                <strong>How I Avoided It:</strong> I minimized transactions,
-                favored low-cost index funds and ETFs, and held investments
-                long-term to keep fees and taxes low.
-              </p>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Overtrading and High Transaction Fees
+          </h3>
+          <p className="mb-2">
+            <strong>Trap:</strong> Frequent buying and selling rack up
+            commission fees and taxes, which directly reduce net returns.
+          </p>
+          <p className="mb-2">
+            <strong>My Experience:</strong> Early in my investing journey,
+            overtrading caused my returns to lag behind market averages.
+          </p>
+          <p className="mb-2">
+            <strong>How I Avoided It:</strong> I minimized transactions, favored
+            low-cost index funds and ETFs, and held investments long-term to
+            keep fees and taxes low.
+          </p>
 
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                5. Letting Emotions Drive Decisions
-              </h3>
-              <p className="mb-2">
-                <strong>Trap:</strong> Emotional reactions to market swings
-                often cause panic selling or greedy buying at the wrong times.
-              </p>
-              <p className="mb-2">
-                <strong>My Experience:</strong> I sold quality investments
-                during short-term dips, missing their eventual rebound.
-              </p>
-              <p className="mb-2">
-                <strong>How I Avoided It:</strong> I created an investment plan
-                with clear goals and automated my contributions and rebalancing.
-                This removed emotional impulses and kept me on track.
-              </p>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            5. Letting Emotions Drive Decisions
+          </h3>
+          <p className="mb-2">
+            <strong>Trap:</strong> Emotional reactions to market swings often
+            cause panic selling or greedy buying at the wrong times.
+          </p>
+          <p className="mb-2">
+            <strong>My Experience:</strong> I sold quality investments during
+            short-term dips, missing their eventual rebound.
+          </p>
+          <p className="mb-2">
+            <strong>How I Avoided It:</strong> I created an investment plan with
+            clear goals and automated my contributions and rebalancing. This
+            removed emotional impulses and kept me on track.
+          </p>
         </section>
 
         {/* Proven Strategies */}
@@ -211,7 +198,7 @@ const DoubleInvestmentReturnsBlog = () => {
           </h2>
           <div className="space-y-4">
             <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Continuous Education: Knowledge Is Power
               </h3>
               <p className="mb-2">
@@ -231,7 +218,7 @@ const DoubleInvestmentReturnsBlog = () => {
             </div>
 
             <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Setting Realistic, Measurable Goals
               </h3>
               <p className="mb-2">
@@ -242,7 +229,7 @@ const DoubleInvestmentReturnsBlog = () => {
             </div>
 
             <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Creating a Personalized, Risk-Aligned Investment Plan
               </h3>
               <p className="mb-2">
@@ -251,7 +238,7 @@ const DoubleInvestmentReturnsBlog = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Practicing rupee-cost Averaging (DCA)
               </h3>
               <p className="mb-2">
@@ -260,7 +247,7 @@ const DoubleInvestmentReturnsBlog = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Leveraging Index Funds and ETFs for Low-Cost Diversification
               </h3>
               <p className="mb-2">
@@ -269,7 +256,7 @@ const DoubleInvestmentReturnsBlog = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Periodic Portfolio Rebalancing
               </h3>
               <p className="mb-2">
@@ -278,7 +265,7 @@ const DoubleInvestmentReturnsBlog = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Patience and Long-Term Perspective
               </h3>
               <p className="mb-2">

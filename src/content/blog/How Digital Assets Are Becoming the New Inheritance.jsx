@@ -48,7 +48,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             1. Why Digital Assets Are Becoming Critical in Estate Planning
           </h2>
-          <h3 className="font-semibold mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             A. Rising Financial and Sentimental Value
           </h3>
           <p className="mb-2">
@@ -58,7 +58,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
             households, digital content—from cloud photos to YouTube
             channels—holds emotional legacies as well.
           </p>
-          <h3 className="font-semibold mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             B. Loss Risks Without Proper Planning
           </h3>
           <p className="mb-2">
@@ -67,13 +67,13 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
             result in permanent losses. An estimated 20% of Bitcoin supply is
             now permanently unrecoverable due to poor succession planning.
           </p>
-          <h3 className="font-semibold mb-2">C. Emotional Toll</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">C. Emotional Toll</h3>
           <p className="mb-2">
             Families are deprived not solely of money, but of priceless
             memories: private messages, digital journals, and photo archives.
             Losing such digital content can inflict surprising emotional damage.
           </p>
-          <h3 className="font-semibold mb-2">D. Legal Recognition</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">D. Legal Recognition</h3>
           <p className="mb-2">
             In England and Wales, crypto is officially recognized as property
             and can be included in wills but requires safe treatment of private
@@ -120,7 +120,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             3. Legal & Practical Challenges
           </h2>
-          <h3 className="font-semibold mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             A. Access Restrictions / Platform Terms
           </h3>
           <p className="mb-2">
@@ -128,7 +128,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
             Without legacy settings or account authorization, access can be
             denied or accounts deleted on death—even by close relatives.
           </p>
-          <h3 className="font-semibold mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             B. Privacy Laws & Fiduciary Legislation
           </h3>
           <p className="mb-2">
@@ -137,13 +137,13 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
             tools. In the EU, GDPR's post‑mortem personal data rights can also
             restrict access without explicit instructions.
           </p>
-          <h3 className="font-semibold mb-2">C. Security of Credentials</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">C. Security of Credentials</h3>
           <p className="mb-2">
             Seed phrases, private keys, 2FA codes—if not properly recorded and
             stored—can render digital assets permanently inaccessible. Informal
             systems (emails, texts) are insecure or violate platform policies.
           </p>
-          <h3 className="font-semibold mb-2">D. Rapidly Evolving Technology</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">D. Rapidly Evolving Technology</h3>
           <p className="mb-2">
             Digital assets and platforms evolve. PDF formats, wallet types,
             platform terms all change over time—making periodic updates
@@ -157,7 +157,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
             4. The Optimal Process: From Inventory to Inheritance
           </h2>
           <div className="space-y-4">
-            <p>
+            <p className="mb-2">
               <strong>✅ Step 1: Comprehensive Inventory</strong>
               <br />
               Create a detailed inventory of all digital assets and platforms,
@@ -166,14 +166,14 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
               accounts, social profiles, domains, websites, and devices. Include
               instructions and support contacts where relevant.
             </p>
-            <p>
+            <p className="mb-2">
               <strong>🛡 Step 2: Secure Storage & Access Framework</strong>
               <br />
               Use password managers or secure vaults. Store crypto access info
               in encrypted formats—never directly in wills. Refer to sealed
               letters or encrypted files via legal documents.
             </p>
-            <p>
+            <p className="mb-2">
               <strong>
                 👤 Step 3: Appoint a Tech‑Savvy Digital Executor or Trustee
               </strong>
@@ -182,27 +182,27 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
               fiduciary. Outline responsibilities and provide legal
               authorization.
             </p>
-            <p>
+            <p className="mb-2">
               <strong>📝 Step 4: Legal Instruments & Memorandums</strong>
               <br />
               Use digital asset trusts, digital wills or codicils, and letters
               of instruction. Avoid exposing sensitive keys in public legal
               records.
             </p>
-            <p>
+            <p className="mb-2">
               <strong>🔗 Step 5: Use Platform Legacy Features</strong>
               <br />
               Enable built-in tools like Google Inactive Account Manager,
               Facebook Legacy Contact, Apple Legacy Contact for smoother
               transitions.
             </p>
-            <p>
+            <p className="mb-2">
               <strong>🔄 Step 6: Tax Planning & Legal Compliance</strong>
               <br />
               Document cost basis, acquisition dates. Consider trusts, gifting,
               and tax rules like the IRS step-up basis.
             </p>
-            <p>
+            <p className="mb-2">
               <strong>📅 Step 7: Regular Review & Updates</strong>
               <br />
               Update your plan annually or after major changes. Keep your
@@ -216,7 +216,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             5. Advanced Tips & Real‑World Insights
           </h2>
-          <ul className="list-disc pl-6 space-y-1 mb-2">
+          <ul className="list-disc pl-6 space-y-2 mb-2">
             <li>
               <strong>📈 Statistic:</strong> In Australia, crypto inclusion in
               wills rose 2400% in four years.
@@ -260,7 +260,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
             multisig wallet, digital asset trust, legacy platform settings
             enabled, and regular reviews.
           </p>
-          <p>
+          <p className="mb-2">
             This strategy ensures value, privacy, and clarity for Lina’s heirs,
             preserving her digital footprint and income streams.
           </p>
@@ -271,7 +271,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             7. Benefits & Hidden Risks to Avoid
           </h2>
-          <h3 className="font-semibold mb-2">Benefits</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">Benefits</h3>
           <ul className="list-disc pl-6 space-y-1 mb-4">
             <li>Protects financial and sentimental value</li>
             <li>Reduces estate stress and family disputes</li>
@@ -282,7 +282,7 @@ const HowDigitalAssetsAreBecomingTheNewInheritance = () => {
               GDPR
             </li>
           </ul>
-          <h3 className="font-semibold mb-2">Pitfalls to Avoid</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">Pitfalls to Avoid</h3>
           <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
               Never store seed phrases or passwords in public legal documents,

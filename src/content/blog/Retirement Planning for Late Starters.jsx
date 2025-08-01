@@ -68,7 +68,7 @@ const RetireCrorepati40 = () => {
       <div className="max-w-screen-lg md:mx-auto text-night">
         {/* Section 1 */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             1. Why ₹1 Crore Might Not Be Enough—But Still a Viable Milestone
           </h2>
           <p className="mb-2">
@@ -86,7 +86,7 @@ const RetireCrorepati40 = () => {
 
         {/* Section 2 */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             2. Power of Compounding—Even When You Start Later
           </h2>
           <p className="mb-2">
@@ -103,12 +103,12 @@ const RetireCrorepati40 = () => {
 
         {/* Section 3 */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             3. Planning Your Crorepati Retirement After 40
           </h2>
 
-          <h3 className="text-lg font-semibold mt-4 mb-2">
-            🎯 Step A: Estimate Your Target Corpus
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Step A: Estimate Your Target Corpus
           </h3>
           <p className="mb-2">
             Determine annual expenses at retirement (inflation-adjusted).
@@ -123,8 +123,8 @@ const RetireCrorepati40 = () => {
             ₹33,000/month for 20 years at ~15% = ₹5 crore corpus by age 60.
           </p>
 
-          <h3 className="text-lg font-semibold mt-4 mb-2">
-            🎯 Step B: Construct a Balanced Portfolio
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Step B: Construct a Balanced Portfolio
           </h3>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
@@ -146,8 +146,8 @@ const RetireCrorepati40 = () => {
             </li>
           </ul>
 
-          <h3 className="text-lg font-semibold mt-4 mb-2">
-            🎯 Step C: SIP Discipline and Step‑Up Strategy
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Step C: SIP Discipline and Step‑Up Strategy
           </h3>
           <p className="mb-2">
             Start with whatever you can—e.g. ₹10,000/month—and increase annual
@@ -156,8 +156,8 @@ const RetireCrorepati40 = () => {
             averaging.
           </p>
 
-          <h3 className="text-lg font-semibold mt-4 mb-2">
-            🎯 Step D: Periodic Rebalancing & Review
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Step D: Periodic Rebalancing & Review
           </h3>
           <p className="mb-2">
             Once a year, rebalance investment mix (equity vs debt) to manage
@@ -165,8 +165,8 @@ const RetireCrorepati40 = () => {
             but don’t overtrade—discipline beats chasing returns.
           </p>
 
-          <h3 className="text-lg font-semibold mt-4 mb-2">
-            🎯 Step E: Emergency Fund & Insurance
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Step E: Emergency Fund & Insurance
           </h3>
           <p className="mb-2">
             Keep at least 6–12 months of living expenses in liquid cash. Secure
@@ -177,7 +177,7 @@ const RetireCrorepati40 = () => {
 
         {/* Section 4 */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             4. Real-World Examples & Insights
           </h2>
           <p className="mb-2">
@@ -194,7 +194,7 @@ const RetireCrorepati40 = () => {
 
         {/* Section 5 */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             5. Sample Portfolio Framework (Starting at Age 40)
           </h2>
           <Table columns={columns} data={portfolioData} />
@@ -206,7 +206,7 @@ const RetireCrorepati40 = () => {
 
         {/* Section 6 */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             6. Common Pitfalls & How to Avoid Them
           </h2>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -231,10 +231,10 @@ const RetireCrorepati40 = () => {
 
         {/* Section 7 */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
-            7. Step-by-Step Action Checklist 🛠️
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
+            7. Step-by-Step Action Checklist
           </h2>
-          <ul className="list-disc space-y-1 pl-6 mb-2">
+          <ol className="list-decimal space-y-2 pl-6 mb-2">
             <li>
               Determine your post-retirement expenses (today’s value and
               inflation-adjusted).
@@ -256,13 +256,13 @@ const RetireCrorepati40 = () => {
             </li>
             <li>Review progress every year; adjust strategy if needed.</li>
             <li>Stay disciplined—consistency compounds.</li>
-          </ul>
+          </ol>
         </section>
 
         {/* Conclusion */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
-            ✅ Final Thoughts
+         <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
+            Final Thoughts
           </h2>
           <p className="mb-2">
             Yes, it's absolutely possible to become a crorepati after 40—but it

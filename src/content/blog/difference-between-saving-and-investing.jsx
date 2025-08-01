@@ -208,9 +208,9 @@ const SavingvsInvesting = () => {
             financial future.
           </p>
 
-          <h3 className="text-[17px] md:text-lg font-semibold mb-1 md:mb-2">
+          <p className="text-[17px] md:text-lg font-semibold mb-1 md:mb-2">
             Save When:
-          </h3>
+          </p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
               You are building an <strong>emergency fund</strong> (usually 3–6
@@ -226,9 +226,9 @@ const SavingvsInvesting = () => {
             </li>
           </ul>
 
-          <h3 className="text-[17px] md:text-lg font-semibold mb-1 md:mb-2">
+          <p className="text-[17px] md:text-lg font-semibold mb-1 md:mb-2">
             Invest When:
-          </h3>
+          </p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
               You are planning for <strong>long-term goals</strong> like a

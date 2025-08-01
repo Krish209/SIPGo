@@ -53,7 +53,7 @@ const ChildhoodMoneyStory = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             The Foundation: How Childhood Money Stories Develop
           </h2>
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             What Are Childhood Money Stories?
           </h3>
           <p className="mb-2">
@@ -66,7 +66,7 @@ const ChildhoodMoneyStory = () => {
           <p className="mb-2">
             Childhood money stories can take many forms, including:
           </p>
-          <ul className="list-disc space-y-1 pl-6 mb-2">
+          <ul className="list-disc space-y-2 pl-6 mb-2">
             <li>
               <strong>Explicit lessons:</strong> “We don’t waste money on
               unnecessary things.”
@@ -96,7 +96,7 @@ const ChildhoodMoneyStory = () => {
             How Childhood Money Stories Influence Adult Financial Behavior
           </h2>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Scarcity vs. Abundance Mindsets: The Core Divide
           </h3>
           <p className="mb-2">
@@ -121,7 +121,7 @@ const ChildhoodMoneyStory = () => {
             tend to view money as an enabler of freedom and opportunity.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             The Role of Risk Tolerance in Investing
           </h3>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -137,7 +137,7 @@ const ChildhoodMoneyStory = () => {
             </li>
           </ul>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Emotional Spending Patterns: Comfort, Reward, or Avoidance
           </h3>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -157,7 +157,7 @@ const ChildhoodMoneyStory = () => {
             </li>
           </ul>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Financial Literacy and Communication
           </h3>
           <p className="mb-2">
@@ -173,7 +173,7 @@ const ChildhoodMoneyStory = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             The Science Behind Money and Mindset
           </h2>
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Neuroscience and Behavioral Economics
           </h3>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -235,66 +235,65 @@ const ChildhoodMoneyStory = () => {
             action:
           </p>
 
-          <ol className="list-decimal pl-6 space-y-2 mb-4">
-            <li>
-              <strong>Reflect on Your Money Story</strong>
-              <br />
-              Write down your earliest memories related to money. Identify
-              recurring themes, emotions, and lessons.
-              <br />
-              Questions to ask:
-              <br />
-              <ul className="list-disc pl-6 mt-1">
-                <li>What did money mean in my family?</li>
-                <li>How did my parents handle financial stress?</li>
-                <li>How do I feel when I think about money now?</li>
-              </ul>
-            </li>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Reflect on Your Money Story
+          </h3>
+          <p className="mb-2">
+            Write down your earliest memories related to money. Identify
+            recurring themes, emotions, and lessons.
+          </p>
+          <p className="mb-2">Questions to ask:</p>
 
-            <li>
-              <strong>Identify and Challenge Limiting Beliefs</strong>
-              <br />
-              Recognize beliefs like “I’m not good with money” or “Money causes
-              problems.” Replace them with empowering affirmations such as:
-              <br />
-              <ul className="list-disc pl-6 mt-1">
-                <li>“I am capable of managing and growing my money.”</li>
-                <li>“Money is a tool that can improve my life.”</li>
-              </ul>
-            </li>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>What did money mean in my family?</li>
+            <li>How did my parents handle financial stress?</li>
+            <li>How do I feel when I think about money now?</li>
+          </ul>
 
-            <li>
-              <strong>Build Financial Literacy</strong>
-              <br />
-              Educate yourself about budgeting, saving, investing, and debt
-              management. Books, podcasts, courses, and professional advice can
-              boost confidence and competence.
-            </li>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Identify and Challenge Limiting Beliefs
+          </h3>
+          <p className="mb-2">
+            Recognize beliefs like “I’m not good with money” or “Money causes
+            problems.” Replace them with empowering affirmations such as:
+          </p>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>“I am capable of managing and growing my money.”</li>
+            <li>“Money is a tool that can improve my life.”</li>
+          </ul>
 
-            <li>
-              <strong>Develop Healthy Financial Habits</strong>
-              <br />
-              Start with small wins:
-              <br />
-              <ul className="list-disc pl-6 mt-1">
-                <li>Create a realistic budget</li>
-                <li>Set up automatic savings</li>
-                <li>
-                  Start investing with beginner-friendly tools like low-cost
-                  index funds or retirement accounts such as IRAs or 401(k)s.
-                </li>
-              </ul>
-              Positive habits reinforce your new money mindset.
-            </li>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Build Financial Literacy
+          </h3>
+          <p className="mb-2">
+            Educate yourself about budgeting, saving, investing, and debt
+            management. Books, podcasts, courses, and professional advice can
+            boost confidence and competence.
+          </p>
 
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Develop Healthy Financial Habits
+          </h3>
+          <p className="mb-2">Start with small wins:</p>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>Create a realistic budget</li>
+            <li>Set up automatic savings</li>
             <li>
-              <strong>Foster Open Money Conversations</strong>
-              <br />
-              Discuss money openly with family or partners to normalize
-              financial dialogue. Share your money journey and encourage
-              transparency.
+              Start investing with beginner-friendly tools like low-cost index
+              funds or retirement accounts such as IRAs or 401(k)s.
             </li>
-          </ol>
+          </ul>
+          <p className="mb-2">
+            Positive habits reinforce your new money mindset.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Foster Open Money Conversations
+          </h3>
+          <p className="mb-2">
+            Discuss money openly with family or partners to normalize financial
+            dialogue. Share your money journey and encourage transparency.
+          </p>
         </section>
 
         {/* The Role of Financial Therapy */}

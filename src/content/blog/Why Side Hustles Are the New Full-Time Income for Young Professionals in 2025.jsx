@@ -32,15 +32,16 @@ const SideHustlesNewFullTimeIncome = () => {
         {/* Introduction */}
         <section className="my-4 md:my-8">
           <p className="mb-2">
-            In today’s dynamic economic environment, side hustles for income are
-            no longer just a way to earn some extra cash—they have rapidly
-            evolved into full-time income streams for a growing number of young
-            professionals. As traditional employment models shift and digital
-            opportunities expand, the best side hustles 2025 are not only
-            accessible but highly profitable. Whether driven by economic
-            necessity or entrepreneurial ambition, young professionals are
-            increasingly turning to side hustles to achieve financial
-            independence, career flexibility, and personal growth.
+            In today’s dynamic economic environment,{" "}
+            <strong>side hustles for income</strong> are no longer just a way to
+            earn some extra cash—they have rapidly evolved into full-time income
+            streams for a growing number of young professionals. As traditional
+            employment models shift and digital opportunities expand,{" "}
+            <strong>the best side hustles 2025</strong> are not only accessible
+            but highly profitable. Whether driven by economic necessity or
+            entrepreneurial ambition, young professionals are increasingly
+            turning to side hustles to achieve financial independence, career
+            flexibility, and personal growth.
           </p>
           <p className="mb-2">
             In this comprehensive guide, we explore why side hustles have become
@@ -58,7 +59,7 @@ const SideHustlesNewFullTimeIncome = () => {
           </h2>
 
           {/* Economic Pressures */}
-          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Economic Pressures Fueling the Side Hustle Boom
           </h3>
           <p className="mb-2">
@@ -73,7 +74,7 @@ const SideHustlesNewFullTimeIncome = () => {
           </p>
 
           {/* Flexibility and Autonomy */}
-          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             The Appeal of Flexibility and Autonomy
           </h3>
           <p className="mb-2">
@@ -87,7 +88,7 @@ const SideHustlesNewFullTimeIncome = () => {
           </p>
 
           {/* Tech Advancements */}
-          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Technological Advancements Lowering Barriers
           </h3>
           <p className="mb-2">
@@ -99,7 +100,7 @@ const SideHustlesNewFullTimeIncome = () => {
           </p>
 
           {/* Entrepreneurial Mindset */}
-          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             The Entrepreneurial Mindset of a New Generation
           </h3>
           <p className="mb-2">
@@ -119,7 +120,7 @@ const SideHustlesNewFullTimeIncome = () => {
 
           <div className="space-y-6">
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Case Study 1: Sarah’s Freelance Graphic Design Empire
               </h3>
               <p className="mb-2">
@@ -133,13 +134,13 @@ const SideHustlesNewFullTimeIncome = () => {
                 services.
               </p>
               <p className="mb-2">
-                Key takeaway: Leveraging social media for marketing and
-                freelancing platforms for client acquisition can transform
-                creative passions into substantial incomes.
+                <strong>Key takeaway</strong>: Leveraging social media for
+                marketing and freelancing platforms for client acquisition can
+                transform creative passions into substantial incomes.
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Case Study 2: Jason’s Dropshipping Success Story
               </h3>
               <p className="mb-2">
@@ -152,13 +153,13 @@ const SideHustlesNewFullTimeIncome = () => {
                 line, eventually quitting his day job.
               </p>
               <p className="mb-2">
-                Key takeaway: Dropshipping remains one of the best side hustles
-                2025 due to low overhead and scalability, but requires savvy
-                marketing skills.
+                <strong>Key takeaway</strong>: Dropshipping remains one of the
+                best side hustles 2025 due to low overhead and scalability, but
+                requires savvy marketing skills.
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Case Study 3: Priya’s Online Tutoring Business
               </h3>
               <p className="mb-2">
@@ -170,8 +171,9 @@ const SideHustlesNewFullTimeIncome = () => {
                 income.
               </p>
               <p className="mb-2">
-                Key takeaway: Tutoring is a scalable side hustle with growing
-                demand, especially for STEM subjects and language learning.
+                <strong>Key takeaway</strong>: Tutoring is a scalable side
+                hustle with growing demand, especially for STEM subjects and
+                language learning.
               </p>
             </div>
           </div>
@@ -182,44 +184,47 @@ const SideHustlesNewFullTimeIncome = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Top 7 Best Side Hustles for Income in 2025
           </h2>
-          <ul className="list-disc space-y-1 pl-6 mb-2">
+          <ol className="list-decimal space-y-2 pl-6 mb-2">
             <li>
-              Content Creation & Influencer Marketing: With platforms like
-              TikTok, YouTube, and Instagram growing exponentially, content
-              creators can monetize through sponsorships, ads, and merchandise
-              sales.
+              <strong>Content Creation & Influencer Marketing</strong>: With
+              platforms like TikTok, YouTube, and Instagram growing
+              exponentially, content creators can monetize through sponsorships,
+              ads, and merchandise sales.
             </li>
             <li>
-              Freelance Writing & Copywriting: As digital marketing expands,
-              businesses seek quality content. Writers can command lucrative
-              rates for blogs, product descriptions, and newsletters.
+              <strong>Freelance Writing & Copywriting</strong>: As digital
+              marketing expands, businesses seek quality content. Writers can
+              command lucrative rates for blogs, product descriptions, and
+              newsletters.
             </li>
             <li>
-              E-commerce & Dropshipping: Online stores continue to thrive with
-              minimal upfront investment, particularly when paired with
-              effective social media marketing.
+              <strong>E-commerce & Dropshipping</strong>: Online stores continue
+              to thrive with minimal upfront investment, particularly when
+              paired with effective social media marketing.
             </li>
             <li>
-              Online Coaching & Courses: Professionals in fitness, marketing,
-              coding, or personal development can package their knowledge into
-              courses or coaching sessions for recurring revenue.
+              <strong>Online Coaching & Courses</strong>: Professionals in
+              fitness, marketing, coding, or personal development can package
+              their knowledge into courses or coaching sessions for recurring
+              revenue.
             </li>
             <li>
-              Virtual Assistant & Remote Consulting: Busy entrepreneurs and
-              small businesses outsource tasks like scheduling, customer
-              service, and marketing strategy to remote assistants and
-              consultants.
+              <strong>Virtual Assistant & Remote Consulting</strong>: Busy
+              entrepreneurs and small businesses outsource tasks like
+              scheduling, customer service, and marketing strategy to remote
+              assistants and consultants.
             </li>
             <li>
-              NFT and Cryptocurrency Trading: Although volatile, savvy investors
-              can profit from the growing interest in digital assets.
+              <strong>NFT and Cryptocurrency Trading</strong>: Although
+              volatile, savvy investors can profit from the growing interest in
+              digital assets.
             </li>
             <li>
-              Print on Demand & Custom Merchandise: Using platforms like
-              Printful or Teespring, creatives can sell custom-designed apparel
-              and accessories without inventory risk.
+              <strong>Print on Demand & Custom Merchandise</strong>: Using
+              platforms like Printful or Teespring, creatives can sell
+              custom-designed apparel and accessories without inventory risk.
             </li>
-          </ul>
+          </ol>
         </section>
 
         {/* Pros and Cons */}
@@ -228,49 +233,49 @@ const SideHustlesNewFullTimeIncome = () => {
             Pros and Cons of Side Hustles as Full-Time Income
           </h2>
           <h3 className="text-lg font-semibold mb-1">Pros</h3>
-          <ul className="list-disc space-y-1 pl-6 mb-4">
+          <ul className="list-disc space-y-2 pl-6 mb-4">
             <li>
-              Multiple Income Streams Reduce Financial Risk: Diversification
-              means you’re not reliant on a single paycheck.
+              <strong>Multiple Income Streams Reduce Financial Risk</strong>:
+              Diversification means you’re not reliant on a single paycheck.
             </li>
             <li>
-              Work-Life Balance: Choose when and how much to work, fitting your
-              hustle around your lifestyle.
+              <strong>Work-Life Balance</strong>: Choose when and how much to
+              work, fitting your hustle around your lifestyle.
             </li>
             <li>
-              Skill Enhancement: Gain practical experience and new skills
-              valuable in any career.
+              <strong>Skill Enhancement</strong>: Gain practical experience and
+              new skills valuable in any career.
             </li>
             <li>
-              Entrepreneurial Growth: Many side hustles evolve into sustainable
-              businesses.
+              <strong>Entrepreneurial Growth</strong>: Many side hustles evolve
+              into sustainable businesses.
             </li>
             <li>
-              Networking Opportunities: Working across industries and clients
-              expands your professional circle.
+              <strong>Networking Opportunities</strong>: Working across
+              industries and clients expands your professional circle.
             </li>
           </ul>
           <h3 className="text-lg font-semibold mb-1">Cons</h3>
-          <ul className="list-disc space-y-1 pl-6">
+          <ul className="list-disc space-y-2 pl-6">
             <li>
-              Income Instability: Side hustle earnings can fluctuate, making
-              budgeting harder.
+              <strong>Income Instability</strong>: Side hustle earnings can
+              fluctuate, making budgeting harder.
             </li>
             <li>
-              Time Management Challenges: Balancing multiple roles may lead to
-              burnout if not managed carefully.
+              <strong>Time Management Challenges</strong>: Balancing multiple
+              roles may lead to burnout if not managed carefully.
             </li>
             <li>
-              Lack of Traditional Benefits: No health insurance, paid leave, or
-              retirement plans.
+              <strong>Lack of Traditional Benefits</strong>: No health
+              insurance, paid leave, or retirement plans.
             </li>
             <li>
-              Tax Complications: Multiple income sources can complicate tax
-              filing and require careful bookkeeping.
+              <strong>Tax Complications</strong>: Multiple income sources can
+              complicate tax filing and require careful bookkeeping.
             </li>
             <li>
-              Client Dependence: Income depends on client relationships, which
-              can be unpredictable.
+              <strong>Client Dependence</strong>: Income depends on client
+              relationships, which can be unpredictable.
             </li>
           </ul>
         </section>
@@ -282,30 +287,30 @@ const SideHustlesNewFullTimeIncome = () => {
           </h2>
           <ol className="list-decimal space-y-2 pl-6">
             <li>
-              <strong>Identify Your Skills and Passion:</strong> Focus on side
+              <strong>Identify Your Skills and Passion</strong>: Focus on side
               hustles that align with your strengths and interests. Passion
               fuels perseverance, which is crucial for success.
             </li>
             <li>
-              <strong>Research Market Demand:</strong> Use tools like Google
+              <strong>Research Market Demand</strong>: Use tools like Google
               Trends, freelance job boards, and social media insights to
               identify what services or products are trending.
             </li>
             <li>
-              <strong>Start Small and Test:</strong> Begin with a manageable
+              <strong>Start Small and Test</strong>: Begin with a manageable
               commitment, validate your idea, and gather customer feedback.
             </li>
             <li>
-              <strong>Invest in Skill Development:</strong> Take online courses,
+              <strong>Invest in Skill Development</strong>: Take online courses,
               join communities, and stay updated on industry trends to sharpen
               your competitive edge.
             </li>
             <li>
-              <strong>Set Financial and Time Boundaries:</strong> Define your
+              <strong>Set Financial and Time Boundaries</strong>: Define your
               income goals and allocate specific hours weekly to avoid burnout.
             </li>
             <li>
-              <strong>Use Technology to Your Advantage:</strong> Leverage
+              <strong>Use Technology to Your Advantage</strong>: Leverage
               automation tools for marketing, client management, and financial
               tracking.
             </li>

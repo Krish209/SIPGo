@@ -57,7 +57,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
           </h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 1. Lack of Clear Financial Goals
               </h3>
               <p className="mb-2">
@@ -70,7 +70,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 2. Emotional Decision-Making
               </h3>
               <p className="mb-2">
@@ -83,7 +83,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 3. Poor Diversification
               </h3>
               <p className="mb-2">
@@ -95,7 +95,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 4. Attempting to Time the Market
               </h3>
               <p className="mb-2">
@@ -107,7 +107,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 5. High Fees and Expenses
               </h3>
               <p className="mb-2">
@@ -119,7 +119,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 6. Neglecting Regular Portfolio Review
               </h3>
               <p className="mb-2">
@@ -140,7 +140,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
           </h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 1. Set Clear, Measurable Financial Goals
               </h3>
               <p className="mb-2">
@@ -152,7 +152,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 2. Develop a Written Investment Plan
               </h3>
               <p className="mb-2">
@@ -163,7 +163,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 3. Diversify Your Portfolio
               </h3>
               <p className="mb-2">
@@ -174,7 +174,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 4. Adopt a Long-Term Mindset
               </h3>
               <p className="mb-2">
@@ -186,7 +186,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 5. Minimize Fees and Expenses
               </h3>
               <p className="mb-2">
@@ -197,7 +197,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 6. Review and Rebalance Regularly
               </h3>
               <p className="mb-2">
@@ -209,7 +209,7 @@ const WhyYourInvestmentStrategyIsFailing = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 7. Continue Educating Yourself
               </h3>
               <p className="mb-2">

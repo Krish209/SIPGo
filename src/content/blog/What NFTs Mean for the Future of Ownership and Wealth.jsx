@@ -52,7 +52,7 @@ const NFTsOwnershipWealth = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             Understanding NFTs: The Digital Ownership Revolution
           </h2>
-          <h3 className="text-lg font-semibold mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             What Exactly Is an NFT?
           </h3>
           <p className="mb-2">
@@ -99,7 +99,7 @@ const NFTsOwnershipWealth = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             NFTs and Wealth Creation: A New Economic Frontier
           </h2>
-          <h3 className="text-lg font-semibold mt-4 mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             1. NFTs as a New Asset Class for Diversified Investment
           </h3>
           <p className="mb-2">
@@ -124,7 +124,7 @@ const NFTsOwnershipWealth = () => {
             </li>
           </ul>
 
-          <h3 className="text-lg font-semibold mt-4 mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             2. Empowering Creators Through Built-In Royalties
           </h3>
           <p className="mb-2">
@@ -135,7 +135,7 @@ const NFTsOwnershipWealth = () => {
             income stream that was impossible in traditional art markets.
           </p>
 
-          <h3 className="text-lg font-semibold mt-4 mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             3. Fractional Ownership: Democratizing Access to High-Value Assets
           </h3>
           <p className="mb-2">
@@ -146,7 +146,7 @@ const NFTsOwnershipWealth = () => {
             population previously excluded from exclusive markets.
           </p>
 
-          <h3 className="text-lg font-semibold mt-4 mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             4. Play-to-Earn and NFT Gaming Economies
           </h3>
           <p className="mb-2">

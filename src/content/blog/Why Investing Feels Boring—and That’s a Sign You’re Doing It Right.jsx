@@ -89,7 +89,7 @@ const InvestingBoring = () => {
             2. Why Investing Feels Boring (And Why That’s Good)
           </h2>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             2.1 Markets Move Slowly Most of the Time
           </h3>
           <p className="mb-2">
@@ -99,7 +99,7 @@ const InvestingBoring = () => {
             fireworks.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             2.2 Discipline is Repetitive and Unexciting
           </h3>
           <p className="mb-2">
@@ -108,7 +108,7 @@ const InvestingBoring = () => {
             are necessary for growth.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             2.3 Boredom Means You’re Not Chasing Noise
           </h3>
           <p className="mb-2">
@@ -117,7 +117,7 @@ const InvestingBoring = () => {
             lead to losses.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             2.4 Embracing the Waiting Game
           </h3>
           <p className="mb-2">
@@ -230,13 +230,15 @@ const InvestingBoring = () => {
             6. Practical Tips to Stay the Course When It Feels Dull
           </h2>
 
-          <h3 className="text-lg font-semibold mb-1">6.1 Define Your “Why”</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            6.1 Define Your “Why”
+          </h3>
           <p className="mb-2">
             Set clear goals—retirement, financial independence, college savings—
             that provide motivation beyond daily market movements.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             6.2 Automate Your Contributions
           </h3>
           <p className="mb-2">
@@ -244,7 +246,7 @@ const InvestingBoring = () => {
             consistent, even during busy or emotional times.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             6.3 Schedule Regular Check-Ins
           </h3>
           <p className="mb-2">
@@ -252,13 +254,17 @@ const InvestingBoring = () => {
             obsessing over short-term changes.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">6.4 Keep Learning</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            6.4 Keep Learning
+          </h3>
           <p className="mb-2">
             Understanding investing principles deepens your confidence and
             reduces temptation to stray.
           </p>
 
-          <h3 className="text-lg font-semibold mb-1">6.5 Celebrate Progress</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            6.5 Celebrate Progress
+          </h3>
           <p className="mb-2">
             Track milestones like years of investing, portfolio growth, or
             reaching savings targets to reinforce positive behavior.

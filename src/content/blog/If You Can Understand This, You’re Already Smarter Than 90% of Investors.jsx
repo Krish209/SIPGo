@@ -47,7 +47,7 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why Most Investors Fail—and Why You Don’t Have To
           </h2>
           <ul className="list-disc pl-6 space-y-1 mb-2">
@@ -82,7 +82,7 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Power of Compound Interest: Your Financial Superpower
           </h2>
           <p className="mb-2">
@@ -90,7 +90,8 @@ const SmartInvestorGuide = () => {
             of the world” — and for good reason. It’s the single most powerful
             force in wealth building.
           </p>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             What Makes Compound Interest So Magical?
           </h3>
           <p className="mb-2">
@@ -104,7 +105,8 @@ const SmartInvestorGuide = () => {
             about ₹23,000. But hold on for 40 years, and it will balloon to over
             ₹2,15,000—without adding another rupee!
           </p>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Why Time in the Market Beats Timing the Market
           </h3>
           <p className="mb-2">
@@ -120,14 +122,15 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Mastering Risk: The Smart Investor’s Compass
           </h2>
           <p className="mb-2">
             Risk is inherent in investing. The smartest investors don’t avoid
             risk—they manage it intelligently.
           </p>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             What is Investment Risk?
           </h3>
           <p className="mb-2">
@@ -135,7 +138,8 @@ const SmartInvestorGuide = () => {
             Different assets carry different risks—stocks are riskier than
             bonds, for example, but also offer higher returns over the long run.
           </p>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Know Your Risk Tolerance and Capacity
           </h3>
           <p className="mb-2">
@@ -148,7 +152,8 @@ const SmartInvestorGuide = () => {
             risk, while someone nearing retirement may prioritize capital
             preservation.
           </p>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Diversification: The Ultimate Risk Mitigation Strategy
           </h3>
           <p className="mb-2">
@@ -163,10 +168,11 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Financial Literacy: The Key to Intelligent Investing
           </h2>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Reading Financial Statements Like a Pro
           </h3>
           <p className="mb-2">
@@ -188,7 +194,7 @@ const SmartInvestorGuide = () => {
             </li>
           </ul>
 
-          <h3 className="font-semibold text-lg mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Valuation Metrics: Are You Paying Too Much?
           </h3>
           <ul className="list-disc pl-6 space-y-1 mb-2">
@@ -206,7 +212,7 @@ const SmartInvestorGuide = () => {
             </li>
           </ul>
 
-          <h3 className="font-semibold text-lg mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             The Economic Moat: Finding Durable Competitive Advantages
           </h3>
           <p className="mb-2">
@@ -226,14 +232,15 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Emotional Intelligence: The Silent Driver of Investment Success
           </h2>
           <p className="mb-2">
             Behavioral finance reveals that your psychology heavily influences
             your investment outcomes.
           </p>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Avoiding Emotional Traps
           </h3>
           <p className="mb-2">
@@ -249,7 +256,7 @@ const SmartInvestorGuide = () => {
             </li>
           </ul>
 
-          <h3 className="font-semibold text-lg mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Overcoming Cognitive Biases
           </h3>
           <p className="mb-2">Two common biases that trip up investors:</p>
@@ -269,19 +276,25 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Cost Factor: Fees and Taxes Matter
           </h2>
           <p className="mb-2">
             Even small fees can erode your returns significantly over time.
           </p>
-          <h3 className="font-semibold text-lg mb-2">Minimizing Fees</h3>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Minimizing Fees
+          </h3>
           <p className="mb-2">
             Choose low-cost investment vehicles like index funds or ETFs rather
             than high-fee actively managed funds. Avoid frequent trading which
             leads to commission costs and slippage.
           </p>
-          <h3 className="font-semibold text-lg mb-2">Tax Efficiency</h3>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Tax Efficiency
+          </h3>
           <p className="mb-2">
             Understanding tax-advantaged accounts (e.g., IRAs, 401(k)s) and
             tax-efficient investing strategies keeps more money working for you.
@@ -289,13 +302,14 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Staying Informed Without Getting Distracted
           </h2>
           <p className="mb-2">
             The financial media can be noisy and sensationalist.
           </p>
-          <h3 className="font-semibold text-lg mb-2">
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             How to Filter Market Noise
           </h3>
           <ul className="list-disc pl-6 space-y-1 mb-2">
@@ -303,7 +317,10 @@ const SmartInvestorGuide = () => {
             <li>Reliable data sources rather than rumors</li>
             <li>Periodic portfolio reviews instead of constant monitoring</li>
           </ul>
-          <h3 className="font-semibold text-lg mb-2">Never Stop Learning</h3>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Never Stop Learning
+          </h3>
           <p className="mb-2">
             Markets evolve, and so should you. Reading books by investing
             legends like Benjamin Graham, Peter Lynch, or Ray Dalio enriches
@@ -312,7 +329,7 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Actionable Steps: How to Be Smarter Than 90% of Investors Today
           </h2>
           <ul className="list-disc pl-6 space-y-2">
@@ -351,7 +368,7 @@ const SmartInvestorGuide = () => {
         </section>
 
         <section className="my-6 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Final Thoughts: Confidence Through Knowledge
           </h2>
           <p className="mb-2">

@@ -189,85 +189,75 @@ const StocksorMutualFunds = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Pros and Cons of Investing in Stocks
           </h2>
-          <div className="space-y-5">
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                Pros
-              </h3>
 
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>High Returns</strong>: Stocks have the potential to
-                  deliver higher returns compared to other asset classes like
-                  fixed deposits or bonds. Historically, the stock market has
-                  provided an average annual return of around 12-15% in India.
-                </li>
-                <li>
-                  <strong>Liquidity</strong>: Stocks are highly liquid, meaning
-                  you can buy or sell them quickly on the stock exchange during
-                  market hours. This allows you to access your funds when
-                  needed—similar to how stocks can be traded quickly.
-                </li>
-                <li>
-                  <strong>Ownership</strong>: When you invest in stocks, you
-                  become a part-owner of the company. This gives you voting
-                  rights and a say in important company decisions, such as
-                  electing the board of directors.
-                </li>
-                <li>
-                  <strong>Tax Benefits</strong>: Long-term capital gains from
-                  stocks (held for more than one year) are taxed at a lower rate
-                  of 10% on gains exceeding ₹1 lakh per financial year.
-                </li>
-              </ul>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Pros
+          </h3>
 
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                Cons
-              </h3>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>High Risk</strong>: Stocks are subject to market
-                  volatility, which means their prices can fluctuate
-                  significantly in a short period. This can lead to potential
-                  losses, especially if you panic and sell during a market
-                  downturn.
-                </li>
-                <li>
-                  <strong>Requires Knowledge</strong>: Investing in stocks
-                  requires a good understanding of the market, company
-                  fundamentals, and technical analysis. If you lack the
-                  necessary knowledge, you may make poor investment decisions
-                  that result in losses.
-                </li>
-                <li>
-                  <strong>Time-Consuming</strong>: Actively managing a stock
-                  portfolio can be time-consuming. You need to research
-                  companies, monitor market trends, and stay updated on economic
-                  news. This may not be feasible for busy professionals or those
-                  with limited time.
-                </li>
-                <li>
-                  <strong>Emotional Stress</strong>: The stock market can be
-                  emotionally taxing. Watching your investments fluctuate can
-                  lead to stress and anxiety, especially during market
-                  downturns. Emotional decision-making can result in buying high
-                  and selling low, which is detrimental to your portfolio.
-                </li>
-              </ul>
-            </div>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>High Returns</strong>: Stocks have the potential to
+              deliver higher returns compared to other asset classes like fixed
+              deposits or bonds. Historically, the stock market has provided an
+              average annual return of around 12-15% in India.
+            </li>
+            <li>
+              <strong>Liquidity</strong>: Stocks are highly liquid, meaning you
+              can buy or sell them quickly on the stock exchange during market
+              hours. This allows you to access your funds when needed—similar to
+              how stocks can be traded quickly.
+            </li>
+            <li>
+              <strong>Ownership</strong>: When you invest in stocks, you become
+              a part-owner of the company. This gives you voting rights and a
+              say in important company decisions, such as electing the board of
+              directors.
+            </li>
+            <li>
+              <strong>Tax Benefits</strong>: Long-term capital gains from stocks
+              (held for more than one year) are taxed at a lower rate of 10% on
+              gains exceeding ₹1 lakh per financial year.
+            </li>
+          </ul>
 
-            <div>
-              <p className="mb-2">
-                <strong>Example</strong>: Suppose you invested ₹1,00,000 in
-                Infosys shares in 2015 at ₹1,100 per share. In 2024, Infosys
-                trades at ₹1,500 per share. That’s a 36% gain over 9 years
-                (excluding dividends). However, if you picked a poor stock like
-                Jet Airways, you could have lost the entire capital.
-              </p>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Cons
+          </h3>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>High Risk</strong>: Stocks are subject to market
+              volatility, which means their prices can fluctuate significantly
+              in a short period. This can lead to potential losses, especially
+              if you panic and sell during a market downturn.
+            </li>
+            <li>
+              <strong>Requires Knowledge</strong>: Investing in stocks requires
+              a good understanding of the market, company fundamentals, and
+              technical analysis. If you lack the necessary knowledge, you may
+              make poor investment decisions that result in losses.
+            </li>
+            <li>
+              <strong>Time-Consuming</strong>: Actively managing a stock
+              portfolio can be time-consuming. You need to research companies,
+              monitor market trends, and stay updated on economic news. This may
+              not be feasible for busy professionals or those with limited time.
+            </li>
+            <li>
+              <strong>Emotional Stress</strong>: The stock market can be
+              emotionally taxing. Watching your investments fluctuate can lead
+              to stress and anxiety, especially during market downturns.
+              Emotional decision-making can result in buying high and selling
+              low, which is detrimental to your portfolio.
+            </li>
+          </ul>
+
+          <p className="mb-2">
+            <strong>Example</strong>: Suppose you invested ₹1,00,000 in Infosys
+            shares in 2015 at ₹1,100 per share. In 2024, Infosys trades at
+            ₹1,500 per share. That’s a 36% gain over 9 years (excluding
+            dividends). However, if you picked a poor stock like Jet Airways,
+            you could have lost the entire capital.
+          </p>
         </section>
 
         {/* Pros and Cons of Investing in Mutual Funds */}
@@ -275,122 +265,112 @@ const StocksorMutualFunds = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Pros and Cons of Investing in Mutual Funds
           </h2>
-          <div className="space-y-5">
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                Pros
-              </h3>
 
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>Diversification</strong>: Mutual funds invest in a
-                  diversified portfolio of stocks, bonds, or other securities.
-                  This reduces the risk associated with investing in individual
-                  stocks, as poor performance in one asset can be offset by
-                  better performance in others.
-                </li>
-                <li>
-                  <strong>Professional Management</strong>: Mutual funds are
-                  managed by experienced fund managers who have the expertise to
-                  analyze market trends and make informed investment decisions.
-                  This is especially beneficial for investors who lack the time
-                  or knowledge to manage their investments actively.
-                </li>
-                <li>
-                  <strong>Liquidity</strong>: Mutual funds are also liquid
-                  investments. You can buy or sell units of mutual funds on any
-                  business day at the prevailing Net Asset Value (NAV). This
-                  allows you to access your funds when needed, similar to
-                  stocks.
-                </li>
-                <li>
-                  <strong>Systematic Investment Plans (SIPs)</strong>: Mutual
-                  funds offer the option of SIPs, allowing you to invest a fixed
-                  amount regularly (monthly or quarterly). This helps with rupee
-                  cost averaging, reducing the impact of market volatility on
-                  your investments.
-                </li>
-                <li>
-                  <strong>Tax Benefits</strong>: Equity mutual funds held for
-                  more than one year qualify for long-term capital gains tax at
-                  a lower rate of 10% on gains exceeding ₹1 lakh per financial
-                  year. Additionally, Equity Linked Savings Schemes (ELSS) offer
-                  tax deductions under Section 80C of the Income Tax Act, making
-                  them a popular choice for tax-saving investments.
-                </li>
-                <li>
-                  <strong>Low Entry Barrier</strong>: You can start investing in
-                  mutual funds with a small amount, often as low as ₹500 per
-                  month through SIPs. This makes it accessible for investors
-                  with limited capital.
-                </li>
-                <li>
-                  <strong>Regulated and Transparent</strong>: Mutual funds in
-                  India are regulated by the Securities and Exchange Board of
-                  India (SEBI), ensuring transparency and investor protection.
-                  Fund houses are required to disclose their portfolio holdings,
-                  performance, and fees regularly, allowing investors to make
-                  informed decisions.
-                </li>
-                <li>
-                  <strong>Variety of Options</strong>: There are various types
-                  of mutual funds available, catering to different risk
-                  appetites and investment goals. You can choose from equity
-                  funds, debt funds, hybrid funds, index funds, and more,
-                  allowing you to tailor your investments to your specific
-                  needs.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                Cons
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Pros
+          </h3>
 
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>Lower Returns</strong>: While mutual funds can provide
-                  good returns, they may not match the high returns of
-                  individual stocks, especially in a bull market. The average
-                  annual return for equity mutual funds is around 10-12%.
-                </li>
-                <li>
-                  <strong>Management Fees</strong>: Mutual funds charge an
-                  expense ratio, which is a percentage of your investment that
-                  goes towards fund management fees. This can eat into your
-                  returns over time.
-                </li>
-                <li>
-                  <strong>Lack of Control</strong>: As an investor, you have no
-                  say in the specific stocks or bonds the fund manager chooses.
-                  This can be a disadvantage if you prefer to have control over
-                  your investments.
-                </li>
-                <li>
-                  <strong>Exit Load</strong>: Some mutual funds charge an exit
-                  load if you redeem your units before a specified period
-                  (usually 1 year). This can reduce your effective returns if
-                  you need to withdraw your money early.
-                </li>
-                <li>
-                  <strong>Market Risk</strong>: Mutual funds are still subject
-                  to market risk, especially equity mutual funds. If the stock
-                  market declines, the value of your mutual fund units may also
-                  fall, leading to potential losses.
-                </li>
-              </ul>
-            </div>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Diversification</strong>: Mutual funds invest in a
+              diversified portfolio of stocks, bonds, or other securities. This
+              reduces the risk associated with investing in individual stocks,
+              as poor performance in one asset can be offset by better
+              performance in others.
+            </li>
+            <li>
+              <strong>Professional Management</strong>: Mutual funds are managed
+              by experienced fund managers who have the expertise to analyze
+              market trends and make informed investment decisions. This is
+              especially beneficial for investors who lack the time or knowledge
+              to manage their investments actively.
+            </li>
+            <li>
+              <strong>Liquidity</strong>: Mutual funds are also liquid
+              investments. You can buy or sell units of mutual funds on any
+              business day at the prevailing Net Asset Value (NAV). This allows
+              you to access your funds when needed, similar to stocks.
+            </li>
+            <li>
+              <strong>Systematic Investment Plans (SIPs)</strong>: Mutual funds
+              offer the option of SIPs, allowing you to invest a fixed amount
+              regularly (monthly or quarterly). This helps with rupee cost
+              averaging, reducing the impact of market volatility on your
+              investments.
+            </li>
+            <li>
+              <strong>Tax Benefits</strong>: Equity mutual funds held for more
+              than one year qualify for long-term capital gains tax at a lower
+              rate of 10% on gains exceeding ₹1 lakh per financial year.
+              Additionally, Equity Linked Savings Schemes (ELSS) offer tax
+              deductions under Section 80C of the Income Tax Act, making them a
+              popular choice for tax-saving investments.
+            </li>
+            <li>
+              <strong>Low Entry Barrier</strong>: You can start investing in
+              mutual funds with a small amount, often as low as ₹500 per month
+              through SIPs. This makes it accessible for investors with limited
+              capital.
+            </li>
+            <li>
+              <strong>Regulated and Transparent</strong>: Mutual funds in India
+              are regulated by the Securities and Exchange Board of India
+              (SEBI), ensuring transparency and investor protection. Fund houses
+              are required to disclose their portfolio holdings, performance,
+              and fees regularly, allowing investors to make informed decisions.
+            </li>
+            <li>
+              <strong>Variety of Options</strong>: There are various types of
+              mutual funds available, catering to different risk appetites and
+              investment goals. You can choose from equity funds, debt funds,
+              hybrid funds, index funds, and more, allowing you to tailor your
+              investments to your specific needs.
+            </li>
+          </ul>
 
-            <div>
-              <p className="mb-2">
-                <strong>Example</strong>: Suppose you started a SIP of
-                ₹5,000/month in Mirae Asset Large Cap Fund in 2015. As of 2024,
-                your total investment would be ₹5.4 lakh, and with an average
-                return of approximately 13% CAGR, your corpus would grow to
-                about ₹9.3 lakh—a solid gain with minimal effort and risk.
-              </p>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Cons
+          </h3>
+
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Lower Returns</strong>: While mutual funds can provide
+              good returns, they may not match the high returns of individual
+              stocks, especially in a bull market. The average annual return for
+              equity mutual funds is around 10-12%.
+            </li>
+            <li>
+              <strong>Management Fees</strong>: Mutual funds charge an expense
+              ratio, which is a percentage of your investment that goes towards
+              fund management fees. This can eat into your returns over time.
+            </li>
+            <li>
+              <strong>Lack of Control</strong>: As an investor, you have no say
+              in the specific stocks or bonds the fund manager chooses. This can
+              be a disadvantage if you prefer to have control over your
+              investments.
+            </li>
+            <li>
+              <strong>Exit Load</strong>: Some mutual funds charge an exit load
+              if you redeem your units before a specified period (usually 1
+              year). This can reduce your effective returns if you need to
+              withdraw your money early.
+            </li>
+            <li>
+              <strong>Market Risk</strong>: Mutual funds are still subject to
+              market risk, especially equity mutual funds. If the stock market
+              declines, the value of your mutual fund units may also fall,
+              leading to potential losses.
+            </li>
+          </ul>
+          
+          <p className="mb-2">
+            <strong>Example</strong>: Suppose you started a SIP of ₹5,000/month
+            in Mirae Asset Large Cap Fund in 2015. As of 2024, your total
+            investment would be ₹5.4 lakh, and with an average return of
+            approximately 13% CAGR, your corpus would grow to about ₹9.3 lakh—a
+            solid gain with minimal effort and risk.
+          </p>
         </section>
 
         {/* Which Is Better: Stocks or Mutual Funds? */}

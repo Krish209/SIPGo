@@ -85,7 +85,7 @@ const ScamGuide2025 = () => {
               href="https://www.aarp.org/money/scams-fraud/2023-ftc-consumer-losses/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 underline underline-offset-2"
+              className="text-blue-600 hover:underline underline-offset-2"
             >
               FTC
             </a>

@@ -232,120 +232,109 @@ const InflationandTaxesImpact = () => {
             Strategies to Minimize Tax and Beat Inflation
           </h2>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                1. Invest in Tax-Free Instruments
-              </h3>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>Public Provident Fund (PPF)</strong>: Offers tax-free
-                  returns and is backed by the government. Ideal for long-term
-                  savings with a lock-in period of 15 years.
-                </li>
-                <li>
-                  <strong>Sukanya Samriddhi Yojana (SSY)</strong>: A
-                  government-backed scheme for the girl child that offers
-                  tax-free returns and attractive interest rates. It encourages
-                  parents to save for their daughter's education and marriage.
-                </li>
-                <li>
-                  <strong>Employee Provident Fund (EPF)</strong>: A retirement
-                  savings scheme for salaried employees that offers tax-free
-                  returns. Contributions are made by both the employee and
-                  employer, making it a secure long-term investment.
-                </li>
-                <li>
-                  <strong>Sovereign Gold Bonds (SGBs)</strong>:
-                  Government-issued bonds that allow you to invest in gold
-                  without the hassles of physical gold. They offer fixed
-                  interest rates and are tax-free if held until maturity (8
-                  years).
-                </li>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Invest in Tax-Free Instruments
+          </h3>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Public Provident Fund (PPF)</strong>: Offers tax-free
+              returns and is backed by the government. Ideal for long-term
+              savings with a lock-in period of 15 years.
+            </li>
+            <li>
+              <strong>Sukanya Samriddhi Yojana (SSY)</strong>: A
+              government-backed scheme for the girl child that offers tax-free
+              returns and attractive interest rates. It encourages parents to
+              save for their daughter's education and marriage.
+            </li>
+            <li>
+              <strong>Employee Provident Fund (EPF)</strong>: A retirement
+              savings scheme for salaried employees that offers tax-free
+              returns. Contributions are made by both the employee and employer,
+              making it a secure long-term investment.
+            </li>
+            <li>
+              <strong>Sovereign Gold Bonds (SGBs)</strong>: Government-issued
+              bonds that allow you to invest in gold without the hassles of
+              physical gold. They offer fixed interest rates and are tax-free if
+              held until maturity (8 years).
+            </li>
 
-                <li>
-                  <strong>National Pension Scheme (NPS)</strong>: Offers tax
-                  benefits on contributions and provides a mix of equity,
-                  corporate bonds, and government securities. It has a lock-in
-                  period until retirement, making it suitable for long-term
-                  retirement planning.
-                </li>
-                <li>
-                  <strong>Tax-Free Bonds</strong>: Issued by government
-                  entities, these bonds offer fixed returns and are exempt from
-                  taxes. They are ideal for conservative investors looking for
-                  stable income without tax implications.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                2. Use Equity Mutual Funds for Long-Term Growth
-              </h3>
+            <li>
+              <strong>National Pension Scheme (NPS)</strong>: Offers tax
+              benefits on contributions and provides a mix of equity, corporate
+              bonds, and government securities. It has a lock-in period until
+              retirement, making it suitable for long-term retirement planning.
+            </li>
+            <li>
+              <strong>Tax-Free Bonds</strong>: Issued by government entities,
+              these bonds offer fixed returns and are exempt from taxes. They
+              are ideal for conservative investors looking for stable income
+              without tax implications.
+            </li>
+          </ul>
 
-              <p className="mb-2">
-                Equity mutual funds are one of the best ways to beat inflation
-                over the long term. They invest in stocks, which historically
-                provide higher returns than inflation. Invest regularly through
-                SIPs (Systematic Investment Plans) to benefit from rupee cost
-                averaging. This reduces the impact of market volatility and
-                allows you to accumulate units at different price points.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                3. Utilize ELSS Funds for 80C Benefits
-              </h3>
-              <p className="mb-2">
-                Equity Linked Savings Scheme (ELSS) funds not only provide
-                exposure to equities but also offer tax benefits under Section
-                80C of the Income Tax Act. They have a lock-in period of 3
-                years, making them a great option for tax-saving investments.
-              </p>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Use Equity Mutual Funds for Long-Term Growth
+          </h3>
 
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                4. Choose Tax-Aware Investment Options
-              </h3>
+          <p className="mb-2">
+            Equity mutual funds are one of the best ways to beat inflation over
+            the long term. They invest in stocks, which historically provide
+            higher returns than inflation. Invest regularly through SIPs
+            (Systematic Investment Plans) to benefit from rupee cost averaging.
+            This reduces the impact of market volatility and allows you to
+            accumulate units at different price points.
+          </p>
 
-              <p className="mb-2">
-                Consider investments that are tax-efficient, such as:
-              </p>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>Index Funds</strong>: These funds track a market index
-                  and have lower expense ratios, making them more tax efficient.
-                </li>
-                <li>
-                  <strong>REITs (Real Estate Investment Trusts)</strong>: These
-                  provide exposure to real estate without the hassles of
-                  property management. They are subject to dividend distribution
-                  tax, but can still be a good option for diversification.
-                </li>
-                <li>
-                  <strong>Tax Saving Fixed Deposits</strong>: These FDs offer
-                  tax benefits under Section 80C, but they have a lock-in period
-                  of 5 years. They are suitable for conservative investors
-                  looking for guaranteed returns with tax benefits.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                5. Reinvest Wisely
-              </h3>
-              <p className="mb-2">
-                Avoid booking short-term gains in equities. Plan withdrawals to
-                benefit from lower long-term capital gains tax.
-              </p>
-              <p className="mb-2">
-                For example, if you invest in an equity mutual fund and hold it
-                for more than a year, you pay only 10% tax on gains above ₹1
-                lakh. This significantly boosts your post-tax returns.
-              </p>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Utilize ELSS Funds for 80C Benefits
+          </h3>
+          <p className="mb-2">
+            Equity Linked Savings Scheme (ELSS) funds not only provide exposure
+            to equities but also offer tax benefits under Section 80C of the
+            Income Tax Act. They have a lock-in period of 3 years, making them a
+            great option for tax-saving investments.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Choose Tax-Aware Investment Options
+          </h3>
+
+          <p className="mb-2">
+            Consider investments that are tax-efficient, such as:
+          </p>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Index Funds</strong>: These funds track a market index and
+              have lower expense ratios, making them more tax efficient.
+            </li>
+            <li>
+              <strong>REITs (Real Estate Investment Trusts)</strong>: These
+              provide exposure to real estate without the hassles of property
+              management. They are subject to dividend distribution tax, but can
+              still be a good option for diversification.
+            </li>
+            <li>
+              <strong>Tax Saving Fixed Deposits</strong>: These FDs offer tax
+              benefits under Section 80C, but they have a lock-in period of 5
+              years. They are suitable for conservative investors looking for
+              guaranteed returns with tax benefits.
+            </li>
+          </ul>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            5. Reinvest Wisely
+          </h3>
+          <p className="mb-2">
+            Avoid booking short-term gains in equities. Plan withdrawals to
+            benefit from lower long-term capital gains tax.
+          </p>
+          <p className="mb-2">
+            For example, if you invest in an equity mutual fund and hold it for
+            more than a year, you pay only 10% tax on gains above ₹1 lakh. This
+            significantly boosts your post-tax returns.
+          </p>
         </section>
 
         {/* Conclusion */}

@@ -272,58 +272,44 @@ const WarrenBuffettsInvestingToday = () => {
             criteria:
           </p>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                Japanese Trading House Basket
-              </h3>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>
-                    Mitsui, Mitsubishi, Itochu, Marubeni, Sumitomo
-                  </strong>
-                </li>
-                <li>
-                  Engaged in commodities, energy, infrastructure; exposed to
-                  rising LNG demand with favorable balance sheets. Dividend
-                  yield ~3–4%; trading at sub‑10× earnings against strong
-                  fundamentals
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                High-Quality Consumer & Tech Stocks
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Japanese Trading House Basket
+          </h3>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Mitsui, Mitsubishi, Itochu, Marubeni, Sumitomo</strong>
+            </li>
+            <li>
+              Engaged in commodities, energy, infrastructure; exposed to rising
+              LNG demand with favorable balance sheets. Dividend yield ~3–4%;
+              trading at sub‑10× earnings against strong fundamentals
+            </li>
+          </ul>
 
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>Apple</strong> (long-term core holding),{" "}
-                  <strong>
-                    VeriSign, Constellation Brands, Domino’s Pizza
-                  </strong>
-                </li>
-                <li>
-                  These companies exhibit strong economic moats through brand
-                  loyalty, network effects, and recurring cash flows;
-                  selectively held or trimmed in 2025 based on valuation
-                </li>
-              </ul>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            High-Quality Consumer & Tech Stocks
+          </h3>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Apple</strong> (long-term core holding),{" "}
+              <strong>VeriSign, Constellation Brands, Domino’s Pizza</strong>
+            </li>
+            <li>
+              These companies exhibit strong economic moats through brand
+              loyalty, network effects, and recurring cash flows; selectively
+              held or trimmed in 2025 based on valuation
+            </li>
+          </ul>
 
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                Legacy-Style High-ROIC Barricades
-              </h3>
-
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  Rare industrial or consumer businesses exhibiting strong ROIC,
-                  robust earnings, stable dividends not swayed by AI hype.
-                </li>
-              </ul>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Legacy-Style High-ROIC Barricades
+          </h3>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              Rare industrial or consumer businesses exhibiting strong ROIC,
+              robust earnings, stable dividends not swayed by AI hype.
+            </li>
+          </ul>
         </section>
 
         {/* 6. Portfolio Construction and Allocation */}

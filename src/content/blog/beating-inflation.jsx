@@ -96,82 +96,68 @@ const BeatingInflation = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Investment Strategies to Hedge Against Inflation
           </h2>
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                1. Equity Mutual Funds
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Equity Mutual Funds
+          </h3>
+          <p className="mb-2">
+            Historically, equities have provided returns that outpace inflation.
+            In India, equity mutual funds have delivered average returns of
+            12-15% over the long term. Investing in sectors with strong growth
+            potential can help you earn real returns above inflation.
+          </p>
 
-              <p className="mb-2">
-                Historically, equities have provided returns that outpace
-                inflation. In India, equity mutual funds have delivered average
-                returns of 12-15% over the long term. Investing in sectors with
-                strong growth potential can help you earn real returns above
-                inflation.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                2. Treasury Inflation-Protected Securities (TIPS)
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Treasury Inflation-Protected Securities (TIPS)
+          </h3>
 
-              <p className="mb-2">
-                TIPS are government bonds that adjust their principal based on
-                inflation. While primarily available in the U.S., similar
-                instruments exist globally. These provide guaranteed real
-                returns above inflation, making them ideal for conservative
-                investors.
-              </p>
-            </div>
+          <p className="mb-2">
+            TIPS are government bonds that adjust their principal based on
+            inflation. While primarily available in the U.S., similar
+            instruments exist globally. These provide guaranteed real returns
+            above inflation, making them ideal for conservative investors.
+          </p>
 
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                3. Gold and Precious Metals
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Gold and Precious Metals
+          </h3>
 
-              <p className="mb-2">
-                Gold has traditionally been a reliable inflation hedge. In
-                India, investing in gold via Sovereign Gold Bonds or gold ETFs
-                protects against currency depreciation and rising prices.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                4. Real Estate and REITs
-              </h3>
+          <p className="mb-2">
+            Gold has traditionally been a reliable inflation hedge. In India,
+            investing in gold via Sovereign Gold Bonds or gold ETFs protects
+            against currency depreciation and rising prices.
+          </p>
 
-              <p className="mb-2">
-                Real estate tends to appreciate with inflation. For those unable
-                to invest directly, Real Estate Investment Trusts (REITs) offer
-                exposure to property markets. REITs have historically provided
-                returns that exceed inflation, especially in urban growth areas.
-              </p>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Real Estate and REITs
+          </h3>
 
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                5. Commodities
-              </h3>
+          <p className="mb-2">
+            Real estate tends to appreciate with inflation. For those unable to
+            invest directly, Real Estate Investment Trusts (REITs) offer
+            exposure to property markets. REITs have historically provided
+            returns that exceed inflation, especially in urban growth areas.
+          </p>
 
-              <p className="mb-2">
-                Investing in commodities such as oil, natural gas, and
-                agricultural products can protect against inflation. These
-                assets often rise in value as inflation increases.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                6. Diversified Investment Portfolio
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            5. Commodities
+          </h3>
 
-              <p className="mb-2">
-                A well-diversified portfolio including equities, bonds, real
-                estate, and commodities reduces risk and enhances returns.
-                Regular rebalancing keeps your investments aligned with your
-                financial goals and risk tolerance.
-              </p>
-            </div>
-          </div>
+          <p className="mb-2">
+            Investing in commodities such as oil, natural gas, and agricultural
+            products can protect against inflation. These assets often rise in
+            value as inflation increases.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            6. Diversified Investment Portfolio
+          </h3>
+
+          <p className="mb-2">
+            A well-diversified portfolio including equities, bonds, real estate,
+            and commodities reduces risk and enhances returns. Regular
+            rebalancing keeps your investments aligned with your financial goals
+            and risk tolerance.
+          </p>
         </section>
 
         {/* Warren Buffett's Inflation Advice */}

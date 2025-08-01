@@ -181,92 +181,84 @@ const DiversifyPortfolio = () => {
             Here’s a practical approach to diversifying your investments in the
             Indian market:
           </p>
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                1. Invest Across Different Asset Classes
-              </h3>
-              <p className="mb-2">
-                Each asset class reacts differently to economic events. Here's
-                how you can spread your investments:
-              </p>
-              <Table columns={columns} data={data} />
-              <p className="my-2">
-                <strong>Example</strong>: Suppose you have ₹10,00,000 to invest.
-                Instead of putting the entire amount into mutual funds, you
-                could allocate ₹4,00,000 into equity mutual funds, ₹3,00,000
-                into fixed deposits or PPF, ₹1,00,000 in SGBs, ₹1,00,000 in
-                REITs, and ₹1,00,000 in liquid funds.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                2. Diversify Within Asset Classes
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Invest Across Different Asset Classes
+          </h3>
+          <p className="mb-2">
+            Each asset class reacts differently to economic events. Here's how
+            you can spread your investments:
+          </p>
+          <Table columns={columns} data={data} />
+          <p className="my-2">
+            <strong>Example</strong>: Suppose you have ₹10,00,000 to invest.
+            Instead of putting the entire amount into mutual funds, you could
+            allocate ₹4,00,000 into equity mutual funds, ₹3,00,000 into fixed
+            deposits or PPF, ₹1,00,000 in SGBs, ₹1,00,000 in REITs, and
+            ₹1,00,000 in liquid funds.
+          </p>
 
-              <h3 className="text-base sm:text-base md:text-lg font-semibold mb-2">
-                a. Equity Diversification:
-              </h3>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>Across Sectors</strong>: Invest in IT, banking,
-                  pharma, FMCG, energy, etc.
-                </li>
-                <li>
-                  <strong>Across Market Caps</strong>: Large-cap, mid-cap, and
-                  small-cap stocks or mutual funds.
-                </li>
-                <li>
-                  <strong>Active vs Passive</strong>: Combine actively managed
-                  mutual funds with index funds and ETFs.
-                </li>
-              </ul>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Diversify Within Asset Classes
+          </h3>
 
-              <h3 className="text-base sm:text-base md:text-lg font-semibold mb-2">
-                b. Debt Diversification:
-              </h3>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  Combine long-term (PPF, bonds) and short-term (liquid/debt
-                  mutual funds) instruments.
-                </li>
-                <li>
-                  Include both government-backed (NSC, SGB) and private sector
-                  (corporate bonds) options.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                3. Geographic Diversification
-              </h3>
-              <p className="mb-2">
-                Most Indian investors ignore international exposure. Investing
-                in <strong>global mutual funds</strong> or{" "}
-                <strong>US ETFs</strong> (via Indian platforms) can protect your
-                portfolio against domestic downturns.
-              </p>
+          <h4 className="text-base sm:text-base md:text-lg font-semibold mb-2">
+            a. Equity Diversification:
+          </h4>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Across Sectors</strong>: Invest in IT, banking, pharma,
+              FMCG, energy, etc.
+            </li>
+            <li>
+              <strong>Across Market Caps</strong>: Large-cap, mid-cap, and
+              small-cap stocks or mutual funds.
+            </li>
+            <li>
+              <strong>Active vs Passive</strong>: Combine actively managed
+              mutual funds with index funds and ETFs.
+            </li>
+          </ul>
 
-              <p className="mb-2">
-                <strong>Example</strong>: During 2020–21, while Indian markets
-                were recovering from COVID-19, tech-heavy US indices like NASDAQ
-                delivered strong returns. Having some exposure to such markets
-                would have balanced losses.
-              </p>
-            </div>
+          <h4 className="text-base sm:text-base md:text-lg font-semibold mb-2">
+            b. Debt Diversification:
+          </h4>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              Combine long-term (PPF, bonds) and short-term (liquid/debt mutual
+              funds) instruments.
+            </li>
+            <li>
+              Include both government-backed (NSC, SGB) and private sector
+              (corporate bonds) options.
+            </li>
+          </ul>
 
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                4. Rebalance Regularly
-              </h3>
-              <p className="mb-2">
-                Diversification isn't a one-time task. Your asset allocation can
-                change due to market fluctuations. Review and{" "}
-                <strong>rebalance your portfolio annually</strong> to maintain
-                your ideal mix.
-              </p>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Geographic Diversification
+          </h3>
+          <p className="mb-2">
+            Most Indian investors ignore international exposure. Investing in{" "}
+            <strong>global mutual funds</strong> or <strong>US ETFs</strong>{" "}
+            (via Indian platforms) can protect your portfolio against domestic
+            downturns.
+          </p>
+
+          <p className="mb-2">
+            <strong>Example</strong>: During 2020–21, while Indian markets were
+            recovering from COVID-19, tech-heavy US indices like NASDAQ
+            delivered strong returns. Having some exposure to such markets would
+            have balanced losses.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Rebalance Regularly
+          </h3>
+          <p className="mb-2">
+            Diversification isn't a one-time task. Your asset allocation can
+            change due to market fluctuations. Review and{" "}
+            <strong>rebalance your portfolio annually</strong> to maintain your
+            ideal mix.
+          </p>
         </section>
 
         {/* Common Mistakes to Avoid While Diversifying */}

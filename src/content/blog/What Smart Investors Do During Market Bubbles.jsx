@@ -62,7 +62,7 @@ const MarketBubbles = () => {
             driven more by investor sentiment, speculation, and fear of missing
             out (FOMO) rather than solid financials or economic factors.
           </p>
-          <h3 className="font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Common Traits of Market Bubbles:
           </h3>
           <ul className="list-disc space-y-1 pl-6 mb-4">
@@ -72,7 +72,9 @@ const MarketBubbles = () => {
             <li>Widespread media hype and public attention.</li>
             <li>Disconnect between price and underlying fundamentals.</li>
           </ul>
-          <h3 className="font-semibold mb-1">Examples of Market Bubbles:</h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Examples of Market Bubbles:
+          </h3>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
               The Dot-com Bubble (1995-2000) where tech stocks surged without
@@ -173,7 +175,7 @@ const MarketBubbles = () => {
                   availability, and inflation.
                 </li>
               </ul>
-              <p>
+              <p className="mb-2">
                 <em>
                   Pro Tip: When valuation metrics reach extreme highs or
                   macroeconomic signals warn of tightening liquidity, it’s time
@@ -193,7 +195,7 @@ const MarketBubbles = () => {
                 <li>Durable competitive advantages or “economic moats.”</li>
                 <li>Experienced and trustworthy management teams.</li>
               </ul>
-              <p>
+              <p className="mb-2">
                 This approach reduces the risk of catastrophic losses when
                 bubbles burst.
               </p>
@@ -215,7 +217,7 @@ const MarketBubbles = () => {
                 </li>
                 <li>Global geographies to reduce country-specific risk.</li>
               </ul>
-              <p>
+              <p className="mb-2">
                 This diversification cushions the portfolio from the bubble’s
                 inevitable collapse in any one segment.
               </p>
@@ -248,7 +250,7 @@ const MarketBubbles = () => {
                 Many investors borrow to invest during bubbles, chasing higher
                 returns. This can be disastrous.
               </p>
-              <p>Smart investors:</p>
+              <p className="mb-2">Smart investors:</p>
               <ul className="list-disc pl-6 my-1">
                 <li>Use leverage sparingly or not at all.</li>
                 <li>
@@ -312,7 +314,7 @@ const MarketBubbles = () => {
                   They buy quality companies and assets at fire-sale prices.
                 </li>
               </ul>
-              <p>
+              <p className="mb-2">
                 This contrarian mindset helps generate outsized returns in the
                 long run.
               </p>
@@ -340,7 +342,7 @@ const MarketBubbles = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Real-World Examples: Learning from the Best
           </h2>
-          <h3 className="font-semibold mb-1">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             Warren Buffett and the Dot-com Bubble
           </h3>
           <p className="mb-2">
@@ -349,8 +351,10 @@ const MarketBubbles = () => {
             Coca-Cola and GEICO. When the bubble burst, Buffett’s portfolio lost
             much less and had ample capital to buy quality stocks cheaply.
           </p>
-          <h3 className="font-semibold mb-1">Ray Dalio’s Risk Parity</h3>
-          <p>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            Ray Dalio’s Risk Parity
+          </h3>
+          <p className="mb-2">
             Dalio’s strategy balances risk across stocks, bonds, commodities,
             and cash. This reduces portfolio drawdowns during bubbles and
             crashes, allowing smoother returns.
@@ -398,13 +402,13 @@ const MarketBubbles = () => {
             Conclusion: Investing Smart Means Thinking Differently During
             Bubbles
           </h2>
-          <p>
+          <p className="mb-2">
             Market bubbles are inevitable, but how you respond makes all the
             difference. By recognizing bubbles early, prioritizing quality,
             managing risk, and keeping emotions in check, smart investors
             protect their wealth and seize opportunities others miss.
           </p>
-          <p>
+          <p className="mb-2">
             Don’t be another victim of market hype. Be the investor who thrives
             through every market cycle — bubbles included.
           </p>

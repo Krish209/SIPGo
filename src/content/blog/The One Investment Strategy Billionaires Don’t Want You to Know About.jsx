@@ -59,9 +59,12 @@ const BillionaireInvestmentStrategy = () => {
             What if I told you billionaires have a single, deceptively simple
             investment strategy that the masses never hear about? It’s not about
             crypto jackpots, private equity, or hedge fund wizardry. Instead,
-            it’s a strategic, repeatable, low-risk approach that focuses on
-            capital preservation, disciplined diversification, and smart risk
-            management—the foundational pillars of billionaire wealth.
+            it’s a strategic, repeatable, low-risk approach that focuses on{" "}
+            <strong>
+              capital preservation, disciplined diversification, and smart risk
+              management
+            </strong>
+            —the foundational pillars of billionaire wealth.
           </p>
           <p className="mb-2">
             This “secret” investment strategy forms the backbone of some of the
@@ -85,16 +88,20 @@ const BillionaireInvestmentStrategy = () => {
           </h2>
           <p className="mb-2">
             When billionaires talk investing, the first rule is almost always
-            “don’t lose money.” Warren Buffett famously said, “Rule No. 1: Never
-            lose money. Rule No. 2: Never forget rule No. 1.” This principle of
-            capital preservation isn’t flashy, but it’s crucial.
+            <strong>don’t lose money</strong>. Warren Buffett famously said,
+            “Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1.”
+            This principle of <strong>capital preservation</strong> isn’t
+            flashy, but it’s crucial.
           </p>
           <p className="mb-2">Why?</p>
           <p className="mb-2">
             Because losses take much longer to recover than gains. A 50% loss
             requires a 100% gain to break even. Billionaires understand this
-            math intuitively, so they build portfolios designed to weather
-            market storms without catastrophic drawdowns.
+            math intuitively, so they build portfolios designed to{" "}
+            <strong>
+              weather market storms without catastrophic drawdowns
+            </strong>
+            .
           </p>
           <p className="mb-2">This means they avoid:</p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -105,8 +112,8 @@ const BillionaireInvestmentStrategy = () => {
             </li>
           </ul>
           <p className="mb-2">
-            Instead, their approach emphasizes consistent, steady growth over
-            quick wins.
+            Instead, their approach emphasizes{" "}
+            <strong>consistent, steady growth</strong> over quick wins.
           </p>
         </section>
 
@@ -117,12 +124,15 @@ const BillionaireInvestmentStrategy = () => {
             Market
           </h2>
           <p className="mb-2">
-            Contrary to popular belief, low-volatility stocks often outperform
-            high-volatility stocks over the long term. The “Conservative
-            Formula,” developed by Dutch financial scientists Pim van Vliet and
-            Jan de Koning, systematically picks cheap, stable companies with low
-            price swings that tend to deliver better risk-adjusted returns
-            (source).
+            Contrary to popular belief,{" "}
+            <strong>
+              low-volatility stocks often outperform high-volatility stocks over
+              the long term
+            </strong>
+            . The “Conservative Formula,” developed by Dutch financial
+            scientists Pim van Vliet and Jan de Koning, systematically picks
+            cheap, stable companies with low price swings that tend to deliver
+            better risk-adjusted returns (source).
           </p>
           <p className="mb-2">
             This aligns closely with Warren Buffett’s method of buying
@@ -143,8 +153,8 @@ const BillionaireInvestmentStrategy = () => {
           </ul>
           <p className="mb-2">
             If you want to think like a billionaire, start looking for
-            blue-chip, dividend-paying, low-beta stocks as your portfolio’s
-            backbone.
+            <strong>blue-chip, dividend-paying, low-beta stocks</strong> as your
+            portfolio’s backbone.
           </p>
         </section>
 
@@ -156,9 +166,9 @@ const BillionaireInvestmentStrategy = () => {
           </h2>
           <p className="mb-2">
             You may have heard of the legendary hedge fund manager Ray Dalio,
-            creator of the All-Weather Portfolio. His secret? Risk
-            parity—balancing the risk contribution of each asset class rather
-            than merely the dollar amount.
+            creator of the All-Weather Portfolio. His secret?{" "}
+            <strong>Risk parity</strong>—balancing the risk contribution of each
+            asset class rather than merely the dollar amount.
           </p>
           <p className="mb-2">
             Traditional portfolios might allocate 60% to stocks and 40% to
@@ -175,9 +185,12 @@ const BillionaireInvestmentStrategy = () => {
             </li>
           </ul>
           <p className="mb-2">
-            Implementing risk parity means blending stocks, government bonds,
-            gold, commodities, and cash in dynamic proportions to ensure your
-            portfolio thrives in any economic environment.
+            Implementing risk parity means blending{" "}
+            <strong>
+              stocks, government bonds, gold, commodities, and cash
+            </strong>{" "}
+            in dynamic proportions to ensure your portfolio thrives in any
+            economic environment.
           </p>
         </section>
 
@@ -192,18 +205,18 @@ const BillionaireInvestmentStrategy = () => {
           </p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
-              Asset classes: public equities, private equity, real estate,
-              private credit, precious metals, collectibles, and alternative
-              investments.
+              <strong>Asset classes</strong>: public equities, private equity,
+              real estate, private credit, precious metals, collectibles, and
+              alternative investments.
             </li>
             <li>
-              Geographies: investing across developed markets, emerging
-              economies, and frontier markets to tap global growth opportunities
-              and reduce country-specific risks.
+              <strong>Geographies</strong>: investing across developed markets,
+              emerging economies, and frontier markets to tap global growth
+              opportunities and reduce country-specific risks.
             </li>
             <li>
-              Investment horizons: blending long-term core holdings with
-              shorter-term tactical trades to capitalize on market
+              <strong>Investment horizons</strong>: blending long-term core
+              holdings with shorter-term tactical trades to capitalize on market
               inefficiencies.
             </li>
           </ul>
@@ -225,13 +238,16 @@ const BillionaireInvestmentStrategy = () => {
             5. Discipline & Rebalancing: The Formula for Long-Term Success
           </h2>
           <p className="mb-2">
-            One of the most overlooked secrets is how consistently billionaires
-            rebalance their portfolios. Market movements can cause your
-            portfolio to drift away from your target risk levels.
+            One of the most overlooked secrets is how{" "}
+            <strong>
+              consistently billionaires rebalance their portfolios
+            </strong>
+            . Market movements can cause your portfolio to drift away from your
+            target risk levels.
           </p>
           <p className="mb-2">
-            By periodically rebalancing (monthly, quarterly, or based on
-            thresholds), they:
+            By <strong>periodically rebalancing</strong> (monthly, quarterly, or
+            based on thresholds), they:
           </p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>Lock in profits from appreciated assets</li>
@@ -250,12 +266,13 @@ const BillionaireInvestmentStrategy = () => {
             6. Liquidity Stacking: Cash Management for Opportunity and Safety
           </h2>
           <p className="mb-2">
-            Cash isn’t just sitting idle money—it’s a strategic asset class for
-            billionaires.
+            Cash isn’t just sitting idle money—it’s{" "}
+            <strong>a strategic asset class</strong> for billionaires.
           </p>
           <p className="mb-2">
-            They maintain a liquidity ladder of cash, money market funds,
-            short-term Treasuries, and other liquid securities that:
+            They maintain a <strong>liquidity ladder</strong> of cash, money
+            market funds, short-term Treasuries, and other liquid securities
+            that:
           </p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
@@ -279,9 +296,9 @@ const BillionaireInvestmentStrategy = () => {
           </h2>
           <p className="mb-2">
             While the core of billionaire portfolios is conservative, many also
-            make select high-conviction bets with asymmetric risk
-            profiles—small, tactical positions where potential upside dwarfs
-            downside risk.
+            make <strong>select high-conviction bets</strong> with asymmetric
+            risk profiles—small, tactical positions where potential upside
+            dwarfs downside risk.
           </p>
           <p className="mb-2">Examples include:</p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -312,8 +329,9 @@ const BillionaireInvestmentStrategy = () => {
           </h2>
           <p className="mb-2">
             Not all billionaires invest in private deals or hedge funds. Many
-            champion passive investing, utilizing low-cost index funds combined
-            with dividend aristocrats—companies with decades of dividend growth.
+            champion <strong>passive investing</strong>, utilizing low-cost
+            index funds combined with <strong>dividend aristocrats</strong>
+            —companies with decades of dividend growth.
           </p>
           <p className="mb-2">Why?</p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -343,18 +361,19 @@ const BillionaireInvestmentStrategy = () => {
           </p>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
-              Tax optimization: trusts, tax-loss harvesting, offshore entities
-              to minimize capital gains taxes and estate taxes.
+              <strong>Tax optimization</strong>: trusts, tax-loss harvesting,
+              offshore entities to minimize capital gains taxes and estate
+              taxes.
             </li>
             <li>
-              Family offices: dedicated teams managing investments,
-              philanthropy, and succession planning to protect
+              <strong>Family offices</strong>: dedicated teams managing
+              investments, philanthropy, and succession planning to protect
               multi-generational wealth.
             </li>
             <li>
-              Alternative structures: private equity funds, real estate
-              partnerships, and digital assets designed to shelter wealth from
-              market volatility and taxes.
+              <strong>Alternative structures</strong>: private equity funds,
+              real estate partnerships, and digital assets designed to shelter
+              wealth from market volatility and taxes.
             </li>
           </ul>
           <p className="mb-2">
@@ -390,8 +409,9 @@ const BillionaireInvestmentStrategy = () => {
             <li>Planning long-term with tax-efficient structures</li>
           </ul>
           <p className="mb-2">
-            This approach dramatically increases the odds of consistent wealth
-            accumulation and resilience during downturns.
+            This approach dramatically increases the odds of{" "}
+            <strong>consistent wealth accumulation</strong> and resilience
+            during downturns.
           </p>
         </section>
 
@@ -406,7 +426,7 @@ const BillionaireInvestmentStrategy = () => {
 
           <Table columns={columns} data={data} />
 
-          <p className="mb-2 mt-4">Action steps:</p>
+          <p className="mb-2">Action steps:</p>
           <ul className="list-disc space-y-1 pl-6 mb-6">
             <li>Identify your risk tolerance and investment horizon.</li>
             <li>Use low-cost ETFs for global diversification.</li>

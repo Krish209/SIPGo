@@ -210,113 +210,103 @@ const SelfEmployedOrFreelancer = () => {
             Step-by-Step Investment Strategy for Freelancers in India
           </h2>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                1. Build an Emergency Fund First
-              </h3>
-              <p className="mb-2">
-                Before you start investing, create an emergency fund that covers{" "}
-                <strong>6–12 months</strong> of your essential expenses,
-                including rent, EMIs, groceries, and medical costs. This fund
-                should be easily accessible and kept in a liquid mutual fund or
-                a sweep-in fixed deposit (FD).
-              </p>
-              <p className="mb-2">
-                <strong>Example</strong>: If your average monthly expenses are
-                ₹40,000, aim for an emergency corpus of ₹2.5–₹5 lakh in a liquid
-                mutual fund or sweep-in FD.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                2. Start SIPs in Mutual Funds
-              </h3>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Build an Emergency Fund First
+          </h3>
+          <p className="mb-2">
+            Before you start investing, create an emergency fund that covers{" "}
+            <strong>6–12 months</strong> of your essential expenses, including
+            rent, EMIs, groceries, and medical costs. This fund should be easily
+            accessible and kept in a liquid mutual fund or a sweep-in fixed
+            deposit (FD).
+          </p>
+          <p className="mb-2">
+            <strong>Example</strong>: If your average monthly expenses are
+            ₹40,000, aim for an emergency corpus of ₹2.5–₹5 lakh in a liquid
+            mutual fund or sweep-in FD.
+          </p>
 
-              <p className="mb-2">
-                SIPs (Systematic Investment Plans) are ideal for freelancers.
-                Even with irregular income, small monthly investments compound
-                significantly over time.
-              </p>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  Consider <strong>Index Funds</strong> which typically have
-                  lower expense ratios and are tax-efficient.
-                </li>
-                <li>Start with a flexi-SIP option if available.</li>
-                <li>
-                  Diversify into equity, hybrid, and debt funds based on your
-                  risk profile.
-                </li>
-                <li>
-                  Use a <strong>SIP Calculator</strong> to estimate how much you
-                  need to invest monthly to reach your financial goals.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                3. Use Tax-Advantaged Investment Tools
-              </h3>
-              <p className="mb-2">
-                Freelancers are eligible for several tax-saving options under{" "}
-                <strong>Section 80C and 80CCD</strong>:
-              </p>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Start SIPs in Mutual Funds
+          </h3>
 
-              <Table columns={columns2} data={data2} />
+          <p className="mb-2">
+            SIPs (Systematic Investment Plans) are ideal for freelancers. Even
+            with irregular income, small monthly investments compound
+            significantly over time.
+          </p>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              Consider <strong>Index Funds</strong> which typically have lower
+              expense ratios and are tax-efficient.
+            </li>
+            <li>Start with a flexi-SIP option if available.</li>
+            <li>
+              Diversify into equity, hybrid, and debt funds based on your risk
+              profile.
+            </li>
+            <li>
+              Use a <strong>SIP Calculator</strong> to estimate how much you
+              need to invest monthly to reach your financial goals.
+            </li>
+          </ul>
 
-              <p className="my-2">
-                <strong>Example</strong>: A freelancer earning ₹10 lakhs can
-                reduce their taxable income to ₹7 lakhs by investing in ELSS
-                (₹1.5L) and NPS (₹1.5L including ₹50K under 80CCD(1B)).
-              </p>
-            </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Use Tax-Advantaged Investment Tools
+          </h3>
+          <p className="mb-2">
+            Freelancers are eligible for several tax-saving options under{" "}
+            <strong>Section 80C and 80CCD</strong>:
+          </p>
 
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                4. Retirement Planning Without EPF
-              </h3>
+          <Table columns={columns2} data={data2} />
 
-              <p className="mb-2">
-                As a freelancer, you must plan your own retirement. Begin
-                investing early in:
-              </p>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>National Pension System (NPS)</strong> for regular
-                  pension after retirement.
-                </li>
-                <li>
-                  <strong>Equity mutual funds</strong> via SIPs for long-term
-                  growth.
-                </li>
-                <li>
-                  <strong>PPF</strong> as a safe, tax-free investment.
-                </li>
-              </ul>
-            </div>
+          <p className="my-2">
+            <strong>Example</strong>: A freelancer earning ₹10 lakhs can reduce
+            their taxable income to ₹7 lakhs by investing in ELSS (₹1.5L) and
+            NPS (₹1.5L including ₹50K under 80CCD(1B)).
+          </p>
 
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-4">
-                5. Get Insurance: Life + Health
-              </h3>
-              <p className="mb-2">
-                Investing is pointless if your financial future can be derailed
-                by a hospital bill.
-              </p>
-              <ul className="list-disc space-y-1 pl-6 mb-2">
-                <li>
-                  <strong>Health Insurance</strong>: Get a comprehensive health
-                  insurance policy to cover medical expenses.
-                </li>
-                <li>
-                  <strong>Term Insurance</strong>: A must-have for freelancers
-                  with dependents. It provides financial security in case of
-                  untimely demise.
-                </li>
-              </ul>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Retirement Planning Without EPF
+          </h3>
+
+          <p className="mb-2">
+            As a freelancer, you must plan your own retirement. Begin investing
+            early in:
+          </p>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>National Pension System (NPS)</strong> for regular pension
+              after retirement.
+            </li>
+            <li>
+              <strong>Equity mutual funds</strong> via SIPs for long-term
+              growth.
+            </li>
+            <li>
+              <strong>PPF</strong> as a safe, tax-free investment.
+            </li>
+          </ul>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            5. Get Insurance: Life + Health
+          </h3>
+          <p className="mb-2">
+            Investing is pointless if your financial future can be derailed by a
+            hospital bill.
+          </p>
+          <ul className="list-disc space-y-1 pl-6 mb-2">
+            <li>
+              <strong>Health Insurance</strong>: Get a comprehensive health
+              insurance policy to cover medical expenses.
+            </li>
+            <li>
+              <strong>Term Insurance</strong>: A must-have for freelancers with
+              dependents. It provides financial security in case of untimely
+              demise.
+            </li>
+          </ul>
         </section>
 
         {/* How to Invest with Irregular Income */}

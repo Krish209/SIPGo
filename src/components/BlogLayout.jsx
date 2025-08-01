@@ -202,7 +202,7 @@ const BlogLayout = ({
 
       {/* Progress bar */}
       <div
-        className="fixed top-14 md:top-15 left-0 right-0 h-1 bg-indigo-600 z-50"
+        className="fixed top-14 md:top-15 left-0 right-0 h-[5px] bg-indigo-600 z-10"
         style={{ width: `${readingProgress}%` }}
       />
       {showScrollButton && (

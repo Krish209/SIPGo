@@ -151,7 +151,7 @@ const SpendOrInvest = () => {
             reportedly called compound interest the “eighth wonder of the
             world,” and for good reason.
           </p>
-          <h3 className="text-lg md:text-xl font-semibold mb-2">
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
             How Does Compounding Work?
           </h3>
           <p className="mb-2">

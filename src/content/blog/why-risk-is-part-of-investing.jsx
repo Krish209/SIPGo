@@ -165,7 +165,7 @@ const WhyRiskIsPartOfInvesting = () => {
           </h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 1. Higher Returns Require Higher Risk
               </h3>
               <p className="mb-2">
@@ -188,7 +188,7 @@ const WhyRiskIsPartOfInvesting = () => {
             </div>
 
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 2. The Economy is Unpredictable
               </h3>
               <p className="mb-2">
@@ -226,7 +226,7 @@ const WhyRiskIsPartOfInvesting = () => {
           </p>
           <div className="space-y-6">
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 1. Diversification
               </h3>
 
@@ -245,7 +245,7 @@ const WhyRiskIsPartOfInvesting = () => {
               <Table columns={columns2} data={data2} />
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 2. Asset Allocation
               </h3>
 
@@ -274,7 +274,7 @@ const WhyRiskIsPartOfInvesting = () => {
             </div>
 
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 3. Invest via SIPs (Rupee Cost Averaging)
               </h3>
 
@@ -291,7 +291,7 @@ const WhyRiskIsPartOfInvesting = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 4. Emergency Fund
               </h3>
 
@@ -304,7 +304,7 @@ const WhyRiskIsPartOfInvesting = () => {
             </div>
 
             <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 5. Review and Rebalance Regularly
               </h3>
 

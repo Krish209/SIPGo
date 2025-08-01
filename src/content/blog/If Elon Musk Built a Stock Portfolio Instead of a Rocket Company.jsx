@@ -95,15 +95,14 @@ const ElonMuskPortfolio = () => {
           </p>
           <p className="mb-2">
             In this comprehensive blog, we explore the fascinating hypothetical
-            of Elon Musk as an investor—not just an entrepreneur. We’ll analyze
-            his mindset, the sectors he’d likely target, the companies that
-            would make his portfolio, and how everyday investors can learn from
-            his approach. Whether you’re a seasoned investor or just starting
-            out, this post will inspire you to think bigger and bolder in your
-            investment strategy.
+            of <strong>Elon Musk as an investor</strong>—not just an
+            entrepreneur. We’ll analyze his mindset, the sectors he’d likely
+            target, the companies that would make his portfolio, and how
+            everyday investors can learn from his approach. Whether you’re a
+            seasoned investor or just starting out, this post will inspire you
+            to think bigger and bolder in your investment strategy.
           </p>
         </section>
-
         {/* Understanding Elon Musk’s Investment Philosophy */}
         <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
@@ -144,120 +143,128 @@ const ElonMuskPortfolio = () => {
           </ul>
           <p className="mb-2">
             This philosophy would significantly shape how he assembled a stock
-            portfolio. Instead of playing it safe, he’d likely favor disruptive,
-            future-facing companies that challenge the status quo, even if that
-            meant more volatility and risk.
+            portfolio. Instead of playing it safe, he’d likely favor{" "}
+            <strong>disruptive, future-facing companies</strong> that challenge
+            the status quo, even if that meant more volatility and risk.
           </p>
         </section>
-
         {/* What Sectors Would Elon Musk Invest In? */}
         <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What Sectors Would Elon Musk Invest In?
           </h2>
-          <ol className="list-decimal space-y-4 pl-6 mb-2">
-            <li>
-              <strong>Artificial Intelligence and Semiconductors</strong>
-              <p className="mb-1">
-                Musk has consistently highlighted AI’s transformative power.
-                From autonomous driving to neural networks, AI is integral to
-                his businesses. His stock picks would emphasize companies
-                leading in AI research, hardware, and software.
-              </p>
-              <p className="mb-2">
-                <strong>Potential holdings:</strong> Nvidia (NVDA), Alphabet
-                (GOOGL), Microsoft (MSFT), and AI startups with high growth
-                potential.
-              </p>
-              <p className="mb-2">
-                <strong>Why:</strong> Nvidia’s GPUs power AI development
-                worldwide, while Alphabet’s AI innovations impact everything
-                from search to autonomous vehicles.
-              </p>
-            </li>
 
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Artificial Intelligence and Semiconductors
+          </h3>
+          <p className="mb-2">
+            Musk has consistently highlighted AI’s transformative power. From
+            autonomous driving to neural networks, AI is integral to his
+            businesses. His stock picks would emphasize companies leading in AI
+            research, hardware, and software.
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mb-2">
             <li>
-              <strong>Space Technology and Satellite Communications</strong>
-              <p className="mb-1">
-                Space exploration is Musk’s passion project, and he’d likely
-                invest heavily in this sector outside his own company, SpaceX.
-              </p>
-              <p className="mb-2">
-                <strong>Potential holdings:</strong> Boeing (BA), Lockheed
-                Martin (LMT), Virgin Galactic (SPCE), and satellite broadband
-                companies like Iridium Communications (IRDM).
-              </p>
-              <p className="mb-2">
-                <strong>Why:</strong> The space economy is expected to grow to
-                $1 trillion by 2040, driven by satellite internet, space
-                tourism, and asteroid mining.
-              </p>
+              <strong>Potential holdings:</strong> Nvidia (NVDA), Alphabet
+              (GOOGL), Microsoft (MSFT), and AI startups with high growth
+              potential.
             </li>
+            <li>
+              <strong>Why:</strong> Nvidia’s GPUs power AI development
+              worldwide, while Alphabet’s AI innovations impact everything from
+              search to autonomous vehicles.
+            </li>
+          </ul>
 
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Space Technology and Satellite Communications
+          </h3>
+          <p className="mb-1">
+            Space exploration is Musk’s passion project, and he’d likely invest
+            heavily in this sector outside his own company, SpaceX.
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mb-2">
             <li>
-              <strong>Electric Vehicles (EV) and Clean Energy</strong>
-              <p className="mb-1">
-                Tesla’s meteoric rise has transformed the auto industry, and
-                Musk would double down on EV innovation and renewable energy
-                infrastructure.
-              </p>
-              <p className="mb-2">
-                <strong>Potential holdings:</strong> Tesla (TSLA), NIO (NIO),
-                Enphase Energy (ENPH), ChargePoint (CHPT), and battery metal
-                miners.
-              </p>
-              <p className="mb-2">
-                <strong>Why:</strong> Governments worldwide are pushing for
-                decarbonization, accelerating EV adoption and clean energy
-                investments.
-              </p>
+              <strong>Potential holdings:</strong> Boeing (BA), Lockheed Martin
+              (LMT), Virgin Galactic (SPCE), and satellite broadband companies
+              like Iridium Communications (IRDM).
             </li>
+            <li>
+              <strong>Why:</strong> The space economy is expected to grow to $1
+              trillion by 2040, driven by satellite internet, space tourism, and
+              asteroid mining.
+            </li>
+          </ul>
 
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Electric Vehicles (EV) and Clean Energy
+          </h3>
+          <p className="mb-1">
+            Tesla’s meteoric rise has transformed the auto industry, and Musk
+            would double down on EV innovation and renewable energy
+            infrastructure.
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mb-2">
             <li>
-              <strong>Biotechnology and Human Enhancement</strong>
-              <p className="mb-1">
-                Musk’s Neuralink aims to merge humans with AI, reflecting his
-                interest in biotech breakthroughs.
-              </p>
-              <p className="mb-2">
-                <strong>Potential holdings:</strong> CRISPR Therapeutics (CRSP),
-                Editas Medicine (EDIT), Illumina (ILMN).
-              </p>
-              <p className="mb-2">
-                <strong>Why:</strong> Gene editing and biotech innovation are
-                revolutionizing healthcare, offering long-term growth prospects.
-              </p>
+              <strong>Potential holdings:</strong> Tesla (TSLA), NIO (NIO),
+              Enphase Energy (ENPH), ChargePoint (CHPT), and battery metal
+              miners.
             </li>
+            <li>
+              <strong>Why:</strong> Governments worldwide are pushing for
+              decarbonization, accelerating EV adoption and clean energy
+              investments.
+            </li>
+          </ul>
 
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Biotechnology and Human Enhancement
+          </h3>
+          <p className="mb-1">
+            Musk’s Neuralink aims to merge humans with AI, reflecting his
+            interest in biotech breakthroughs.
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mb-2">
             <li>
-              <strong>Fintech and Cryptocurrency</strong>
-              <p className="mb-1">
-                Musk’s tweets have famously influenced cryptocurrencies like
-                Bitcoin and Dogecoin, suggesting fintech and blockchain would be
-                part of his portfolio.
-              </p>
-              <p className="mb-2">
-                <strong>Potential holdings:</strong> Square (Block) (SQ),
-                Coinbase (COIN), PayPal (PYPL).
-              </p>
-              <p className="mb-2">
-                <strong>Why:</strong> Digital payments and decentralized finance
-                are disrupting traditional banking systems globally.
-              </p>
+              <strong>Potential holdings:</strong> CRISPR Therapeutics (CRSP),
+              Editas Medicine (EDIT), Illumina (ILMN).
             </li>
-          </ol>
+            <li>
+              <strong>Why:</strong> Gene editing and biotech innovation are
+              revolutionizing healthcare, offering long-term growth prospects.
+            </li>
+          </ul>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            5. Fintech and Cryptocurrency
+          </h3>
+          <p className="mb-1">
+            Musk’s tweets have famously influenced cryptocurrencies like Bitcoin
+            and Dogecoin, suggesting fintech and blockchain would be part of his
+            portfolio.
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mb-2">
+            <li>
+              <strong>Potential holdings:</strong> Square (Block) (SQ), Coinbase
+              (COIN), PayPal (PYPL).
+            </li>
+            <li>
+              <strong>Why:</strong> Digital payments and decentralized finance
+              are disrupting traditional banking systems globally.
+            </li>
+          </ul>
         </section>
 
-        {/* The Composition of an Elon Musk-Inspired Stock Portfolio */}
         <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Composition of an Elon Musk-Inspired Stock Portfolio
           </h2>
           <p className="mb-2">
             Unlike traditional advice emphasizing broad diversification, Musk’s
-            portfolio would likely be highly concentrated, reflecting his high
-            conviction and tolerance for risk. He’d focus on quality over
-            quantity, investing deeply in a few transformative companies.
+            portfolio would likely be <strong>highly concentrated</strong>,
+            reflecting his high conviction and tolerance for risk. He’d focus on{" "}
+            <strong>quality over quantity</strong>, investing deeply in a few
+            transformative companies.
           </p>
 
           <Table columns={columns} data={data} />
@@ -268,35 +275,41 @@ const ElonMuskPortfolio = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Key Traits of Elon Musk’s Hypothetical Portfolio
           </h2>
-          <ol className="list-decimal pl-6 space-y-2 mb-2">
-            <li>
-              <strong>High Growth Focus</strong>
-              <br />
-              Musk would prioritize stocks with exceptional growth potential,
-              even if they are expensive or volatile by traditional metrics like
-              P/E ratios.
-            </li>
-            <li>
-              <strong>Technological Moats</strong>
-              <br />
-              Investments would be in companies with proprietary technology or
-              unique intellectual property, providing sustainable competitive
-              advantages.
-            </li>
-            <li>
-              <strong>Long-Term Horizon</strong>
-              <br />
-              Short-term market fluctuations wouldn’t shake Musk’s conviction.
-              He’d likely hold core positions for years, betting on paradigm
-              shifts.
-            </li>
-            <li>
-              <strong>Innovation Over Income</strong>
-              <br />
-              Dividend-paying stocks would be rare; instead, the focus would be
-              on capital appreciation driven by innovation.
-            </li>
-          </ol>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. High Growth Focus
+          </h3>
+          <p className="mb-2">
+            Musk would prioritize stocks with exceptional growth potential, even
+            if they are expensive or volatile by traditional metrics like P/E
+            ratios.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Technological Moats
+          </h3>
+          <p className="mb-2">
+            Investments would be in companies with proprietary technology or
+            unique intellectual property, providing sustainable competitive
+            advantages.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Long-Term Horizon
+          </h3>
+          <p className="mb-2">
+            Short-term market fluctuations wouldn’t shake Musk’s conviction.
+            He’d likely hold core positions for years, betting on paradigm
+            shifts.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Innovation Over Income
+          </h3>
+          <p className="mb-2">
+            Dividend-paying stocks would be rare; instead, the focus would be on
+            capital appreciation driven by innovation.
+          </p>
         </section>
 
         {/* Lessons Every Investor Can Learn from Musk’s Approach */}
@@ -304,42 +317,49 @@ const ElonMuskPortfolio = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Lessons Every Investor Can Learn from Musk’s Approach
           </h2>
-          <ol className="list-decimal pl-6 space-y-2 mb-2">
-            <li>
-              <strong>Think Big and Invest in Future Trends</strong>
-              <br />
-              Elon Musk’s vision involves industries that are shaping the future
-              of humanity—energy, AI, space, and biotech. Investors can emulate
-              this by identifying emerging sectors poised for exponential
-              growth.
-            </li>
-            <li>
-              <strong>Embrace Risk with Preparation</strong>
-              <br />
-              Bold bets come with risks, but thorough research and understanding
-              of the sector can help mitigate these risks.
-            </li>
-            <li>
-              <strong>Concentration Can Pay Off</strong>
-              <br />
-              While diversification is a standard rule, holding too many stocks
-              can dilute returns. Musk’s approach suggests that carefully chosen
-              concentrated portfolios can outperform.
-            </li>
-            <li>
-              <strong>Be Patient and Focus on Long-Term Value</strong>
-              <br />
-              The biggest rewards come from holding companies through innovation
-              cycles, not chasing quick wins.
-            </li>
-            <li>
-              <strong>Invest in What You Understand</strong>
-              <br />
-              Musk leverages his deep knowledge in engineering and tech to make
-              smart bets. Similarly, investors should focus on industries they
-              understand.
-            </li>
-          </ol>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Think Big and Invest in Future Trends
+          </h3>
+          <p className="mb-2">
+            Elon Musk’s vision involves industries that are shaping the future
+            of humanity—energy, AI, space, and biotech. Investors can emulate
+            this by identifying emerging sectors poised for exponential growth.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Embrace Risk with Preparation
+          </h3>
+          <p className="mb-2">
+            Bold bets come with risks, but thorough research and understanding
+            of the sector can help mitigate these risks.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Concentration Can Pay Off
+          </h3>
+          <p className="mb-2">
+            While diversification is a standard rule, holding too many stocks
+            can dilute returns. Musk’s approach suggests that carefully chosen
+            concentrated portfolios can outperform.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            4. Be Patient and Focus on Long-Term Value
+          </h3>
+          <p className="mb-2">
+            The biggest rewards come from holding companies through innovation
+            cycles, not chasing quick wins.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            5. Invest in What You Understand
+          </h3>
+          <p className="mb-2">
+            Musk leverages his deep knowledge in engineering and tech to make
+            smart bets. Similarly, investors should focus on industries they
+            understand.
+          </p>
         </section>
 
         {/* Potential Pitfalls of Musk’s Investment Style */}
@@ -347,6 +367,9 @@ const ElonMuskPortfolio = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Potential Pitfalls of Musk’s Investment Style
           </h2>
+          <p className="mb-2">
+            While Musk’s approach is inspiring, it’s not without risks:
+          </p>
           <ul className="list-disc pl-6 space-y-2 mb-2">
             <li>
               <strong>Volatility:</strong> Concentrated portfolios in disruptive
@@ -367,7 +390,6 @@ const ElonMuskPortfolio = () => {
             </li>
           </ul>
         </section>
-
         {/* Final Thoughts */}
         <section className="my-4 md:my-8">
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
@@ -381,10 +403,10 @@ const ElonMuskPortfolio = () => {
             renewable energy, space exploration, biotechnology, and fintech.
           </p>
           <p className="mb-2">
-            For investors, Musk’s hypothetical portfolio is a masterclass in
-            investing in the future—not just the present. It encourages us to
-            look beyond traditional sectors, embrace innovation, and commit for
-            the long haul.
+            For investors, Musk’s hypothetical portfolio is a masterclass in{" "}
+            <strong>investing in the future</strong>—not just the present. It
+            encourages us to look beyond traditional sectors, embrace
+            innovation, and commit for the long haul.
           </p>
           <p className="mb-2">
             Are you ready to build your own Elon Musk-style portfolio? Start by

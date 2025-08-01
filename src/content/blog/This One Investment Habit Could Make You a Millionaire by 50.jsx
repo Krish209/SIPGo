@@ -87,14 +87,20 @@ const MillionaireHabitBlog = () => {
           </p>
           <ul className="list-disc space-y-2 pl-6 mb-2">
             <li>
-              The S&P 500 has delivered a ~10–10.7% annualized return over the
-              past 30–40 years, including dividends.
+              The S&P 500 has delivered a{" "}
+              <strong>
+                ~10–10.7% annualized return over the past 30–40 years
+              </strong>
+              , including dividends.
             </li>
 
             <li>
-              India’s Nifty 50 and Sensex have offered 10–14% CAGR over 10–20
-              years, with about a 90% probability of positive returns if held ≥7
-              years.
+              India’s Nifty 50 and Sensex have offered{" "}
+              <strong>10–14% CAGR over 10–20 years</strong>, with about a{" "}
+              <strong>
+                90% probability of positive returns if held ≥7 years
+              </strong>
+              .
             </li>
           </ul>
         </section>
@@ -126,7 +132,7 @@ const MillionaireHabitBlog = () => {
             How Delhi to Millionaire by 50 Looks: Compound Math
           </h2>
 
-          <ul className="list-disc space-y-1 pl-6 mb-2">
+          <ul className="list-disc space-y-2 pl-6 mb-2">
             <li>
               Invest ₹9,000/month (~₹300/day) at 12% CAGR for 20–25 years →
               corpus ≈ ₹1 crore+. You only contribute ~₹21–28 lakh; the rest
@@ -150,7 +156,7 @@ const MillionaireHabitBlog = () => {
             Indian and Global Examples in Practice
           </h2>
 
-          <ul className="list-disc space-y-1 pl-6 mb-2">
+          <ul className="list-disc space-y-2 pl-6 mb-2">
             <li>
               Indian SIP investors using the Nifty 50 Index or similar have seen
               10‑15% CAGR over multi‑year periods.
@@ -171,7 +177,7 @@ const MillionaireHabitBlog = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             Supporting Wealth‑Building Habits Around the Core Habit
           </h2>
-          <ol className="list-decimal space-y-1 pl-6 mb-2">
+          <ol className="list-decimal space-y-2 pl-6 mb-2">
             <li>
               <strong>Live Below Your Means</strong>: Cutting lifestyle creep
               frees up funds for SIPs and wealth moves.
@@ -224,7 +230,7 @@ const MillionaireHabitBlog = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             Realistic Milestone Path to ₹1 Crore / $1 Million by 50
           </h2>
-          <ul className="list-disc space-y-1 pl-6 mb-2">
+          <ul className="list-disc space-y-2 pl-6 mb-2">
             <li>
               <strong>Start Early (20s–30s)</strong>: The earlier, the more
               powerful compounding becomes.

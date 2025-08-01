@@ -249,41 +249,34 @@ const CompoundingWork = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Step-by-Step: How to Create Passive Income with Investments
           </h2>
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                1. Time Is Your Best Friend
-              </h3>
-              <p className="mb-2">
-                The earlier you start investing, the more time your money has to
-                compound. Even small monthly contributions can snowball into a
-                large corpus if you give them enough time. This is especially
-                relevant for young investors in India who can benefit the most
-                by starting early.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                2. Works Best with Reinvestment
-              </h3>
-              <p className="mb-2">
-                To truly harness the power of compounding, reinvest your
-                returns. Investment options like mutual funds (especially growth
-                option), EPF, and PPF automatically reinvest returns, making
-                them ideal compounding instruments.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold mb-2 md:mb-2">
-                3. Compounding Reduces the Burden of Investment
-              </h3>
-              <p className="mb-2">
-                Small, regular investments benefit greatly from compounding.
-                This means you don’t need a large lump sum upfront to build
-                wealth steadily.
-              </p>
-            </div>
-          </div>
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            1. Time Is Your Best Friend
+          </h3>
+          <p className="mb-2">
+            The earlier you start investing, the more time your money has to
+            compound. Even small monthly contributions can snowball into a large
+            corpus if you give them enough time. This is especially relevant for
+            young investors in India who can benefit the most by starting early.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            2. Works Best with Reinvestment
+          </h3>
+          <p className="mb-2">
+            To truly harness the power of compounding, reinvest your returns.
+            Investment options like mutual funds (especially growth option),
+            EPF, and PPF automatically reinvest returns, making them ideal
+            compounding instruments.
+          </p>
+
+          <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
+            3. Compounding Reduces the Burden of Investment
+          </h3>
+          <p className="mb-2">
+            Small, regular investments benefit greatly from compounding. This
+            means you don’t need a large lump sum upfront to build wealth
+            steadily.
+          </p>
         </section>
 
         {/* Compounding in SIP (Systematic Investment Plan) */}

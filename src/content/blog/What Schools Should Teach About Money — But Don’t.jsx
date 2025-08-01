@@ -18,12 +18,12 @@ export const meta = {
 };
 
 const FinancialEducationSchools = () => {
-  const curriculumChecklistColumns = [
+  const Columns = [
     { key: "topic", header: "Topic" },
     { key: "outcomes", header: "Core Learning Outcomes" },
   ];
 
-  const curriculumChecklistData = [
+  const Data = [
     {
       topic: "Budgeting & Saving",
       outcomes: "Needs vs wants, goal setting, tracking, emergency buffers",
@@ -90,24 +90,24 @@ const FinancialEducationSchools = () => {
           </h2>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
-              Financial habits form early: Teenagers exposed to structured
-              finance education develop stronger budgeting, saving, and spending
-              behaviors later in life.
+              <strong>Financial habits form early</strong>: Teenagers exposed to
+              structured finance education develop stronger budgeting, saving,
+              and spending behaviors later in life.
             </li>
             <li>
-              Avoid lifelong pitfalls: Without financial knowledge, young adults
-              fall prey to bad debt, poor saving habits, and limited retirement
-              planning.
+              <strong>Avoid lifelong pitfalls</strong>: Without financial
+              knowledge, young adults fall prey to bad debt, poor saving habits,
+              and limited retirement planning.
             </li>
             <li>
-              Widening inequality: Groups without access to financial education—
-              especially low-income students—are more vulnerable to predatory
-              lending and financial scams.
+              <strong>Widening inequality</strong>: Groups without access to
+              financial education— especially low-income students—are more
+              vulnerable to predatory lending and financial scams.
             </li>
             <li>
-              Academic engagement: Financial lessons can demystify math by
-              applying it to real-life scenarios, increasing student motivation
-              and understanding.
+              <strong>Academic engagement</strong>: Financial lessons can
+              demystify math by applying it to real-life scenarios, increasing
+              student motivation and understanding.
             </li>
           </ul>
         </section>
@@ -121,7 +121,7 @@ const FinancialEducationSchools = () => {
           <ol className="list-decimal space-y-4 pl-6 mb-2">
             <li>
               <strong>Budgeting & Saving</strong>
-              <p>
+              <p className="mb-2">
                 Teach students to distinguish between wants and needs, and adopt
                 the 50‑30‑20 rule (needs/wants/savings). Encourage goal-setting
                 and using worksheets or apps for expense tracking.
@@ -129,7 +129,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Banking & Financial Services</strong>
-              <p>
+              <p className="mb-2">
                 Explain how to open savings and checking accounts, avoid
                 overdraft fees, and use online/digital banking safely. Introduce
                 digital wallets, UPI, and cybersecurity basics.
@@ -137,7 +137,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Credit & Debt Management</strong>
-              <p>
+              <p className="mb-2">
                 Cover credit cards, loans, interest rates, credit scores,
                 consequences of debt, and predatory lending. Focus on
                 responsible borrowing and delaying harmful credit decisions.
@@ -145,7 +145,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Investing & Compound Interest</strong>
-              <p>
+              <p className="mb-2">
                 Explain basic instruments—stocks, bonds, mutual funds—alongside
                 simulations to show how diversification, risk, and compounding
                 work. Highlight the benefits of long-term planning like
@@ -154,7 +154,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Taxes & Legal Responsibilities</strong>
-              <p>
+              <p className="mb-2">
                 Teach why taxes exist, how different types are calculated, and
                 simplified tax-filing exercises. Include deduction basics and
                 benefits like insurance or retirement contributions.
@@ -162,14 +162,14 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Insurance & Risk Management</strong>
-              <p>
+              <p className="mb-2">
                 Clarify health, term life, and property insurance. Use real-life
                 scenarios to show how insurance guards against financial risk.
               </p>
             </li>
             <li>
               <strong>Behavioral Finance & Consumer Awareness</strong>
-              <p>
+              <p className="mb-2">
                 Address emotional and psychological drivers behind financial
                 decisions: impulse buying, overconfidence, social pressure,
                 confirmation bias. Programs like the FoolProof Initiative teach
@@ -178,7 +178,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Digital Finance & Emerging Tools</strong>
-              <p>
+              <p className="mb-2">
                 Cover BNPL schemes, cryptocurrencies, digital payment apps, and
                 fraud prevention. Emphasize verifying sources, secure password
                 habits, and phishing awareness.
@@ -186,7 +186,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Entrepreneurship & Financial Planning</strong>
-              <p>
+              <p className="mb-2">
                 Teach business ideation, budgeting, prototyping, and
                 grant-seeking. Use Delhi’s NEEEV initiative as a model example
                 for entrepreneurship curriculum implementation.
@@ -256,22 +256,24 @@ const FinancialEducationSchools = () => {
           </h2>
           <ul className="list-disc space-y-1 pl-6 mb-2">
             <li>
-              Crowded curriculums & test pressures: Essential for academics,
-              life skills like money management often get deprioritized.
+              <strong>Crowded curriculums & test pressures</strong>: Essential
+              for academics, life skills like money management often get
+              deprioritized.
             </li>
             <li>
-              Lack of teacher confidence: Most teachers haven’t been trained to
-              deliver financial education, leading to inconsistent quality or
-              omission.
+              <strong>Lack of teacher confidence</strong>: Most teachers haven’t
+              been trained to deliver financial education, leading to
+              inconsistent quality or omission.
             </li>
             <li>
-              No mandate or standard: Without national or regional requirements,
-              many schools ignore financial literacy entirely.
+              <strong>No mandate or standard</strong>: Without national or
+              regional requirements, many schools ignore financial literacy
+              entirely.
             </li>
             <li>
-              Misplaced assumptions: Some educators believe parents or life will
-              teach financial skills—often leaving students unprepared if
-              neither do.
+              <strong>Misplaced assumptions</strong>: Some educators believe
+              parents or life will teach financial skills—often leaving students
+              unprepared if neither do.
             </li>
           </ul>
         </section>
@@ -284,7 +286,7 @@ const FinancialEducationSchools = () => {
           <ol className="list-decimal space-y-4 pl-6 mb-2">
             <li>
               <strong>Curriculum Integration</strong>
-              <p>
+              <p className="mb-2">
                 Embed finance modules within Maths (interest, budgeting),
                 Economics (inflation, market forces), Social Studies (policy
                 impact), and Civics (legal and taxation systems).
@@ -292,7 +294,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Dedicated Electives or Teacher Training</strong>
-              <p>
+              <p className="mb-2">
                 Introduce standalone personal finance electives—or expand
                 teacher training for finance literacy instruction (akin to
                 Utah’s endorsement requirement).
@@ -300,7 +302,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Activity-Based Learning</strong>
-              <p>
+              <p className="mb-2">
                 Use simulations like mock-stock portfolios, budgeting tasks,
                 savings competitions, and role-play contract negotiation to
                 deepen comprehension.
@@ -308,7 +310,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Collaborate with External Partners</strong>
-              <p>
+              <p className="mb-2">
                 Leverage nonprofits (MyBnk, FoolProof, Aflatoun), financial
                 institutions, or CSR programs to supplement teaching with
                 real-world insights and workshops.
@@ -316,7 +318,7 @@ const FinancialEducationSchools = () => {
             </li>
             <li>
               <strong>Include Parents & Communities</strong>
-              <p>
+              <p className="mb-2">
                 Offer family financial literacy sessions and share project-based
                 finances at school events to reinforce learning beyond the
                 classroom.
@@ -327,15 +329,10 @@ const FinancialEducationSchools = () => {
 
         {/* Financial Curriculum Checklist Table */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Financial Curriculum Checklist (Updated)
           </h2>
-          <Table
-            columns={curriculumChecklistColumns}
-            data={curriculumChecklistData}
-            striped
-            bordered
-          />
+          <Table columns={Columns} data={Data} />
         </section>
 
         {/* Final Thoughts */}

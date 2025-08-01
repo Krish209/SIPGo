@@ -182,7 +182,7 @@ const OwnerMindset = () => {
 
           <div className="space-y-4">
             <div>
-              <h3 className="text-lg font-semibold mb-1">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Step 1: Define Your Owner Vision
               </h3>
               <ul className="list-disc space-y-1 pl-6">
@@ -197,7 +197,7 @@ const OwnerMindset = () => {
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-1">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Step 2: Analyze Resistance Root Causes
               </h3>
               <ul className="list-disc space-y-1 pl-6">
@@ -209,7 +209,7 @@ const OwnerMindset = () => {
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-1">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Step 3: Build Systems Instead of Relying on Willpower
               </h3>
               <p className="mb-2">Use this simple process:</p>
@@ -226,28 +226,28 @@ const OwnerMindset = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-1">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Step 4: Tiny Wins & Micro‑Actions
               </h3>
-              <p>
+              <p className="mb-2">
                 Start with micro‑promises: even “I’ll work for two minutes” can
                 break inertia and build said momentum.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-1">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Step 5: Reflect & Refine—Owner After‑Action Reviews
               </h3>
-              <p>
+              <p className="mb-2">
                 Weekly: What worked? What flopped? Why? Then adjust process, not
                 self-worth.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-1">
+              <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
                 Step 6: Emotional Check‑Ins
               </h3>
-              <p>
+              <p className="mb-2">
                 Replace “I’m lazy” with language like “I feel stuck” or “I’m
                 overwhelmed.” Labeling frees up curiosity, reduces shame, and
                 exposes opportunity.
@@ -319,7 +319,7 @@ const OwnerMindset = () => {
 
         {/* 8. Summary Table: Owner Thinking vs Laziness Assumptions */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             8. Summary Table: Owner Thinking vs Laziness Assumptions
           </h2>
           <Table columns={columns} data={data} />
