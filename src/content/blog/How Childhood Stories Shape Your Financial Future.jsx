@@ -50,7 +50,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* The Foundation: How Childhood Money Stories Develop */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Foundation: How Childhood Money Stories Develop
           </h2>
           <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
@@ -92,7 +92,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* How Childhood Money Stories Influence Adult Financial Behavior */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             How Childhood Money Stories Influence Adult Financial Behavior
           </h2>
 
@@ -170,7 +170,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* The Science Behind Money and Mindset */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Science Behind Money and Mindset
           </h2>
           <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
@@ -200,7 +200,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* Real-Life Stories */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Real-Life Stories: Money Narratives in Action
           </h2>
           <p className="mb-2">
@@ -226,7 +226,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* Rewriting Your Money Story */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Rewriting Your Money Story: Practical Steps for Financial
             Empowerment
           </h2>
@@ -298,7 +298,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* The Role of Financial Therapy */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Role of Financial Therapy and Coaching
           </h2>
           <p className="mb-2">
@@ -312,7 +312,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* Why Understanding Psychology Matters */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why Understanding the Psychology of Money Matters
           </h2>
           <ul className="list-disc space-y-1 pl-6 mb-2">
@@ -334,7 +334,7 @@ const ChildhoodMoneyStory = () => {
 
         {/* Conclusion */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion: Your Financial Future Is Yours to Shape
           </h2>
           <p className="mb-2">

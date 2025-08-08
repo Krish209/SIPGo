@@ -64,7 +64,7 @@ const MillionaireHabitBlog = () => {
 
         {/* Why Consistent Investing Is So Powerful */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why Consistent Investing Is So Powerful
           </h2>
           <p className="mb-2">
@@ -107,7 +107,7 @@ const MillionaireHabitBlog = () => {
 
         {/* What the Numbers Reveal */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             What the Numbers Reveal
           </h2>
 
@@ -128,7 +128,7 @@ const MillionaireHabitBlog = () => {
 
         {/* How Delhi to Millionaire by 50 Looks */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             How Delhi to Millionaire by 50 Looks: Compound Math
           </h2>
 
@@ -152,7 +152,7 @@ const MillionaireHabitBlog = () => {
 
         {/* Indian and Global Examples in Practice */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Indian and Global Examples in Practice
           </h2>
 
@@ -174,7 +174,7 @@ const MillionaireHabitBlog = () => {
 
         {/* Supporting Wealth‑Building Habits */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Supporting Wealth‑Building Habits Around the Core Habit
           </h2>
           <ol className="list-decimal space-y-2 pl-6 mb-2">
@@ -227,7 +227,7 @@ const MillionaireHabitBlog = () => {
 
         {/* Realistic Milestone Path */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Realistic Milestone Path to ₹1 Crore / $1 Million by 50
           </h2>
           <ul className="list-disc space-y-2 pl-6 mb-2">
@@ -264,7 +264,7 @@ const MillionaireHabitBlog = () => {
 
         {/* Addressing FAQs */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Addressing FAQs & Common Misunderstandings
           </h2>
           <ul className="list-disc space-y-2 pl-6 mb-2">
@@ -304,7 +304,7 @@ const MillionaireHabitBlog = () => {
 
         {/* Conclusion */}
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion: The Millionaire Habit in Action
           </h2>
 

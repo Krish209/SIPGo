@@ -60,7 +60,7 @@ const HiddenFees = () => {
           <p className="mb-2">
             Investing is a powerful way to grow your wealth and secure your
             financial future. Yet, many investors overlook a critical factor
-            that silently chips away at their hard-earned money — hidden
+            that silently chips away at their hard-earned money — hidden{" "}
             <strong>investment fees</strong>. These fees are often buried
             beneath the surface of your investment statements, disguised in fund
             expense ratios, or embedded in seemingly straightforward

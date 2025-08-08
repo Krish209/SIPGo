@@ -49,7 +49,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Understanding NFTs: The Digital Ownership Revolution
           </h2>
           <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
@@ -78,7 +78,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Why NFTs Matter: Ownership in a Digital World
           </h2>
           <p className="mb-2">
@@ -96,7 +96,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             NFTs and Wealth Creation: A New Economic Frontier
           </h2>
           <h3 className="text-[17px] sm:text-lg md:text-xl font-semibold my-2 md:mt-4 md:mb-2">
@@ -160,7 +160,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Real-World Use Cases Highlighting NFTs’ Impact on Ownership and
             Wealth
           </h2>
@@ -192,7 +192,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             How NFTs Are Reshaping Investment Strategies and Portfolio
             Management
           </h2>
@@ -214,7 +214,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Challenges and Risks: Navigating the NFT Landscape Wisely
           </h2>
           <ul className="list-disc pl-6 space-y-2 mb-2">
@@ -238,7 +238,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             The Future of NFTs: Foundations of a Digital Economy
           </h2>
           <ul className="list-disc pl-6 space-y-2 mb-2">
@@ -258,7 +258,7 @@ const NFTsOwnershipWealth = () => {
         </section>
 
         <section className="my-4 md:my-8">
-          <h2 className="text-xl md:text-2xl font-semibold mb-2">
+          <h2 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4">
             Conclusion: NFTs Are Redefining Ownership and Wealth for the Digital
             Age
           </h2>
