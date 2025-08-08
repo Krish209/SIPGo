@@ -87,7 +87,7 @@ const BillionaireInvestmentStrategy = () => {
             1. The Heart of Billionaire Investing: Protect Your Capital First
           </h2>
           <p className="mb-2">
-            When billionaires talk investing, the first rule is almost always
+            When billionaires talk investing, the first rule is almost always{" "}
             <strong>don’t lose money</strong>. Warren Buffett famously said,
             “Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1.”
             This principle of <strong>capital preservation</strong> isn’t
@@ -132,7 +132,7 @@ const BillionaireInvestmentStrategy = () => {
             . The “Conservative Formula,” developed by Dutch financial
             scientists Pim van Vliet and Jan de Koning, systematically picks
             cheap, stable companies with low price swings that tend to deliver
-            better risk-adjusted returns (source).
+            better risk-adjusted returns.
           </p>
           <p className="mb-2">
             This aligns closely with Warren Buffett’s method of buying
@@ -152,7 +152,7 @@ const BillionaireInvestmentStrategy = () => {
             </li>
           </ul>
           <p className="mb-2">
-            If you want to think like a billionaire, start looking for
+            If you want to think like a billionaire, start looking for{" "}
             <strong>blue-chip, dividend-paying, low-beta stocks</strong> as your
             portfolio’s backbone.
           </p>
